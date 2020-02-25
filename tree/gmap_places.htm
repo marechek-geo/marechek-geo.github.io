@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--[if IE]> 
+  <xml:namespace ns="urn:schemas-microsoft-com:vml" prefix="v"/> 
+<![endif]-->
+<head>
+<title></title>
+<meta http-equiv="Content-Language" content="en"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" href="style.css" type="text/css"/>
+<style type="text/css">
+    html {overflow:hidden; height: 100%;}
+    body {height:100%; width:98%;}
+    v\:* {
+      behavior:url(#default#VML);
+    }
+</style>
+<script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
+<script src="google-maps-utility/markerclusterer_packed.js" type="text/javascript"></script>
+<script src="google-maps-utility/keydragzoom_packed.js" type="text/javascript"></script>
+<script type='text/javascript' src="scripts/jquery.min.js"></script>
+<script src="scripts/script.js" type="text/javascript"></script>
+<script src="scripts/gmap_data.js" type="text/javascript"></script>
+<script src="scripts/gmap_places.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function () {
+           PageInit();
+           initGoogleMap();
+           makeGoogleMap();
+           window.onresize=initGoogleMap;
+        });
+</script>
+</head>
+<body class='gno-popup'>
+<div class='floatright'>
+	<img src="images/maximize.gif" name="togglePopUp" onclick="javascript:togglePopUpFrame(this.name);" alt="Click to enlarge/reduce the size of this popup frame" title="Click to enlarge/reduce the size of this popup frame"/>
+	<img src="images/close.gif" onclick="hidePopUpFrame(event);" alt="Hide this popup frame" title="Hide this popup frame"/>
+</div>
+<h3 id='subtitle'>Overview Map of all geocoded places</h3>
+<div style='text-align: center;'><div class='googlemap' id='GoogleMap'></div></div>
+<br />
+<div id='divFrameset' class='hide'> <hr /><p><br />
+This page is within a frameset. <b><a target='_top' href='default.htm'>View the entire genealogy report of </a></b>, or <a href='toc_individuals.htm'>surname index</a> or <a href='home.htm'>report summary</a>.<br /><a href="http://www.genopro.com/genogram/how-to-create/" title="Step-by-step method to create a genogram" target="_Blank">Creating a Genogram</a>.</p><hr /><br /><p class='aligncenter'><small>Copyright © 2007 GenoPro Inc. All rights reserved.</small></p></div>
+</body>
+</html>

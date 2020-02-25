@@ -1,0 +1,2652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg id="container" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	font-family="sans-serif"
+	width="100%"
+	height="100%"
+	zoomAndPan="disable"
+	preserveAspectRatio="xMidYMid meet"  xml:space="preserve" 
+	style="background-color:white;fill:none;stroke: black;stroke-width:3px;font-weight:normal;font-size:10px;text-anchor:middle;stroke-linecap:round;stroke-linejoin:round;">
+<!--	<title>Family Subtree Diagram : Marechek</title> -->
+	  <script xlink:href='../scripts/script.es' type='text/javascript'></script>
+	  <script xlink:href='../scripts/SVGPan.js' type='text/javascript'></script>
+        <defs>
+<g id='readme' display='none'><text>
+PLEASE NOTE: If you do not see a GRAPHIC IMAGE of a family tree here but are seeing this text
+instead then it is most probably because the web server is not correctly configured to serve svg
+pages correctly. This problem effects Mozilla browsers using the built-in SVG engine.
+You will need to switch to using Microsoft Internet Explorer 6/7/8 with Adobe's SVG Viewer
+
+You can download the viewer here: http://www.adobe.com/svg/viewer/install/main.html
+see http://developer.mozilla.org/en/docs/SVG:Server_Configuration for information on how to
+correctly configure a web server for svg files.
+</text></g>
+          <marker id="startarrowblack" markerWidth="6" markerHeight="6" viewBox="0 0 3 6" orient="auto" refX="0" refY="3" markerUnits="strokeWidth"> 
+		<g style="stroke-width:1px;">
+                    <line x1="3" y1="0" x2="0" y2="3"/> 
+                    <line x1="3" y1="6" x2="0" y2="3"/> 
+		</g>
+          </marker> 
+          <marker id="endarrowblack" markerWidth="6" markerHeight="6" viewBox="0 0 3 6" orient="auto" refX="3" refY="3" markerUnits="strokeWidth"> 
+		<g style="stroke-width:1px;">
+                    <line x2="3" y2="3" x1="0" y1="0"/> 
+                    <line x2="3" y2="3" x1="0" y1="6"/> 
+		</g>
+          </marker> 
+          <marker id="endarrowblue" markerWidth="6" markerHeight="6" viewBox="0 0 3 6" orient="auto" refX="3" refY="3" markerUnits="strokeWidth"> 
+		<g style="stroke:blue; stroke-width:1px;">
+                    <line x2="3" y2="3" x1="0" y1="0"/> 
+                    <line x2="3" y2="3" x1="0" y1="6"/> 
+		</g>
+          </marker> 
+          <marker id="endarrowred" markerWidth="6" markerHeight="6" viewBox="0 0 3 6" orient="auto" refX="3" refY="3" markerUnits="strokeWidth"> 
+		<g style="stroke:red; stroke-width:1px;">
+                    <line x2="3" y2="3" x1="0" y1="0"/> 
+                    <line x2="3" y2="3" x1="0" y1="6"/> 
+		</g>
+          </marker> 
+          <marker id="bar" viewBox="0 0 12 22" markerWidth="6" markerHeight="6" orient="auto" refX="6" refY="11" markerUnits="strokeWidth"> 
+		<g style="stroke:red; stroke-width:3px;">
+                    <line x1="1" y1="1" x2="1" y2="20"/> 
+                    <line x1="10" y1="0" x2="10" y2="20"/> 
+		</g>
+          </marker> 
+          <marker id="barcircle" viewBox="0 0 14 24" markerWidth="7" markerHeight="7" orient="auto" refX="7" refY="12" markerUnits="strokeWidth"> 
+		<g style="stroke:green; stroke-width:3px;">
+                    <line x1="1" y1="1" x2="1" y2="20"/> 
+                    <line x1="15" y1="0" x2="15" y2="20"/> 
+                    <circle cx="7.5" cy="10" r="5"/> 
+		</g>
+          </marker> 
+          <marker id="circlegreen"  viewBox="1 1 12 12" markerWidth="6" markerHeight="6" orient="auto" refX="6" refY="6" markerUnits="strokeWidth"> 
+		<g style="stroke:green; stroke-width:2px; fill:white;">
+                    <circle cx="6" cy="6" r="5"/> 
+		</g>
+          </marker> 
+          <marker id="circleblack"  viewBox="1 1 12 12" markerWidth="6" markerHeight="6" orient="auto" refX="6" refY="6" markerUnits="strokeWidth"> 
+		<g style="stroke:black; stroke-width:2px; fill:white;">
+                    <circle cx="6" cy="6" r="5"/> 
+		</g>
+          </marker> 
+          <marker id="linkgreen"  viewBox="0 0 18 12" markerWidth="9" markerHeight="9" orient="auto" refX="6" refY="6" markerUnits="strokeWidth"> 
+		<g style="stroke:green; stroke-width:2px; fill:none;">
+                    <circle cx="6" cy="6" r="5" style="stroke:none;fill:white;"/> 
+                    <circle cx="12" cy="6" r="5" style="stroke:none;fill:white;"/> 
+                    <circle cx="6" cy="6" r="5"/> 
+                    <circle cx="12" cy="6" r="5"/> 
+		</g>
+          </marker> 
+          <marker id="linkblack"  viewBox="0 0 18 12" markerWidth="9" markerHeight="9" orient="auto" refX="9" refY="6" markerUnits="strokeWidth"> 
+		<g style="stroke:black; stroke-width:2px; fill:none;">
+                    <circle cx="6" cy="6" r="5" style="stroke:none;fill:white;"/> 
+                    <circle cx="12" cy="6" r="5" style="stroke:none;fill:white;"/> 
+                    <circle cx="6" cy="6" r="5"/> 
+                    <circle cx="12" cy="6" r="5"/> 
+		</g>
+          </marker> 
+          <marker id="cross"  viewBox="0 0 10 10" markerWidth="6" markerHeight="6" orient="auto" refX="5" refY="5"> 
+		<g style="stroke:red; stroke-width:2px;">
+                    <line x1="0" y1="0" x2="10" y2="10"/> 
+                    <line x1="10" y1="0" x2="0" y2="10"/> 
+		</g>
+          </marker> 
+          <marker id="crossboxred"  viewBox="0 0 10 10" markerWidth="6" markerHeight="6" orient="auto" refX="5" refY="5" markerUnits="strokeWidth"> 
+		<g style="stroke:red; stroke-width:2px;">
+                    <rect x1="0" y1="0" width="10" height="10" style="fill:white;stroke:none;"/> 
+                    <line x1="0" y1="0" x2="10" y2="10"/> 
+                    <line x1="10" y1="0" x2="0" y2="10"/> 
+		    <polyline points="0,0,10,0,10,10,0,10,0,0"/>
+		</g>
+          </marker> 
+          <marker id="crossboxblack"  viewBox="0 0 10 10" markerWidth="6" markerHeight="6" orient="auto" refX="5" refY="5" markerUnits="strokeWidth"> 
+		<g style="stroke:black; stroke-width:2px;">
+                    <rect x1="0" y1="0" width="10" height="10" style="fill:white;stroke:none;"/> 
+                    <line x1="0" y1="0" x2="10" y2="10"/> 
+                    <line x1="10" y1="0" x2="0" y2="10"/> 
+		    <polyline points="0,0,10,0,10,10,0,10,0,0"/>
+		</g>
+          </marker> 
+          <marker id="box"  viewBox="0 0 10 10" markerWidth="6" markerHeight="6" orient="auto" refX="5" refY="5" markerUnits="strokeWidth"> 
+		<g style="stroke:black; stroke-width:2px;">
+                    <rect x1="0" y1="0" width="10" height="10" style="fill:white;stroke:none;"/> 
+                    <text x="5" y="8" style="fill:black;stroke:none;font-size:8px;">?</text>
+		    <polyline points="0,0,10,0,10,10,0,10,0,0"/>
+		</g>
+          </marker> 
+          <marker id="diamondred"  viewBox="0 0 10 10" markerWidth="6" markerHeight="6" orient="auto" refX="5" refY="5"> 
+		<g style="stroke:red; stroke-width:2px; fill:white;">
+                    <path d="M0,5 L5,10 L10,5 L5,0 L0,5"/> 
+		</g>
+          </marker> 
+         <marker id="query"  viewBox="0 0 10 10" markerWidth="6" markerHeight="6" refX="5" refY="5" markerUnits="strokeWidth"> 
+		<g style="stroke:black; stroke-width:2px;">
+		</g>
+          </marker> 
+	  <g id='slash'>
+		<path d='m5, -5 l-10,10'/>
+	  </g>
+	  <g id='backslash'>
+		<path d='m-5,-5 l10,10'/>
+	  </g>
+	  <g id='crossed'>
+		<path d='m-5,-5 l10,10 m0,-10 l-10,10'/>
+	  </g>
+	  <g id='square'>
+	  <path d='m0,0 l-9,0 l0,-9 l9,0 l0,9 z'/>
+	  </g>
+	  <g id='triangle'>
+	  <path d='m0,0 l-9,0 l9,-9 l0,9 z'/>
+	  </g>
+	  <g id='segment'>
+	  <path d='m0,0 l-9,0 a 9,9 0 0,1 9,-9 l0,9 z'/>
+	  </g>
+	  <g id='houseM'>
+	  <path d='m-6,6 l0,-8 l6,-4 l6,4 l0,8 l-12,0 z'/>
+	  </g>
+	  <g id='houseX'>
+	  <path d='m-9,9 l0,-12 l9,-6 l9,6 l0,12 l-18,0 z'/>
+	  </g>
+	  <g id='houseL'>
+	  <path d='m-7.5,7.5 l0,-10 l7.5,-5 l7.5,5 l0,10 l-15,0 z'/>
+	  </g>
+	  <g id='houseS'>
+	  <path d='m-5.5,5.5 l0,-7 l6,-3.75 l5.5,3.75 l0,7 l-11,0 z'/>
+	  </g>
+	  <g id='houseT'>
+	  <path d='m-5,5 l0,-6.5 l5,-3.75 l5,3.75 l0,6.5 l-10,0 z'/>
+	  </g>
+		<path id="dir_arrow" style="stroke: lightgrey;fill:url(#rad1);stroke-width:1px;" d="m8,0 l-8,-8 l-8 8 h4 v8 h8 v-8 z"/>
+		<g id="arrowN" viewBox="-40,-40,40,40">
+			<use xlink:href="#dir_arrow"/>
+		</g>
+		<g id="arrowE">
+			<use xlink:href="#dir_arrow" transform="rotate(90)" viewBox="-40,-40,40,40"/>
+		</g>
+		<g id="arrowS">
+			<use xlink:href="#dir_arrow" transform="rotate(180)" viewBox="-40,-40,40,40"/>
+		</g>
+		<g id="arrowW">
+			<use xlink:href="#dir_arrow" transform="rotate(270)" viewBox="-40,-40,40,40"/>
+		</g>
+		<g id="arrowNE">
+			<use xlink:href="#dir_arrow" transform="rotate(45)" viewBox="-40,-40,40,40"/>
+		</g>
+		<g id="arrowSE">
+			<use xlink:href="#dir_arrow" transform="rotate(135)" viewBox="-40,-40,40,40"/>
+		</g>
+		<g id="arrowSW">
+			<use xlink:href="#dir_arrow" transform="rotate(225)" viewBox="-40,-40,40,40"/>
+		</g>
+		<g id="arrowNW">
+			<use xlink:href="#dir_arrow" transform="rotate(-45)" viewBox="-40,-40,40,40"/>
+		</g>
+		<radialGradient id = "rad1" cx = "50%" cy = "50%" r = "50%" fx="30%" fy="30%">
+			<stop stop-color = "limegreen" offset = "20%"/>
+			<stop stop-color = "greenyellow" offset = "100%"/>
+		</radialGradient>	
+
+	</defs>
+	<g id="genomap">
+	   <rect x="0" y="0" width="4044" height="1043" style="fill:white; opacity:0"/>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M446 86  L446 26" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M516 86  L516 26" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M26 116  L26 166" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M96 116  L96 166" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M166 116  L166 166" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M236 116  L236 166" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M306 116  L306 166" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M366 116  L366 166" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M446 116  L446 166" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M516 116  L516 166" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M586 116  L586 166" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M646 116  L646 166" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M716 116  L716 166" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M786 116  L786 166" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M856 116  L856 166" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M936 116  L936 166" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M936 226  L936 166" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M4016 226  L4016 166" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M3876 226  L3876 276" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M3876 336  L3876 276" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M3946 336  L3946 276" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M3896 336  L3896 386" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M1016 226  L1016 166" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M936 226  L936 166" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M956 226  L956 276" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M3826 226  L3826 166" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M936 226  L936 166" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M1066 226  L1066 276" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M1066 336  L1066 276" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M1686 336  L1686 276" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M1066 336  L1066 276" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M2156 336  L2156 276" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M1066 336  L1066 276" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M3566 336  L3566 276" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M1086 336  L1086 386" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M1806 336  L1806 386" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M1946 336  L1946 386" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M2546 336  L2546 386" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M3136 336  L3136 386" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M3526 336  L3526 386" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M1086 456  L1086 386" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M1506 456  L1506 386" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M1086 456  L1086 386" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M1606 456  L1606 386" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M1806 456  L1806 386" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M1876 456  L1876 386" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M1946 456  L1946 386" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M2016 456  L2016 386" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M2546 456  L2546 386" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M2616 456  L2616 386" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M3136 456  L3136 386" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M3206 456  L3206 386" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M3526 456  L3526 386" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M3596 456  L3596 386" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M1106 456  L1106 506" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M1176 456  L1176 506" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M1246 456  L1246 506" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M1316 456  L1316 506" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M1386 456  L1386 506" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M1446 456  L1446 506" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M1806 486  L1806 526" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M1876 486  L1876 526" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M1806 596  L1806 526" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M1736 596  L1736 526" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M1946 486  L1946 526" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M2016 486  L2016 526" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M2016 596  L2016 526" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M2086 596  L2086 526" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M2246 486  L2246 526" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M2246 596  L2246 526" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M2316 596  L2316 526" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M2496 486  L2496 526" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M2756 486  L2756 536" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M2756 596  L2756 536" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M2826 596  L2826 536" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M2576 486  L2576 536" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M2576 596  L2576 536" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M2646 596  L2646 536" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M2916 486  L2916 526" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M2916 596  L2916 526" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M2986 596  L2986 526" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M3126 486  L3126 526" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M3196 486  L3196 526" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M3356 486  L3356 536" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M3556 486  L3556 536" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M3626 486  L3626 536" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M3626 596  L3626 536" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M3696 596  L3696 536" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M3756 486  L3756 536" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M2036 596  L2036 646" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M2206 626  L2206 676" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M2286 626  L2286 676" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M2346 626  L2346 676" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M2496 596  L2496 526" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M2416 596  L2416 526" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M2416 626  L2416 676" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M2486 626  L2486 676" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M2576 626  L2576 676" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M2646 626  L2646 676" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M2716 626  L2716 676" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M2786 626  L2786 676" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M2846 626  L2846 676" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M2916 626  L2916 676" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M2986 626  L2986 676" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M3126 606  L3126 526" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M3056 606  L3056 546" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M3076 606  L3076 656" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M3356 596  L3356 536" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M3436 596  L3436 536" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M3276 626  L3276 676" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M3346 626  L3346 676" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M3416 626  L3416 676" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M3486 626  L3486 676" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M3646 596  L3646 646" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M746 686 746 576 1246 556 L1246 506" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M346 686  L346 606" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M366 686  L366 736" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M686 686  L686 736" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M366 806  L366 736" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M206 806  L206 736" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M236 806  L236 856" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M326 806  L326 856" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M686 806  L686 736" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M456 806  L456 736" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M686 806  L686 736" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M796 806  L796 736" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M576 806  L576 856" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M576 916  L576 856" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M436 916  L436 856" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M576 916  L576 856" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M656 916  L656 856" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M466 916  L466 966" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M536 916  L536 966" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M746 806  L746 856" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M1176 686 1176 636 1386 556 L1386 506" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M1016 686  L1016 606" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M1066 686  L1066 736" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M1156 686  L1156 736" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M1066 806  L1066 736" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M956 806  L956 736" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M976 806  L976 856" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M1046 806  L1046 856" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M976 916  L976 856" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M896 916  L896 856" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M926 916  L926 966" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M1156 806  L1156 736" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M1266 806  L1266 736" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M1166 806  L1166 856" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M1256 806  L1256 856" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M1526 686 1526 636 1446 556 L1446 506" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M1676 686  L1676 606" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M1536 686  L1536 736" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M1666 686  L1666 736" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M1536 806  L1536 736" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M1366 806  L1366 736" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M1386 806  L1386 856" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M1496 806  L1496 856" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M1666 806  L1666 736" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M1836 806  L1836 736" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M1726 806  L1726 856" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M1826 806  L1826 856" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M1726 926  L1726 856" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M1626 926  L1626 856" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M1676 926  L1676 976" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M236 916  L236 856" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Parent</title>
+<path d="M126 916  L126 856" style="fill:none;stroke: black;stroke-width:3px;"/>
+</g>
+<g onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Biological Child</title>
+<path d="M176 916  L176 966" style="fill:none;stroke:black;stroke-width:3px;"/>
+</g>
+<a xlink:href='../family-KalusAndPartner-fam00001.htm' target='detail' title='(fourteen children)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(fourteen children)</title>
+<line x1="26" y1="116" x2="936" y2="116" style="cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+<path d="M476,86  V116" style="fill:none;stroke: gray;stroke-width:3px;"/>
+<line x1="446" y1="86" x2="516" y2="86" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-JosefKalusAndMarieBlahova-fam00002.htm' target='detail' title='(a child)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(a child)</title>
+<line x1="3826" y1="226" x2="4016" y2="226" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-FrantisekBlahaAndPartner-fam00003.htm' target='detail' title='(a child)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(a child)</title>
+<line x1="3876" y1="336" x2="3946" y2="336" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-JosefKalusAndPartner-fam00004.htm' target='detail' title='(a child)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(a child)</title>
+<line x1="936" y1="226" x2="1016" y2="226" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-JosefKalusAndMariePlankova-fam00005.htm' target='detail' title='(a child)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(a child)</title>
+<line x1="1016" y1="226" x2="3826" y2="226" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-PavelPlankaAndRozinaMareckova-fam00006.htm' target='detail' title='(a child)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(a child)</title>
+<line x1="1066" y1="336" x2="1686" y2="336" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-PavelPlankaAndMarie-fam00007.htm' target='detail' title='(two children)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(two children)</title>
+<line x1="1686" y1="336" x2="2156" y2="336" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-PavelPlankaAndMarie-fam00008.htm' target='detail' title='(three children)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(three children)</title>
+<line x1="2156" y1="336" x2="3566" y2="336" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-RudolfMarecekAndAlbinaBelaKrauskopfovaMareckova-fam00009.htm' target='detail' title='(six children)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(six children)</title>
+<line x1="1086" y1="456" x2="1506" y2="456" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-RudolfMarecekAnd-fam00010.htm' target='detail' title='' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title></title>
+<line x1="1506" y1="456" x2="1606" y2="456" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-FrantisekPlankaAndPartner-fam00011.htm' target='detail' title='(two children)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(two children)</title>
+<line x1="1806" y1="486" x2="1876" y2="486" style="cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+<path d="M1836,456  V486" style="fill:none;stroke: gray;stroke-width:3px;"/>
+<line x1="1806" y1="456" x2="1876" y2="456" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-JosefPlankaAndGizela-fam00012.htm' target='detail' title='(two children)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(two children)</title>
+<line x1="1946" y1="486" x2="2016" y2="486" style="cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+<path d="M1976,456  V486" style="fill:none;stroke: gray;stroke-width:3px;"/>
+<line x1="1946" y1="456" x2="2016" y2="456" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-EmilPlankaAndPartner-fam00013.htm' target='detail' title='(five children)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(five children)</title>
+<line x1="2246" y1="486" x2="2916" y2="486" style="cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+<path d="M2576,456  V486" style="fill:none;stroke: gray;stroke-width:3px;"/>
+<line x1="2546" y1="456" x2="2616" y2="456" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-PavelPlankaAndPartner-fam00014.htm' target='detail' title='(two children)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(two children)</title>
+<line x1="3126" y1="486" x2="3196" y2="486" style="cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+<path d="M3166,456  V486" style="fill:none;stroke: gray;stroke-width:3px;"/>
+<line x1="3136" y1="456" x2="3206" y2="456" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-JaroslavPlankaAndVera-fam00015.htm' target='detail' title='(four children)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(four children)</title>
+<line x1="3356" y1="486" x2="3756" y2="486" style="cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+<path d="M3556,456  V486" style="fill:none;stroke: gray;stroke-width:3px;"/>
+<line x1="3526" y1="456" x2="3596" y2="456" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-VodopicAndOlgaPlanka-fam00016.htm' target='detail' title='' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title></title>
+<line x1="1736" y1="596" x2="1806" y2="596" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-JosefPlankaAndGabriela-fam00017.htm' target='detail' title='(a child)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(a child)</title>
+<line x1="2016" y1="596" x2="2086" y2="596" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-RudolfPlankaAndMarie-fam00018.htm' target='detail' title='(three children)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(three children)</title>
+<line x1="2206" y1="626" x2="2346" y2="626" style="cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+<path d="M2276,596  V626" style="fill:none;stroke: gray;stroke-width:3px;"/>
+<line x1="2246" y1="596" x2="2316" y2="596" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-EmilPlankaAndEmilieBiclikova-fam00019.htm' target='detail' title='(three children)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(three children)</title>
+<line x1="2716" y1="626" x2="2846" y2="626" style="cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+<path d="M2786,596  V626" style="fill:none;stroke: gray;stroke-width:3px;"/>
+<line x1="2756" y1="596" x2="2826" y2="596" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-PeterPlankaAndAnna-fam00020.htm' target='detail' title='(two children)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(two children)</title>
+<line x1="2576" y1="626" x2="2646" y2="626" style="cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+<path d="M2606,596  V626" style="fill:none;stroke: gray;stroke-width:3px;"/>
+<line x1="2576" y1="596" x2="2646" y2="596" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-PavelAndEva-fam00021.htm' target='detail' title='(two children)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(two children)</title>
+<line x1="2916" y1="626" x2="2986" y2="626" style="cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+<path d="M2946,596  V626" style="fill:none;stroke: gray;stroke-width:3px;"/>
+<line x1="2916" y1="596" x2="2986" y2="596" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-JanPlankaAndAnna-fam00022.htm' target='detail' title='(a child)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(a child)</title>
+<line x1="3626" y1="596" x2="3696" y2="596" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-StefanHrnciarAndVeraHrnciarova-fam00023.htm' target='detail' title='(two children)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(two children)</title>
+<line x1="2416" y1="626" x2="2486" y2="626" style="cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+<path d="M2446,596  V626" style="fill:none;stroke: gray;stroke-width:3px;"/>
+<line x1="2416" y1="596" x2="2496" y2="596" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-HerpAndMargaritaPlankovaHerp-fam00024.htm' target='detail' title='(a child)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(a child)</title>
+<line x1="3056" y1="606" x2="3126" y2="606" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-JaroslavPlankaAndMarieCupalkova-fam00025.htm' target='detail' title='(four children)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(four children)</title>
+<line x1="3276" y1="626" x2="3486" y2="626" style="cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+<path d="M3386,596  V626" style="fill:none;stroke: gray;stroke-width:3px;"/>
+<line x1="3356" y1="596" x2="3436" y2="596" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-BorivoiMarecekAnd-fam00050.htm' target='detail' title='(two children)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(two children)</title>
+<line x1="346" y1="686" x2="746" y2="686" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-and-fam00051.htm' target='detail' title='(two children)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(two children)</title>
+<line x1="206" y1="806" x2="366" y2="806" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-and-fam00052.htm' target='detail' title='(a child)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(a child)</title>
+<line x1="456" y1="806" x2="686" y2="806" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-and-fam00053.htm' target='detail' title='(a child)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(a child)</title>
+<line x1="686" y1="806" x2="796" y2="806" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-and-fam00054.htm' target='detail' title='(two children)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(two children)</title>
+<line x1="436" y1="916" x2="576" y2="916" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-and-fam00055.htm' target='detail' title='' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title></title>
+<line x1="576" y1="916" x2="656" y2="916" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-VladivojMarecekAnd-fam00057.htm' target='detail' title='(two children)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(two children)</title>
+<line x1="1016" y1="686" x2="1176" y2="686" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-and-fam00058.htm' target='detail' title='(two children)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(two children)</title>
+<line x1="956" y1="806" x2="1066" y2="806" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-and-fam00059.htm' target='detail' title='(a child)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(a child)</title>
+<line x1="896" y1="916" x2="976" y2="916" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-and-fam00060.htm' target='detail' title='(two children)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(two children)</title>
+<line x1="1156" y1="806" x2="1266" y2="806" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-KvetoslavMarecekAnd-fam00061.htm' target='detail' title='(two children)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(two children)</title>
+<line x1="1526" y1="686" x2="1676" y2="686" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-and-fam00062.htm' target='detail' title='Marriage (two children)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Marriage (two children)</title>
+<line x1="1366" y1="806" x2="1536" y2="806" style=" cursor:pointer;fill:none;stroke: black;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-and-fam00063.htm' target='detail' title='Marriage (two children)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Marriage (two children)</title>
+<line x1="1666" y1="806" x2="1836" y2="806" style=" cursor:pointer;fill:none;stroke: black;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-and-fam00064.htm' target='detail' title='Marriage (a child)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>Marriage (a child)</title>
+<line x1="1626" y1="926" x2="1726" y2="926" style=" cursor:pointer;fill:none;stroke: black;stroke-width:3px;"/>
+</a>
+<a xlink:href='../family-andPartner-fam00105.htm' target='detail' title='(a child)' onmouseover='ShowTooltip(evt);' onmouseout='HideTooltip(evt);'><title>(a child)</title>
+<line x1="126" y1="916" x2="236" y2="916" style=" cursor:pointer;fill:none;stroke: gray;stroke-width:3px;"/>
+</a>
+<a xlink:href='../Kalus-ind00001.htm' target='detail'>
+<rect x="431.5" y="38" height="16px" width="29px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="446" y="36">
+<tspan x="447.666666666667" y="52" style="stroke:none;fill: black;text-anchor:middle;">Kalus</tspan>
+</text>
+<rect x="437" y="17" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="437" y="17" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<circle cx="516" cy="26" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="516" cy="26" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+<a xlink:href='../Filipp-ind00003.htm' target='detail'>
+<rect x="11.5" y="178" height="16px" width="29px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="26" y="176">
+<tspan x="27.6666666666667" y="192" style="stroke:none;fill: black;text-anchor:middle;">Filipp</tspan>
+</text>
+<rect x="17" y="157" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="17" y="157" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Johanka-ind00004.htm' target='detail'>
+<rect x="76" y="178" height="16px" width="40px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="96" y="176">
+<tspan x="97.6666666666667" y="192" style="stroke:none;fill: black;text-anchor:middle;">Johanka</tspan>
+</text>
+<circle cx="96" cy="166" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="96" cy="166" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Cecilia-ind00005.htm' target='detail'>
+<rect x="148" y="178" height="16px" width="36px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="166" y="176">
+<tspan x="167.666666666667" y="192" style="stroke:none;fill: black;text-anchor:middle;">Cecilia</tspan>
+</text>
+<circle cx="166" cy="166" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="166" cy="166" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Viktoria-ind00006.htm' target='detail'>
+<rect x="215" y="178" height="16px" width="42px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="236" y="176">
+<tspan x="237.666666666667" y="192" style="stroke:none;fill: black;text-anchor:middle;">Viktoria</tspan>
+</text>
+<circle cx="236" cy="166" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="236" cy="166" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Marie-ind00007.htm' target='detail'>
+<rect x="290.5" y="178" height="16px" width="31px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="306" y="176">
+<tspan x="307.666666666667" y="192" style="stroke:none;fill: black;text-anchor:middle;">Marie</tspan>
+</text>
+<circle cx="306" cy="166" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="306" cy="166" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Jan-ind00008.htm' target='detail'>
+<rect x="358" y="178" height="16px" width="16px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="366" y="176">
+<tspan x="367.666666666667" y="192" style="stroke:none;fill: black;text-anchor:middle;">Jan</tspan>
+</text>
+<rect x="357" y="157" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="357" y="157" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Frantisko-ind00009.htm' target='detail'>
+<rect x="422.5" y="178" height="16px" width="47px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="446" y="176">
+<tspan x="447.666666666667" y="192" style="stroke:none;fill: black;text-anchor:middle;">Franti&#353;ko</tspan>
+</text>
+<rect x="437" y="157" width="18px" height="18px" style="cursor:pointer;stroke: none;fill:white;stroke-width:3px;"/>
+<text x="446" y="170.5" style="cursor:pointer;stroke:none;fill:#000000;">?</text>
+</a>
+<a xlink:href='../Vera-ind00010.htm' target='detail'>
+<rect x="503" y="178" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="516" y="176">
+<tspan x="517.666666666667" y="192" style="stroke:none;fill: black;text-anchor:middle;">V&#283;ra</tspan>
+</text>
+<circle cx="516" cy="166" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="516" cy="166" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Anna-ind00011.htm' target='detail'>
+<rect x="572" y="178" height="16px" width="28px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="586" y="176">
+<tspan x="587.666666666667" y="192" style="stroke:none;fill: black;text-anchor:middle;">Anna</tspan>
+</text>
+<circle cx="586" cy="166" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="586" cy="166" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Amalie-ind00012.htm' target='detail'>
+<rect x="627.5" y="178" height="16px" width="37px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="646" y="176">
+<tspan x="647.666666666667" y="192" style="stroke:none;fill: black;text-anchor:middle;">Amalie</tspan>
+</text>
+<circle cx="646" cy="166" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="646" cy="166" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Anezka-ind00013.htm' target='detail'>
+<rect x="696" y="178" height="16px" width="40px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="716" y="176">
+<tspan x="717.666666666667" y="192" style="stroke:none;fill: black;text-anchor:middle;">An&#283;&#382;ka</tspan>
+</text>
+<circle cx="716" cy="166" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="716" cy="166" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Antonia-ind00014.htm' target='detail'>
+<rect x="765.5" y="178" height="16px" width="41px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="786" y="176">
+<tspan x="787.666666666667" y="192" style="stroke:none;fill: black;text-anchor:middle;">Antonia</tspan>
+</text>
+<circle cx="786" cy="166" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="786" cy="166" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Frantisek-ind00015.htm' target='detail'>
+<rect x="833" y="178" height="16px" width="46px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="856" y="176">
+<tspan x="857.666666666667" y="192" style="stroke:none;fill: black;text-anchor:middle;">Franti&#353;ek</tspan>
+</text>
+<rect x="847" y="157" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="847" y="157" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Kalus-Josef-ind00016.htm' target='detail'>
+<rect x="921.5" y="178" height="32px" width="29px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="936" y="176">
+<tspan x="937.666666666667" y="192" style="stroke:none;fill: black;text-anchor:middle;">Josef</tspan>
+<tspan x="937.666666666667" y="208" style="stroke:none;fill: black;text-anchor:middle;">Kalus</tspan>
+</text>
+<rect x="927" y="157" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="927" y="157" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Blahova-Marie-ind00017.htm' target='detail'>
+<rect x="3995" y="178" height="32px" width="42px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="4016" y="176">
+<tspan x="4017.66666666667" y="192" style="stroke:none;fill: black;text-anchor:middle;">Marie</tspan>
+<tspan x="4017.66666666667" y="208" style="stroke:none;fill: black;text-anchor:middle;">Blahova</tspan>
+</text>
+<circle cx="4016" cy="166" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="4016" cy="166" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Blaha-Frantisek-ind00018.htm' target='detail'>
+<rect x="3853" y="288" height="32px" width="46px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="3876" y="286">
+<tspan x="3877.66666666667" y="302" style="stroke:none;fill: black;text-anchor:middle;">Franti&#353;ek</tspan>
+<tspan x="3877.66666666667" y="318" style="stroke:none;fill: black;text-anchor:middle;">Blaha</tspan>
+</text>
+<rect x="3867" y="267" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="3867" y="267" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<circle cx="3946" cy="276" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="3946" cy="276" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+<a xlink:href='../Blaha-Rudolf-ind00020.htm' target='detail'>
+<rect x="3879" y="398" height="32px" width="34px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="3896" y="396">
+<tspan x="3897.66666666667" y="412" style="stroke:none;fill: black;text-anchor:middle;">Rudolf</tspan>
+<tspan x="3897.66666666667" y="428" style="stroke:none;fill: black;text-anchor:middle;">Bl&#225;ha</tspan>
+</text>
+<rect x="3887" y="377" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="3887" y="377" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<circle cx="1016" cy="166" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="1016" cy="166" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+<a xlink:href='../Kalus-Jan-ind00022.htm' target='detail'>
+<rect x="941.5" y="288" height="32px" width="29px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="956" y="286">
+<tspan x="957.666666666667" y="302" style="stroke:none;fill: black;text-anchor:middle;">Jan</tspan>
+<tspan x="957.666666666667" y="318" style="stroke:none;fill: black;text-anchor:middle;">Kalus</tspan>
+</text>
+<rect x="947" y="267" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="947" y="267" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Plankova-Marie-ind00023.htm' target='detail'>
+<rect x="3802" y="178" height="32px" width="48px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="3826" y="176">
+<tspan x="3827.66666666667" y="192" style="stroke:none;fill: black;text-anchor:middle;">Marie</tspan>
+<tspan x="3827.66666666667" y="208" style="stroke:none;fill: black;text-anchor:middle;">Plankova</tspan>
+</text>
+<circle cx="3826" cy="166" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="3826" cy="166" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Planka-Pavel-ind00024.htm' target='detail'>
+<rect x="1049" y="288" height="32px" width="34px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1066" y="286">
+<tspan x="1067.66666666667" y="302" style="stroke:none;fill: black;text-anchor:middle;">Pavel</tspan>
+<tspan x="1067.66666666667" y="318" style="stroke:none;fill: black;text-anchor:middle;">Planka</tspan>
+</text>
+<rect x="1057" y="267" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="1057" y="267" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Mareckova-Rozina-ind00025.htm' target='detail'>
+<rect x="1656.5" y="288" height="32px" width="59px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1686" y="286">
+<tspan x="1687.66666666667" y="302" style="stroke:none;fill: black;text-anchor:middle;">Rozina</tspan>
+<tspan x="1687.66666666667" y="318" style="stroke:none;fill: black;text-anchor:middle;">Mare&#269;kova</tspan>
+</text>
+<circle cx="1686" cy="276" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="1686" cy="276" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Marie-ind00026.htm' target='detail'>
+<rect x="2140.5" y="288" height="16px" width="31px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="2156" y="286">
+<tspan x="2157.66666666667" y="302" style="stroke:none;fill: black;text-anchor:middle;">Marie</tspan>
+</text>
+<circle cx="2156" cy="276" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="2156" cy="276" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Marie-ind00027.htm' target='detail'>
+<rect x="3550.5" y="288" height="16px" width="31px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="3566" y="286">
+<tspan x="3567.66666666667" y="302" style="stroke:none;fill: black;text-anchor:middle;">Marie</tspan>
+</text>
+<circle cx="3566" cy="276" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="3566" cy="276" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Marecek-Rudolf-ind00028.htm' target='detail'>
+<rect x="1056.5" y="358" height="16px" width="59px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="1086" y="355.5">
+<tspan x="1088" dy="16" style="stroke:none;fill:#000000;">1888 - 1970</tspan>
+</text>
+<rect x="1063" y="398" height="32px" width="46px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1086" y="396">
+<tspan x="1087.66666666667" y="412" style="stroke:none;fill: black;text-anchor:middle;">Rudolf</tspan>
+<tspan x="1087.66666666667" y="428" style="stroke:none;fill: black;text-anchor:middle;">Mare&#269;ek</tspan>
+</text>
+<rect x="1077" y="377" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="1077" y="377" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+<path d="M1077 377 l4.5 4.5 m9 9 l4.5 4.5 m-18 0 l4.5 -4.5 m9 -9 l4.5 -4.5" style="stroke: #000000;stroke-width:1px;"/>
+<text style="stroke:#FFFFFF;stroke-width:1px;fill:none;font-size:8px;text-anchor:middle;" x="1086" y="389">82</text>
+<text style="stroke:none;stroke-width:1px;fill:#000000;font-size:8px;text-anchor:middle;" x="1086" y="389">82</text>
+</a>
+<a xlink:href='../Planka-Frantisek-ind00029.htm' target='detail'>
+<rect x="1783" y="398" height="32px" width="46px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1806" y="396">
+<tspan x="1807.66666666667" y="412" style="stroke:none;fill: black;text-anchor:middle;">Franti&#353;ek</tspan>
+<tspan x="1807.66666666667" y="428" style="stroke:none;fill: black;text-anchor:middle;">Planka</tspan>
+</text>
+<rect x="1797" y="377" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="1797" y="377" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Planka-Josef-ind00030.htm' target='detail'>
+<rect x="1929" y="398" height="32px" width="34px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1946" y="396">
+<tspan x="1947.66666666667" y="412" style="stroke:none;fill: black;text-anchor:middle;">Josef</tspan>
+<tspan x="1947.66666666667" y="428" style="stroke:none;fill: black;text-anchor:middle;">Planka</tspan>
+</text>
+<rect x="1937" y="377" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="1937" y="377" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Planka-Emil-ind00031.htm' target='detail'>
+<rect x="2529" y="398" height="32px" width="34px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="2546" y="396">
+<tspan x="2547.66666666667" y="412" style="stroke:none;fill: black;text-anchor:middle;">Emil</tspan>
+<tspan x="2547.66666666667" y="428" style="stroke:none;fill: black;text-anchor:middle;">Planka</tspan>
+</text>
+<rect x="2537" y="377" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="2537" y="377" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Planka-Pavel-ind00032.htm' target='detail'>
+<rect x="3119" y="398" height="32px" width="34px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="3136" y="396">
+<tspan x="3137.66666666667" y="412" style="stroke:none;fill: black;text-anchor:middle;">Pavel</tspan>
+<tspan x="3137.66666666667" y="428" style="stroke:none;fill: black;text-anchor:middle;">Planka</tspan>
+</text>
+<rect x="3127" y="377" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="3127" y="377" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Planka-Jaroslav-ind00033.htm' target='detail'>
+<rect x="3513" y="358" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="3526" y="355.5">
+<tspan x="3528" dy="16" style="stroke:none;fill:#000000;">1915</tspan>
+</text>
+<rect x="3505.5" y="398" height="32px" width="41px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="3526" y="396">
+<tspan x="3527.66666666667" y="412" style="stroke:none;fill: black;text-anchor:middle;">Jaroslav</tspan>
+<tspan x="3527.66666666667" y="428" style="stroke:none;fill: black;text-anchor:middle;">Planka</tspan>
+</text>
+<rect x="3517" y="377" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="3517" y="377" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Krauskopfova-AlbinaBela-ind00034.htm' target='detail'>
+<rect x="1476.5" y="358" height="16px" width="59px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="1506" y="355.5">
+<tspan x="1508" dy="16" style="stroke:none;fill:#000000;">1895 - 1982</tspan>
+</text>
+</a>
+<a xlink:href='../genomaps/genomap1.htm?x=292,y=-173,highlight=true' target='popup'>
+<rect x="1470.5" y="398" height="48px" width="71px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1506" y="396">
+<set attributeName="fill" attributeType="CSS" to="maroon" begin="mouseover" end="mouseout"/>
+<tspan x="1507.66666666667" y="412" style="stroke:none;fill:blue;text-anchor:middle;">Albina (Bela)</tspan>
+<tspan x="1507.66666666667" y="428" style="stroke:none;fill:blue;text-anchor:middle;">Krauskopfova</tspan>
+<tspan x="1507.66666666667" y="444" style="stroke:none;fill:blue;text-anchor:middle;">(Mare&#269;kova)</tspan>
+</text>
+</a>
+<a xlink:href='../Krauskopfova-AlbinaBela-ind00034.htm' target='detail'>
+<circle cx="1506" cy="386" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="1506" cy="386" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+<path d="M1497 377 l4.5 4.5 m9 9 l4.5 4.5 m-18 0 l4.5 -4.5 m9 -9 l4.5 -4.5" style="stroke: #000000;stroke-width:1px;"/>
+<text style="stroke:#FFFFFF;stroke-width:1px;fill:none;font-size:8px;text-anchor:middle;" x="1506" y="389">87</text>
+<text style="stroke:none;stroke-width:1px;fill:#000000;font-size:8px;text-anchor:middle;" x="1506" y="389">87</text>
+</a>
+<a xlink:href='../ind00035.htm' target='detail'>
+<rect x="1576.5" y="358" height="16px" width="59px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="1606" y="355.5">
+<tspan x="1608" dy="16" style="stroke:none;fill:#000000;">1896 - 1980</tspan>
+</text>
+<rect x="1570" y="398" height="32px" width="72px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1606" y="396">
+<tspan x="1607.66666666667" y="412" style="stroke:none;fill: black;text-anchor:middle;">&#1040;&#1085;&#1085;&#1072;</tspan>
+<tspan x="1607.66666666667" y="428" style="stroke:none;fill: black;text-anchor:middle;">&#1040;&#1092;&#1072;&#1085;&#1072;&#1089;&#1100;&#1077;&#1074;&#1085;&#1072;</tspan>
+</text>
+<circle cx="1606" cy="386" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="1606" cy="386" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+<path d="M1597 377 l4.5 4.5 m9 9 l4.5 4.5 m-18 0 l4.5 -4.5 m9 -9 l4.5 -4.5" style="stroke: #000000;stroke-width:1px;"/>
+<text style="stroke:#FFFFFF;stroke-width:1px;fill:none;font-size:8px;text-anchor:middle;" x="1606" y="389">83</text>
+<text style="stroke:none;stroke-width:1px;fill:#000000;font-size:8px;text-anchor:middle;" x="1606" y="389">83</text>
+</a>
+<circle cx="1876" cy="386" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="1876" cy="386" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+<a xlink:href='../Gizela-ind00037.htm' target='detail'>
+<rect x="1999" y="398" height="16px" width="34px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="2016" y="396">
+<tspan x="2017.66666666667" y="412" style="stroke:none;fill: black;text-anchor:middle;">Gizela</tspan>
+</text>
+<circle cx="2016" cy="386" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="2016" cy="386" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<circle cx="2616" cy="386" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="2616" cy="386" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+<circle cx="3206" cy="386" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="3206" cy="386" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+<a xlink:href='../Vera-ind00040.htm' target='detail'>
+<rect x="3583" y="358" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="3596" y="355.5">
+<tspan x="3598" dy="16" style="stroke:none;fill:#000000;">1927</tspan>
+</text>
+<rect x="3583" y="398" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="3596" y="396">
+<tspan x="3597.66666666667" y="412" style="stroke:none;fill: black;text-anchor:middle;">V&#283;ra</tspan>
+</text>
+<circle cx="3596" cy="386" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="3596" cy="386" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Marecek-Miroslav-ind00041.htm' target='detail'>
+<rect x="1076.5" y="478" height="16px" width="59px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="1106" y="475.5">
+<tspan x="1108" dy="16" style="stroke:none;fill:#000000;">1913 - 1918</tspan>
+</text>
+<rect x="1082.5" y="518" height="32px" width="47px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1106" y="516">
+<tspan x="1107.66666666667" y="532" style="stroke:none;fill: black;text-anchor:middle;">Miroslav</tspan>
+<tspan x="1107.66666666667" y="548" style="stroke:none;fill: black;text-anchor:middle;">Mare&#269;ek</tspan>
+</text>
+<rect x="1097" y="497" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="1097" y="497" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+<path d="M1097 497 l4.5 4.5 m9 9 l4.5 4.5 m-18 0 l4.5 -4.5 m9 -9 l4.5 -4.5" style="stroke: #000000;stroke-width:1px;"/>
+<text style="stroke:#FFFFFF;stroke-width:1px;fill:none;font-size:8px;text-anchor:middle;" x="1106" y="509">5</text>
+<text style="stroke:none;stroke-width:1px;fill:#000000;font-size:8px;text-anchor:middle;" x="1106" y="509">5</text>
+</a>
+<a xlink:href='../Mareckova-Venceslava-ind00042.htm' target='detail'>
+<rect x="1146.5" y="478" height="16px" width="59px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="1176" y="475.5">
+<tspan x="1178" dy="16" style="stroke:none;fill:#000000;">1915 - 1918</tspan>
+</text>
+<rect x="1146" y="518" height="32px" width="60px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1176" y="516">
+<tspan x="1177.66666666667" y="532" style="stroke:none;fill: black;text-anchor:middle;">Venceslava</tspan>
+<tspan x="1177.66666666667" y="548" style="stroke:none;fill: black;text-anchor:middle;">Mare&#269;kova</tspan>
+</text>
+<circle cx="1176" cy="506" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="1176" cy="506" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+<path d="M1167 497 l4.5 4.5 m9 9 l4.5 4.5 m-18 0 l4.5 -4.5 m9 -9 l4.5 -4.5" style="stroke: #000000;stroke-width:1px;"/>
+<text style="stroke:#FFFFFF;stroke-width:1px;fill:none;font-size:8px;text-anchor:middle;" x="1176" y="509">3</text>
+<text style="stroke:none;stroke-width:1px;fill:#000000;font-size:8px;text-anchor:middle;" x="1176" y="509">3</text>
+</a>
+<a xlink:href='../Marecek-Borivoi-ind00043.htm' target='detail'>
+<rect x="1216.5" y="478" height="16px" width="59px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="1246" y="475.5">
+<tspan x="1248" dy="16" style="stroke:none;fill:#000000;">1917 - 2001</tspan>
+</text>
+<rect x="1223" y="518" height="32px" width="46px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1246" y="516">
+<tspan x="1247.66666666667" y="532" style="stroke:none;fill: black;text-anchor:middle;">Bo&#345;ivoi</tspan>
+<tspan x="1247.66666666667" y="548" style="stroke:none;fill: black;text-anchor:middle;">Mare&#269;ek</tspan>
+</text>
+<rect x="1237" y="497" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="1237" y="497" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+<path d="M1237 497 l4.5 4.5 m9 9 l4.5 4.5 m-18 0 l4.5 -4.5 m9 -9 l4.5 -4.5" style="stroke: #000000;stroke-width:1px;"/>
+<text style="stroke:#FFFFFF;stroke-width:1px;fill:none;font-size:8px;text-anchor:middle;" x="1246" y="509">84</text>
+<text style="stroke:none;stroke-width:1px;fill:#000000;font-size:8px;text-anchor:middle;" x="1246" y="509">84</text>
+</a>
+<a xlink:href='../Mareckova-Drahomira-ind00044.htm' target='detail'>
+<rect x="1286.5" y="478" height="16px" width="59px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="1316" y="475.5">
+<tspan x="1318" dy="16" style="stroke:none;fill:#000000;">1919 - 2004</tspan>
+</text>
+<rect x="1286.5" y="518" height="32px" width="59px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1316" y="516">
+<tspan x="1317.66666666667" y="532" style="stroke:none;fill: black;text-anchor:middle;">Drahomira</tspan>
+<tspan x="1317.66666666667" y="548" style="stroke:none;fill: black;text-anchor:middle;">Mare&#269;kova</tspan>
+</text>
+<circle cx="1316" cy="506" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="1316" cy="506" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+<path d="M1307 497 l4.5 4.5 m9 9 l4.5 4.5 m-18 0 l4.5 -4.5 m9 -9 l4.5 -4.5" style="stroke: #000000;stroke-width:1px;"/>
+<text style="stroke:#FFFFFF;stroke-width:1px;fill:none;font-size:8px;text-anchor:middle;" x="1316" y="509">85</text>
+<text style="stroke:none;stroke-width:1px;fill:#000000;font-size:8px;text-anchor:middle;" x="1316" y="509">85</text>
+</a>
+<a xlink:href='../Marecek-Vladivoj-ind00045.htm' target='detail'>
+<rect x="1356.5" y="478" height="16px" width="59px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="1386" y="475.5">
+<tspan x="1388" dy="16" style="stroke:none;fill:#000000;">1920 - 2012</tspan>
+</text>
+<rect x="1363" y="518" height="32px" width="46px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1386" y="516">
+<tspan x="1387.66666666667" y="532" style="stroke:none;fill: black;text-anchor:middle;">Vladivoj</tspan>
+<tspan x="1387.66666666667" y="548" style="stroke:none;fill: black;text-anchor:middle;">Mare&#269;ek</tspan>
+</text>
+<rect x="1377" y="497" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="1377" y="497" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+<path d="M1377 497 l4.5 4.5 m9 9 l4.5 4.5 m-18 0 l4.5 -4.5 m9 -9 l4.5 -4.5" style="stroke: #000000;stroke-width:1px;"/>
+<text style="stroke:#FFFFFF;stroke-width:1px;fill:none;font-size:8px;text-anchor:middle;" x="1386" y="509">91</text>
+<text style="stroke:none;stroke-width:1px;fill:#000000;font-size:8px;text-anchor:middle;" x="1386" y="509">91</text>
+</a>
+<a xlink:href='../Marecek-Kvetoslav-ind00046.htm' target='detail'>
+<rect x="1416.5" y="478" height="16px" width="59px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="1446" y="475.5">
+<tspan x="1448" dy="16" style="stroke:none;fill:#000000;">1923 - 2004</tspan>
+</text>
+<rect x="1419.5" y="518" height="32px" width="53px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1446" y="516">
+<tspan x="1447.66666666667" y="532" style="stroke:none;fill: black;text-anchor:middle;">Kvetoslav</tspan>
+<tspan x="1447.66666666667" y="548" style="stroke:none;fill: black;text-anchor:middle;">Mare&#269;ek</tspan>
+</text>
+<rect x="1437" y="497" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="1437" y="497" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+<path d="M1437 497 l4.5 4.5 m9 9 l4.5 4.5 m-18 0 l4.5 -4.5 m9 -9 l4.5 -4.5" style="stroke: #000000;stroke-width:1px;"/>
+<text style="stroke:#FFFFFF;stroke-width:1px;fill:none;font-size:8px;text-anchor:middle;" x="1446" y="509">80</text>
+<text style="stroke:none;stroke-width:1px;fill:#000000;font-size:8px;text-anchor:middle;" x="1446" y="509">80</text>
+</a>
+<a xlink:href='../Planka-Olga-ind00047.htm' target='detail'>
+<rect x="1789" y="538" height="32px" width="34px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1806" y="536">
+<tspan x="1807.66666666667" y="552" style="stroke:none;fill: black;text-anchor:middle;">Olga</tspan>
+<tspan x="1807.66666666667" y="568" style="stroke:none;fill: black;text-anchor:middle;">Planka</tspan>
+</text>
+<circle cx="1806" cy="526" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="1806" cy="526" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Planka-Borivoj-ind00048.htm' target='detail'>
+<rect x="1856" y="538" height="32px" width="40px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1876" y="536">
+<tspan x="1877.66666666667" y="552" style="stroke:none;fill: black;text-anchor:middle;">Bo&#345;ivoj</tspan>
+<tspan x="1877.66666666667" y="568" style="stroke:none;fill: black;text-anchor:middle;">Planka</tspan>
+</text>
+<rect x="1867" y="517" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="1867" y="517" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Vodopic-ind00049.htm' target='detail'>
+<rect x="1713" y="538" height="16px" width="46px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1736" y="536">
+<tspan x="1737.66666666667" y="552" style="stroke:none;fill: black;text-anchor:middle;">Vodopi&#269;</tspan>
+</text>
+<rect x="1727" y="517" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="1727" y="517" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Planka-Rudolf-ind00050.htm' target='detail'>
+<rect x="1929" y="538" height="32px" width="34px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1946" y="536">
+<tspan x="1947.66666666667" y="552" style="stroke:none;fill: black;text-anchor:middle;">Rudolf</tspan>
+<tspan x="1947.66666666667" y="568" style="stroke:none;fill: black;text-anchor:middle;">Planka</tspan>
+</text>
+<rect x="1937" y="517" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="1937" y="517" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Planka-Josef-ind00051.htm' target='detail'>
+<rect x="1999" y="538" height="32px" width="34px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="2016" y="536">
+<tspan x="2017.66666666667" y="552" style="stroke:none;fill: black;text-anchor:middle;">Josef</tspan>
+<tspan x="2017.66666666667" y="568" style="stroke:none;fill: black;text-anchor:middle;">Planka</tspan>
+</text>
+<rect x="2007" y="517" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="2007" y="517" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Gabriela-ind00052.htm' target='detail'>
+<rect x="2064.5" y="538" height="16px" width="43px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="2086" y="536">
+<tspan x="2087.66666666667" y="552" style="stroke:none;fill: black;text-anchor:middle;">Gabriela</tspan>
+</text>
+<circle cx="2086" cy="526" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="2086" cy="526" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Planka-Rudolf-ind00053.htm' target='detail'>
+<rect x="2229" y="538" height="32px" width="34px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="2246" y="536">
+<tspan x="2247.66666666667" y="552" style="stroke:none;fill: black;text-anchor:middle;">Rudolf</tspan>
+<tspan x="2247.66666666667" y="568" style="stroke:none;fill: black;text-anchor:middle;">Planka</tspan>
+</text>
+<rect x="2237" y="517" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="2237" y="517" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Marie-ind00054.htm' target='detail'>
+<rect x="2300.5" y="538" height="16px" width="31px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="2316" y="536">
+<tspan x="2317.66666666667" y="552" style="stroke:none;fill: black;text-anchor:middle;">Marie</tspan>
+</text>
+<circle cx="2316" cy="526" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="2316" cy="526" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Hrnciarova-Vera-ind00055.htm' target='detail'>
+<rect x="2463" y="538" height="32px" width="66px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="2496" y="536">
+<tspan x="2497.66666666667" y="552" style="stroke:none;fill: black;text-anchor:middle;">V&#283;ra</tspan>
+<tspan x="2497.66666666667" y="568" style="stroke:none;fill: black;text-anchor:middle;">(Hrn&#269;iarova)</tspan>
+</text>
+<circle cx="2496" cy="526" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="2496" cy="526" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Planka-Emil-ind00056.htm' target='detail'>
+<rect x="2743" y="508" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="2756" y="505.5">
+<tspan x="2758" dy="16" style="stroke:none;fill:#000000;">1946</tspan>
+</text>
+<rect x="2739" y="548" height="32px" width="34px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="2756" y="546">
+<tspan x="2757.66666666667" y="562" style="stroke:none;fill: black;text-anchor:middle;">Emil</tspan>
+<tspan x="2757.66666666667" y="578" style="stroke:none;fill: black;text-anchor:middle;">Planka</tspan>
+</text>
+<rect x="2747" y="527" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="2747" y="527" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Biclikova-Emilie-ind00057.htm' target='detail'>
+<rect x="2813" y="508" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="2826" y="505.5">
+<tspan x="2828" dy="16" style="stroke:none;fill:#000000;">1946</tspan>
+</text>
+<rect x="2801.5" y="548" height="32px" width="49px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="2826" y="546">
+<tspan x="2827.66666666667" y="562" style="stroke:none;fill: black;text-anchor:middle;">Emilie</tspan>
+<tspan x="2827.66666666667" y="578" style="stroke:none;fill: black;text-anchor:middle;">Biclikova</tspan>
+</text>
+<circle cx="2826" cy="536" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="2826" cy="536" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Planka-Peter-ind00058.htm' target='detail'>
+<rect x="2563" y="508" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="2576" y="505.5">
+<tspan x="2578" dy="16" style="stroke:none;fill:#000000;">1944</tspan>
+</text>
+<rect x="2559" y="548" height="32px" width="34px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="2576" y="546">
+<tspan x="2577.66666666667" y="562" style="stroke:none;fill: black;text-anchor:middle;">Peter</tspan>
+<tspan x="2577.66666666667" y="578" style="stroke:none;fill: black;text-anchor:middle;">Planka</tspan>
+</text>
+<rect x="2567" y="527" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="2567" y="527" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Anna-ind00059.htm' target='detail'>
+<rect x="2633" y="508" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="2646" y="505.5">
+<tspan x="2648" dy="16" style="stroke:none;fill:#000000;">1946</tspan>
+</text>
+<rect x="2632" y="548" height="16px" width="28px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="2646" y="546">
+<tspan x="2647.66666666667" y="562" style="stroke:none;fill: black;text-anchor:middle;">Anna</tspan>
+</text>
+<circle cx="2646" cy="536" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="2646" cy="536" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Pavel-ind00060.htm' target='detail'>
+<rect x="2901" y="538" height="16px" width="30px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="2916" y="536">
+<tspan x="2917.66666666667" y="552" style="stroke:none;fill: black;text-anchor:middle;">Pavel</tspan>
+</text>
+<rect x="2907" y="517" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="2907" y="517" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Eva-ind00061.htm' target='detail'>
+<rect x="2975.5" y="538" height="16px" width="21px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="2986" y="536">
+<tspan x="2987.66666666667" y="552" style="stroke:none;fill: black;text-anchor:middle;">Eva</tspan>
+</text>
+<circle cx="2986" cy="526" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="2986" cy="526" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Plankova-Margarita-ind00062.htm' target='detail'>
+<rect x="3101.5" y="538" height="48px" width="49px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="3126" y="536">
+<tspan x="3127.66666666667" y="552" style="stroke:none;fill: black;text-anchor:middle;">Margarita</tspan>
+<tspan x="3127.66666666667" y="568" style="stroke:none;fill: black;text-anchor:middle;">Plankova</tspan>
+<tspan x="3127.66666666667" y="584" style="stroke:none;fill: black;text-anchor:middle;">(Herp)</tspan>
+</text>
+<circle cx="3126" cy="526" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="3126" cy="526" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Planka-Pavel-ind00063.htm' target='detail'>
+<rect x="3179" y="538" height="32px" width="34px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="3196" y="536">
+<tspan x="3197.66666666667" y="552" style="stroke:none;fill: black;text-anchor:middle;">Pavel</tspan>
+<tspan x="3197.66666666667" y="568" style="stroke:none;fill: black;text-anchor:middle;">Planka</tspan>
+</text>
+<rect x="3187" y="517" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="3187" y="517" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Planka-Jaroslav-ind00064.htm' target='detail'>
+<rect x="3343" y="508" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="3356" y="505.5">
+<tspan x="3358" dy="16" style="stroke:none;fill:#000000;">1941</tspan>
+</text>
+<rect x="3335.5" y="548" height="32px" width="41px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="3356" y="546">
+<tspan x="3357.66666666667" y="562" style="stroke:none;fill: black;text-anchor:middle;">Jaroslav</tspan>
+<tspan x="3357.66666666667" y="578" style="stroke:none;fill: black;text-anchor:middle;">Planka</tspan>
+</text>
+<rect x="3347" y="527" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="3347" y="527" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Planka-Dusan-ind00065.htm' target='detail'>
+<rect x="3543" y="508" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="3556" y="505.5">
+<tspan x="3558" dy="16" style="stroke:none;fill:#000000;">1947</tspan>
+</text>
+<rect x="3539" y="548" height="32px" width="34px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="3556" y="546">
+<tspan x="3557.66666666667" y="562" style="stroke:none;fill: black;text-anchor:middle;">Du&#353;an</tspan>
+<tspan x="3557.66666666667" y="578" style="stroke:none;fill: black;text-anchor:middle;">Planka</tspan>
+</text>
+<rect x="3547" y="527" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="3547" y="527" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Planka-Jan-ind00066.htm' target='detail'>
+<rect x="3613" y="508" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="3626" y="505.5">
+<tspan x="3628" dy="16" style="stroke:none;fill:#000000;">1951</tspan>
+</text>
+<rect x="3609" y="548" height="32px" width="34px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="3626" y="546">
+<tspan x="3627.66666666667" y="562" style="stroke:none;fill: black;text-anchor:middle;">Jan</tspan>
+<tspan x="3627.66666666667" y="578" style="stroke:none;fill: black;text-anchor:middle;">Planka</tspan>
+</text>
+<rect x="3617" y="527" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="3617" y="527" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Anna-ind00067.htm' target='detail'>
+<rect x="3682" y="548" height="16px" width="28px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="3696" y="546">
+<tspan x="3697.66666666667" y="562" style="stroke:none;fill: black;text-anchor:middle;">Anna</tspan>
+</text>
+<circle cx="3696" cy="536" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="3696" cy="536" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Planka-Milan-ind00068.htm' target='detail'>
+<rect x="3743" y="508" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="3756" y="505.5">
+<tspan x="3758" dy="16" style="stroke:none;fill:#000000;">1955</tspan>
+</text>
+<rect x="3739" y="548" height="32px" width="34px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="3756" y="546">
+<tspan x="3757.66666666667" y="562" style="stroke:none;fill: black;text-anchor:middle;">Milan</tspan>
+<tspan x="3757.66666666667" y="578" style="stroke:none;fill: black;text-anchor:middle;">Planka</tspan>
+</text>
+<rect x="3747" y="527" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="3747" y="527" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Planka-Pavel-ind00069.htm' target='detail'>
+<rect x="2019" y="658" height="32px" width="34px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="2036" y="656">
+<tspan x="2037.66666666667" y="672" style="stroke:none;fill: black;text-anchor:middle;">Pavel</tspan>
+<tspan x="2037.66666666667" y="688" style="stroke:none;fill: black;text-anchor:middle;">Planka</tspan>
+</text>
+<rect x="2027" y="637" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="2027" y="637" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Jaroslava-ind00070.htm' target='detail'>
+<rect x="2183" y="688" height="16px" width="46px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="2206" y="686">
+<tspan x="2207.66666666667" y="702" style="stroke:none;fill: black;text-anchor:middle;">Jaroslava</tspan>
+</text>
+<circle cx="2206" cy="676" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="2206" cy="676" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Kamil-ind00071.htm' target='detail'>
+<rect x="2271" y="688" height="16px" width="30px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="2286" y="686">
+<tspan x="2287.66666666667" y="702" style="stroke:none;fill: black;text-anchor:middle;">Kamil</tspan>
+</text>
+<rect x="2277" y="667" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="2277" y="667" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Borivoj-ind00072.htm' target='detail'>
+<rect x="2326" y="688" height="16px" width="40px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="2346" y="686">
+<tspan x="2347.66666666667" y="702" style="stroke:none;fill: black;text-anchor:middle;">Bo&#345;ivoj</tspan>
+</text>
+<rect x="2337" y="667" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="2337" y="667" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Hrnciar-Stefan-ind00073.htm' target='detail'>
+<rect x="2396.5" y="538" height="32px" width="39px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="2416" y="536">
+<tspan x="2417.66666666667" y="552" style="stroke:none;fill: black;text-anchor:middle;">Stefan</tspan>
+<tspan x="2417.66666666667" y="568" style="stroke:none;fill: black;text-anchor:middle;">Hrn&#269;iar</tspan>
+</text>
+<rect x="2407" y="517" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="2407" y="517" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Olga-ind00074.htm' target='detail'>
+<rect x="2403" y="688" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="2416" y="686">
+<tspan x="2417.66666666667" y="702" style="stroke:none;fill: black;text-anchor:middle;">Olga</tspan>
+</text>
+<circle cx="2416" cy="676" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="2416" cy="676" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Jan-ind00075.htm' target='detail'>
+<rect x="2478" y="688" height="16px" width="16px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="2486" y="686">
+<tspan x="2487.66666666667" y="702" style="stroke:none;fill: black;text-anchor:middle;">Jan</tspan>
+</text>
+<rect x="2477" y="667" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="2477" y="667" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Jan-ind00076.htm' target='detail'>
+<rect x="2568" y="688" height="16px" width="16px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="2576" y="686">
+<tspan x="2577.66666666667" y="702" style="stroke:none;fill: black;text-anchor:middle;">Jan</tspan>
+</text>
+<rect x="2567" y="667" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="2567" y="667" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Marie-ind00077.htm' target='detail'>
+<rect x="2630.5" y="688" height="16px" width="31px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="2646" y="686">
+<tspan x="2647.66666666667" y="702" style="stroke:none;fill: black;text-anchor:middle;">Marie</tspan>
+</text>
+<circle cx="2646" cy="676" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="2646" cy="676" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Jvan-ind00078.htm' target='detail'>
+<rect x="2704.5" y="688" height="16px" width="23px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="2716" y="686">
+<tspan x="2717.66666666667" y="702" style="stroke:none;fill: black;text-anchor:middle;">Jvan</tspan>
+</text>
+<rect x="2707" y="667" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="2707" y="667" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Peter-ind00079.htm' target='detail'>
+<rect x="2772" y="688" height="16px" width="28px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="2786" y="686">
+<tspan x="2787.66666666667" y="702" style="stroke:none;fill: black;text-anchor:middle;">Peter</tspan>
+</text>
+<rect x="2777" y="667" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="2777" y="667" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<rect x="2837" y="667" width="18px" height="18px" style="cursor:pointer;stroke: none;fill:white;stroke-width:3px;"/>
+<text x="2846" y="680.5" style="cursor:pointer;stroke:none;fill:#000000;">?</text>
+<rect x="2907" y="667" width="18px" height="18px" style="cursor:pointer;stroke: none;fill:white;stroke-width:3px;"/>
+<text x="2916" y="680.5" style="cursor:pointer;stroke:none;fill:#000000;">?</text>
+<rect x="2977" y="667" width="18px" height="18px" style="cursor:pointer;stroke: none;fill:white;stroke-width:3px;"/>
+<text x="2986" y="680.5" style="cursor:pointer;stroke:none;fill:#000000;">?</text>
+<a xlink:href='../Herp-ind00083.htm' target='detail'>
+<rect x="3042.5" y="558" height="16px" width="27px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="3056" y="556">
+<tspan x="3057.66666666667" y="572" style="stroke:none;fill: black;text-anchor:middle;">Herp</tspan>
+</text>
+<rect x="3047" y="537" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="3047" y="537" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Herp-Richard-ind00084.htm' target='detail'>
+<rect x="3056.5" y="668" height="32px" width="39px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="3076" y="666">
+<tspan x="3077.66666666667" y="682" style="stroke:none;fill: black;text-anchor:middle;">Richard</tspan>
+<tspan x="3077.66666666667" y="698" style="stroke:none;fill: black;text-anchor:middle;">Herp</tspan>
+</text>
+<rect x="3067" y="647" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="3067" y="647" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Cupalkova-Marie-ind00085.htm' target='detail'>
+<rect x="3408.5" y="548" height="32px" width="55px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="3436" y="546">
+<tspan x="3437.66666666667" y="562" style="stroke:none;fill: black;text-anchor:middle;">Marie</tspan>
+<tspan x="3437.66666666667" y="578" style="stroke:none;fill: black;text-anchor:middle;">&#268;upalkova</tspan>
+</text>
+<circle cx="3436" cy="536" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="3436" cy="536" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Dusanka-ind00086.htm' target='detail'>
+<rect x="3263" y="648" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="3276" y="645.5">
+<tspan x="3278" dy="16" style="stroke:none;fill:#000000;">1960</tspan>
+</text>
+<rect x="3254" y="688" height="16px" width="44px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="3276" y="686">
+<tspan x="3277.66666666667" y="702" style="stroke:none;fill: black;text-anchor:middle;">Du&#353;anka</tspan>
+</text>
+<circle cx="3276" cy="676" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="3276" cy="676" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Alenka-ind00087.htm' target='detail'>
+<rect x="3333" y="648" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="3346" y="645.5">
+<tspan x="3348" dy="16" style="stroke:none;fill:#000000;">1962</tspan>
+</text>
+<rect x="3327.5" y="688" height="16px" width="37px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="3346" y="686">
+<tspan x="3347.66666666667" y="702" style="stroke:none;fill: black;text-anchor:middle;">Alenka</tspan>
+</text>
+<circle cx="3346" cy="676" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="3346" cy="676" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Jaroslav-ind00088.htm' target='detail'>
+<rect x="3403" y="648" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="3416" y="645.5">
+<tspan x="3418" dy="16" style="stroke:none;fill:#000000;">1965</tspan>
+</text>
+<rect x="3395.5" y="688" height="16px" width="41px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="3416" y="686">
+<tspan x="3417.66666666667" y="702" style="stroke:none;fill: black;text-anchor:middle;">Jaroslav</tspan>
+</text>
+<rect x="3407" y="667" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="3407" y="667" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../Zuzana-ind00089.htm' target='detail'>
+<rect x="3473" y="648" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="3486" y="645.5">
+<tspan x="3488" dy="16" style="stroke:none;fill:#000000;">1966</tspan>
+</text>
+<rect x="3467.5" y="688" height="16px" width="37px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="3486" y="686">
+<tspan x="3487.66666666667" y="702" style="stroke:none;fill: black;text-anchor:middle;">Zuzana</tspan>
+</text>
+<circle cx="3486" cy="676" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="3486" cy="676" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../Monika-ind00090.htm' target='detail'>
+<rect x="3626" y="658" height="16px" width="40px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="3646" y="656">
+<tspan x="3647.66666666667" y="672" style="stroke:none;fill: black;text-anchor:middle;">Monika</tspan>
+</text>
+<rect x="3637" y="637" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="3637" y="637" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../ind00168.htm' target='detail'>
+<rect x="316.5" y="578" height="16px" width="59px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="346" y="575.5">
+<tspan x="348" dy="16" style="stroke:none;fill:#000000;">1921 - 2005</tspan>
+</text>
+<rect x="314" y="618" height="48px" width="64px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="346" y="616">
+<tspan x="347.666666666667" y="632" style="stroke:none;fill: black;text-anchor:middle;">&#1040;&#1085;&#1072;&#1089;&#1090;&#1072;&#1089;&#1080;&#1103;</tspan>
+<tspan x="347.666666666667" y="648" style="stroke:none;fill: black;text-anchor:middle;">&#1048;&#1074;&#1072;&#1085;&#1086;&#1074;&#1085;&#1072;</tspan>
+<tspan x="347.666666666667" y="664" style="stroke:none;fill: black;text-anchor:middle;">&#1041;&#1086;&#1085;&#1076;&#1072;&#1088;&#1077;&#1085;&#1082;&#1086;</tspan>
+</text>
+<circle cx="346" cy="606" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="346" cy="606" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+<path d="M337 597 l4.5 4.5 m9 9 l4.5 4.5 m-18 0 l4.5 -4.5 m9 -9 l4.5 -4.5" style="stroke: #000000;stroke-width:1px;"/>
+<text style="stroke:#FFFFFF;stroke-width:1px;fill:none;font-size:8px;text-anchor:middle;" x="346" y="609">83</text>
+<text style="stroke:none;stroke-width:1px;fill:#000000;font-size:8px;text-anchor:middle;" x="346" y="609">83</text>
+</a>
+<a xlink:href='../ind00169.htm' target='detail'>
+<rect x="353" y="708" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="366" y="705.5">
+<tspan x="368" dy="16" style="stroke:none;fill:#000000;">1944</tspan>
+</text>
+<rect x="339" y="748" height="48px" width="54px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="366" y="746">
+<tspan x="367.666666666667" y="762" style="stroke:none;fill: black;text-anchor:middle;">&#1048;&#1085;&#1077;&#1079;&#1080;&#1083;&#1080;&#1103;</tspan>
+<tspan x="367.666666666667" y="778" style="stroke:none;fill: black;text-anchor:middle;">(&#1048;&#1085;&#1072;)</tspan>
+<tspan x="367.666666666667" y="794" style="stroke:none;fill: black;text-anchor:middle;">&#1052;&#1072;&#1088;&#1077;&#1095;&#1077;&#1082;</tspan>
+</text>
+<circle cx="366" cy="736" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="366" cy="736" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../ind00170.htm' target='detail'>
+<rect x="673" y="708" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="686" y="705.5">
+<tspan x="688" dy="16" style="stroke:none;fill:#000000;">1947</tspan>
+</text>
+<rect x="661" y="748" height="48px" width="50px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="686" y="746">
+<tspan x="687.666666666667" y="762" style="stroke:none;fill: black;text-anchor:middle;">&#1069;&#1083;&#1100;&#1074;&#1080;&#1088;&#1072;</tspan>
+<tspan x="687.666666666667" y="778" style="stroke:none;fill: black;text-anchor:middle;">(&#1069;&#1083;&#1072;)</tspan>
+<tspan x="687.666666666667" y="794" style="stroke:none;fill: black;text-anchor:middle;">&#1052;&#1072;&#1088;&#1077;&#1095;&#1077;&#1082;</tspan>
+</text>
+<circle cx="686" cy="736" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="686" cy="736" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../ind00171.htm' target='detail'>
+<rect x="175" y="748" height="32px" width="62px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="206" y="746">
+<tspan x="207.666666666667" y="762" style="stroke:none;fill: black;text-anchor:middle;">&#1042;&#1080;&#1082;&#1090;&#1086;&#1088;</tspan>
+<tspan x="207.666666666667" y="778" style="stroke:none;fill: black;text-anchor:middle;">&#1058;&#1080;&#1084;&#1086;&#1096;&#1080;&#1085;&#1086;&#1074;</tspan>
+</text>
+<rect x="197" y="727" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="197" y="727" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../ind00172.htm' target='detail'>
+<rect x="223" y="828" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="236" y="825.5">
+<tspan x="238" dy="16" style="stroke:none;fill:#000000;">1970</tspan>
+</text>
+<rect x="202" y="868" height="32px" width="68px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="236" y="866">
+<tspan x="237.666666666667" y="882" style="stroke:none;fill: black;text-anchor:middle;">&#1051;&#1077;&#1081;&#1083;&#1072;</tspan>
+<tspan x="237.666666666667" y="898" style="stroke:none;fill: black;text-anchor:middle;">&#1058;&#1080;&#1084;&#1086;&#1096;&#1080;&#1085;&#1086;&#1074;&#1072;</tspan>
+</text>
+<circle cx="236" cy="856" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="236" cy="856" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../ind00173.htm' target='detail'>
+<rect x="313" y="828" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="326" y="825.5">
+<tspan x="328" dy="16" style="stroke:none;fill:#000000;">1980</tspan>
+</text>
+<rect x="292" y="868" height="48px" width="68px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="326" y="866">
+<tspan x="327.666666666667" y="882" style="stroke:none;fill: black;text-anchor:middle;">&#1070;&#1083;&#1080;&#1103;-</tspan>
+<tspan x="327.666666666667" y="898" style="stroke:none;fill: black;text-anchor:middle;">&#1051;&#1080;&#1076;&#1080;&#1103;</tspan>
+<tspan x="327.666666666667" y="914" style="stroke:none;fill: black;text-anchor:middle;">&#1058;&#1080;&#1084;&#1086;&#1096;&#1080;&#1085;&#1086;&#1074;&#1072;</tspan>
+</text>
+<circle cx="326" cy="856" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="326" cy="856" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../ind00174.htm' target='detail'>
+<rect x="428" y="748" height="32px" width="56px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="456" y="746">
+<tspan x="457.666666666667" y="762" style="stroke:none;fill: black;text-anchor:middle;">&#1070;&#1088;&#1080;&#1081;</tspan>
+<tspan x="457.666666666667" y="778" style="stroke:none;fill: black;text-anchor:middle;">&#1041;&#1072;&#1083;&#1072;&#1073;&#1072;&#1085;&#1086;&#1074;</tspan>
+</text>
+<rect x="447" y="727" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="447" y="727" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../ind00175.htm' target='detail'>
+<rect x="765" y="748" height="32px" width="62px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="796" y="746">
+<tspan x="797.666666666667" y="762" style="stroke:none;fill: black;text-anchor:middle;">&#1042;&#1083;&#1072;&#1076;&#1080;&#1084;&#1080;&#1088;</tspan>
+<tspan x="797.666666666667" y="778" style="stroke:none;fill: black;text-anchor:middle;">&#1057;&#1072;&#1084;&#1086;&#1093;&#1074;&#1072;&#1083;&#1086;&#1074;</tspan>
+</text>
+<rect x="787" y="727" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="787" y="727" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../ind00176.htm' target='detail'>
+<rect x="563" y="828" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="576" y="825.5">
+<tspan x="578" dy="16" style="stroke:none;fill:#000000;">1967</tspan>
+</text>
+<rect x="551" y="868" height="32px" width="50px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="576" y="866">
+<tspan x="577.666666666667" y="882" style="stroke:none;fill: black;text-anchor:middle;">&#1051;&#1072;&#1076;&#1072;</tspan>
+<tspan x="577.666666666667" y="898" style="stroke:none;fill: black;text-anchor:middle;">&#1052;&#1072;&#1088;&#1077;&#1095;&#1077;&#1082;</tspan>
+</text>
+<circle cx="576" cy="856" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="576" cy="856" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../ind00177.htm' target='detail'>
+<rect x="403" y="868" height="32px" width="66px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="436" y="866">
+<tspan x="437.666666666667" y="882" style="stroke:none;fill: black;text-anchor:middle;">&#1044;&#1084;&#1080;&#1090;&#1088;&#1080;&#1081;</tspan>
+<tspan x="437.666666666667" y="898" style="stroke:none;fill: black;text-anchor:middle;">&#1053;&#1077;&#1076;&#1072;&#1081;&#1074;&#1086;&#1076;&#1080;&#1085;</tspan>
+</text>
+<rect x="427" y="847" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="427" y="847" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../ind00178.htm' target='detail'>
+<rect x="643" y="828" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="656" y="825.5">
+<tspan x="658" dy="16" style="stroke:none;fill:#000000;">1967</tspan>
+</text>
+<rect x="628.5" y="868" height="32px" width="55px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="656" y="866">
+<tspan x="657.666666666667" y="882" style="stroke:none;fill: black;text-anchor:middle;">&#1042;&#1083;&#1072;&#1076;&#1080;&#1084;&#1080;&#1088;</tspan>
+<tspan x="657.666666666667" y="898" style="stroke:none;fill: black;text-anchor:middle;">&#1053;&#1077;&#1089;&#1090;&#1077;&#1088;&#1086;&#1074;</tspan>
+</text>
+<rect x="647" y="847" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="647" y="847" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../ind00179.htm' target='detail'>
+<rect x="453" y="938" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="466" y="935.5">
+<tspan x="468" dy="16" style="stroke:none;fill:#000000;">1988</tspan>
+</text>
+<rect x="441" y="978" height="32px" width="50px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="466" y="976">
+<tspan x="467.666666666667" y="992" style="stroke:none;fill: black;text-anchor:middle;">&#1044;&#1072;&#1085;&#1080;&#1083;&#1072;</tspan>
+<tspan x="467.666666666667" y="1008" style="stroke:none;fill: black;text-anchor:middle;">&#1052;&#1072;&#1088;&#1077;&#1095;&#1077;&#1082;</tspan>
+</text>
+<rect x="457" y="957" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="457" y="957" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../ind00180.htm' target='detail'>
+<rect x="523" y="938" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="536" y="935.5">
+<tspan x="538" dy="16" style="stroke:none;fill:#000000;">1993</tspan>
+</text>
+<rect x="511" y="978" height="32px" width="50px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="536" y="976">
+<tspan x="537.666666666667" y="992" style="stroke:none;fill: black;text-anchor:middle;">&#1050;&#1089;&#1077;&#1085;&#1080;&#1103;</tspan>
+<tspan x="537.666666666667" y="1008" style="stroke:none;fill: black;text-anchor:middle;">&#1052;&#1072;&#1088;&#1077;&#1095;&#1077;&#1082;</tspan>
+</text>
+<circle cx="536" cy="966" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="536" cy="966" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../ind00181.htm' target='detail'>
+<rect x="733" y="828" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="746" y="825.5">
+<tspan x="748" dy="16" style="stroke:none;fill:#000000;">1988</tspan>
+</text>
+<rect x="712" y="868" height="32px" width="68px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="746" y="866">
+<tspan x="747.666666666667" y="882" style="stroke:none;fill: black;text-anchor:middle;">&#1044;&#1072;&#1088;&#1100;&#1103;</tspan>
+<tspan x="747.666666666667" y="898" style="stroke:none;fill: black;text-anchor:middle;">&#1057;&#1072;&#1084;&#1086;&#1093;&#1074;&#1072;&#1083;&#1086;&#1074;&#1072;</tspan>
+</text>
+<circle cx="746" cy="856" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="746" cy="856" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../ind00183.htm' target='detail'>
+<rect x="1003" y="578" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="1016" y="575.5">
+<tspan x="1018" dy="16" style="stroke:none;fill:#000000;">1928</tspan>
+</text>
+<rect x="983" y="618" height="48px" width="66px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1016" y="616">
+<tspan x="1017.66666666667" y="632" style="stroke:none;fill: black;text-anchor:middle;">&#1047;&#1086;&#1103;</tspan>
+<tspan x="1017.66666666667" y="648" style="stroke:none;fill: black;text-anchor:middle;">&#1043;&#1077;&#1085;&#1085;&#1072;&#1076;&#1100;&#1077;&#1074;&#1085;&#1072;</tspan>
+<tspan x="1017.66666666667" y="664" style="stroke:none;fill: black;text-anchor:middle;">&#1047;&#1099;&#1088;&#1103;&#1085;&#1086;&#1074;&#1072;</tspan>
+</text>
+<circle cx="1016" cy="606" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="1016" cy="606" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../ind00184.htm' target='detail'>
+<rect x="1053" y="708" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="1066" y="705.5">
+<tspan x="1068" dy="16" style="stroke:none;fill:#000000;">1949</tspan>
+</text>
+<rect x="1038.5" y="748" height="32px" width="55px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1066" y="746">
+<tspan x="1067.66666666667" y="762" style="stroke:none;fill: black;text-anchor:middle;">&#1057;&#1074;&#1103;&#1090;&#1086;&#1089;&#1083;&#1072;&#1074;</tspan>
+<tspan x="1067.66666666667" y="778" style="stroke:none;fill: black;text-anchor:middle;">&#1052;&#1072;&#1088;&#1077;&#1095;&#1077;&#1082;</tspan>
+</text>
+<rect x="1057" y="727" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="1057" y="727" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../ind00185.htm' target='detail'>
+<rect x="1143" y="708" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="1156" y="705.5">
+<tspan x="1158" dy="16" style="stroke:none;fill:#000000;">1954</tspan>
+</text>
+<rect x="1131" y="748" height="32px" width="50px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1156" y="746">
+<tspan x="1157.66666666667" y="762" style="stroke:none;fill: black;text-anchor:middle;">&#1057;&#1074;&#1077;&#1090;&#1083;&#1072;&#1085;&#1072;</tspan>
+<tspan x="1157.66666666667" y="778" style="stroke:none;fill: black;text-anchor:middle;">&#1052;&#1072;&#1088;&#1077;&#1095;&#1077;&#1082;</tspan>
+</text>
+<circle cx="1156" cy="736" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="1156" cy="736" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../ind00186.htm' target='detail'>
+<rect x="943" y="708" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="956" y="705.5">
+<tspan x="958" dy="16" style="stroke:none;fill:#000000;">1947</tspan>
+</text>
+<rect x="927.5" y="748" height="48px" width="57px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="956" y="746">
+<tspan x="957.666666666667" y="762" style="stroke:none;fill: black;text-anchor:middle;">&#1042;&#1072;&#1083;&#1077;&#1085;&#1090;&#1080;&#1085;&#1072;</tspan>
+<tspan x="957.666666666667" y="778" style="stroke:none;fill: black;text-anchor:middle;">&#1048;&#1074;&#1072;&#1085;&#1086;&#1074;&#1085;&#1072;</tspan>
+<tspan x="957.666666666667" y="794" style="stroke:none;fill: black;text-anchor:middle;">&#1056;&#1091;&#1073;&#1094;&#1086;&#1074;&#1072;</tspan>
+</text>
+<circle cx="956" cy="736" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="956" cy="736" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../ind00187.htm' target='detail'>
+<rect x="963" y="828" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="976" y="825.5">
+<tspan x="978" dy="16" style="stroke:none;fill:#000000;">1973</tspan>
+</text>
+<rect x="951" y="868" height="32px" width="50px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="976" y="866">
+<tspan x="977.666666666667" y="882" style="stroke:none;fill: black;text-anchor:middle;">&#1070;&#1083;&#1080;&#1103;</tspan>
+<tspan x="977.666666666667" y="898" style="stroke:none;fill: black;text-anchor:middle;">&#1052;&#1072;&#1088;&#1077;&#1095;&#1077;&#1082;</tspan>
+</text>
+<circle cx="976" cy="856" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="976" cy="856" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../ind00188.htm' target='detail'>
+<rect x="1033" y="828" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="1046" y="825.5">
+<tspan x="1048" dy="16" style="stroke:none;fill:#000000;">1981</tspan>
+</text>
+<rect x="1021" y="868" height="32px" width="50px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1046" y="866">
+<tspan x="1047.66666666667" y="882" style="stroke:none;fill: black;text-anchor:middle;">&#1052;&#1072;&#1088;&#1080;&#1103;</tspan>
+<tspan x="1047.66666666667" y="898" style="stroke:none;fill: black;text-anchor:middle;">&#1052;&#1072;&#1088;&#1077;&#1095;&#1077;&#1082;</tspan>
+</text>
+<circle cx="1046" cy="856" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="1046" cy="856" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../ind00189.htm' target='detail'>
+<rect x="873" y="868" height="32px" width="46px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="896" y="866">
+<tspan x="897.666666666667" y="882" style="stroke:none;fill: black;text-anchor:middle;">&#1056;&#1086;&#1084;&#1072;&#1085;</tspan>
+<tspan x="897.666666666667" y="898" style="stroke:none;fill: black;text-anchor:middle;">&#1050;&#1080;&#1089;&#1077;&#1083;&#1105;&#1074;</tspan>
+</text>
+<rect x="887" y="847" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="887" y="847" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../ind00190.htm' target='detail'>
+<rect x="913" y="938" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="926" y="935.5">
+<tspan x="928" dy="16" style="stroke:none;fill:#000000;">1995</tspan>
+</text>
+<rect x="903" y="978" height="32px" width="46px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="926" y="976">
+<tspan x="927.666666666667" y="992" style="stroke:none;fill: black;text-anchor:middle;">&#1057;&#1072;&#1096;&#1072;</tspan>
+<tspan x="927.666666666667" y="1008" style="stroke:none;fill: black;text-anchor:middle;">&#1050;&#1080;&#1089;&#1077;&#1083;&#1105;&#1074;</tspan>
+</text>
+<circle cx="926" cy="966" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="926" cy="966" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../ind00191.htm' target='detail'>
+<rect x="1226" y="748" height="32px" width="80px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1266" y="746">
+<tspan x="1267.66666666667" y="762" style="stroke:none;fill: black;text-anchor:middle;">&#1057;&#1090;&#1072;&#1085;&#1080;&#1089;&#1083;&#1072;&#1074;</tspan>
+<tspan x="1267.66666666667" y="778" style="stroke:none;fill: black;text-anchor:middle;">&#1050;&#1088;&#1072;&#1087;&#1086;&#1074;&#1085;&#1080;&#1094;&#1082;&#1080;&#1081;</tspan>
+</text>
+<rect x="1257" y="727" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="1257" y="727" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../ind00192.htm' target='detail'>
+<rect x="1153" y="828" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="1166" y="825.5">
+<tspan x="1168" dy="16" style="stroke:none;fill:#000000;">1981</tspan>
+</text>
+<rect x="1126" y="868" height="32px" width="80px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1166" y="866">
+<tspan x="1167.66666666667" y="882" style="stroke:none;fill: black;text-anchor:middle;">&#1069;&#1076;&#1091;&#1072;&#1088;&#1076;</tspan>
+<tspan x="1167.66666666667" y="898" style="stroke:none;fill: black;text-anchor:middle;">&#1050;&#1088;&#1072;&#1087;&#1086;&#1074;&#1085;&#1080;&#1094;&#1082;&#1080;&#1081;</tspan>
+</text>
+<rect x="1157" y="847" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="1157" y="847" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../ind00193.htm' target='detail'>
+<rect x="1216" y="868" height="32px" width="80px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1256" y="866">
+<tspan x="1257.66666666667" y="882" style="stroke:none;fill: black;text-anchor:middle;">&#1040;&#1083;&#1077;&#1082;&#1089;&#1072;&#1085;&#1076;&#1088;</tspan>
+<tspan x="1257.66666666667" y="898" style="stroke:none;fill: black;text-anchor:middle;">&#1050;&#1088;&#1072;&#1087;&#1086;&#1074;&#1085;&#1080;&#1094;&#1082;&#1080;&#1081;</tspan>
+</text>
+<rect x="1247" y="847" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="1247" y="847" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../ind00194.htm' target='detail'>
+<rect x="1663" y="578" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="1676" y="575.5">
+<tspan x="1678" dy="16" style="stroke:none;fill:#000000;">1932</tspan>
+</text>
+</a>
+<a xlink:href='../genomaps/genomap4.htm?x=30,y=0,highlight=true' target='popup'>
+<rect x="1632" y="618" height="48px" width="88px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1676" y="616">
+<set attributeName="fill" attributeType="CSS" to="maroon" begin="mouseover" end="mouseout"/>
+<tspan x="1677.66666666667" y="632" style="stroke:none;fill:blue;text-anchor:middle;">&#1051;&#1080;&#1076;&#1080;&#1103; &#1048;&#1074;&#1072;&#1085;&#1086;&#1074;&#1085;&#1072;</tspan>
+<tspan x="1677.66666666667" y="648" style="stroke:none;fill:blue;text-anchor:middle;">&#1055;&#1103;&#1090;&#1085;&#1080;&#1094;&#1082;&#1072;&#1103;</tspan>
+<tspan x="1677.66666666667" y="664" style="stroke:none;fill:blue;text-anchor:middle;">(&#1052;&#1072;&#1088;&#1077;&#1095;&#1077;&#1082;)</tspan>
+</text>
+</a>
+<a xlink:href='../ind00194.htm' target='detail'>
+<circle cx="1676" cy="606" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="1676" cy="606" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../ind00195.htm' target='detail'>
+<rect x="1523" y="708" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="1536" y="705.5">
+<tspan x="1538" dy="16" style="stroke:none;fill:#000000;">1955</tspan>
+</text>
+<rect x="1472.5" y="748" height="48px" width="127px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1536" y="746">
+<tspan x="1537.66666666667" y="762" style="stroke:none;fill: black;text-anchor:middle;">&#1052;&#1072;&#1088;&#1075;&#1072;&#1088;&#1080;&#1090;&#1072;</tspan>
+<tspan x="1537.66666666667" y="778" style="stroke:none;fill: black;text-anchor:middle;">&#1050;&#1074;&#1077;&#1090;&#1086;&#1089;&#1083;&#1072;&#1074;&#1086;&#1074;&#1085;&#1072;</tspan>
+<tspan x="1537.66666666667" y="794" style="stroke:none;fill: black;text-anchor:middle;">&#1052;&#1072;&#1088;&#1077;&#1095;&#1077;&#1082; (&#1052;&#1077;&#1085;&#1103;&#1081;&#1083;&#1077;&#1085;&#1082;&#1086;)</tspan>
+</text>
+<circle cx="1536" cy="736" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="1536" cy="736" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../ind00196.htm' target='detail'>
+<rect x="1653" y="708" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="1666" y="705.5">
+<tspan x="1668" dy="16" style="stroke:none;fill:#000000;">1958</tspan>
+</text>
+<rect x="1614.5" y="748" height="48px" width="103px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1666" y="746">
+<tspan x="1667.66666666667" y="762" style="stroke:none;fill: black;text-anchor:middle;">&#1052;&#1072;&#1088;&#1080;&#1085;&#1072;</tspan>
+<tspan x="1667.66666666667" y="778" style="stroke:none;fill: black;text-anchor:middle;">&#1050;&#1074;&#1077;&#1090;&#1086;&#1089;&#1083;&#1072;&#1074;&#1086;&#1074;&#1085;&#1072;</tspan>
+<tspan x="1667.66666666667" y="794" style="stroke:none;fill: black;text-anchor:middle;">&#1052;&#1072;&#1088;&#1077;&#1095;&#1077;&#1082; (&#1044;&#1088;&#1091;&#1075;&#1086;&#1074;&#1072;)</tspan>
+</text>
+<circle cx="1666" cy="736" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="1666" cy="736" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../ind00197.htm' target='detail'>
+<rect x="1353" y="708" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="1366" y="705.5">
+<tspan x="1368" dy="16" style="stroke:none;fill:#000000;">1956</tspan>
+</text>
+<rect x="1331.5" y="748" height="48px" width="69px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1366" y="746">
+<tspan x="1367.66666666667" y="762" style="stroke:none;fill: black;text-anchor:middle;">&#1042;&#1080;&#1082;&#1090;&#1086;&#1088;</tspan>
+<tspan x="1367.66666666667" y="778" style="stroke:none;fill: black;text-anchor:middle;">&#1042;&#1083;&#1072;&#1076;&#1083;&#1077;&#1085;&#1086;&#1074;&#1080;&#1095;</tspan>
+<tspan x="1367.66666666667" y="794" style="stroke:none;fill: black;text-anchor:middle;">&#1052;&#1077;&#1085;&#1103;&#1081;&#1083;&#1077;&#1085;&#1082;&#1086;</tspan>
+</text>
+<rect x="1357" y="727" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="1357" y="727" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../ind00198.htm' target='detail'>
+<rect x="1373" y="828" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="1386" y="825.5">
+<tspan x="1388" dy="16" style="stroke:none;fill:#000000;">1983</tspan>
+</text>
+<rect x="1352" y="868" height="48px" width="68px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1386" y="866">
+<tspan x="1387.66666666667" y="882" style="stroke:none;fill: black;text-anchor:middle;">&#1057;&#1077;&#1088;&#1075;&#1077;&#1081;</tspan>
+<tspan x="1387.66666666667" y="898" style="stroke:none;fill: black;text-anchor:middle;">&#1042;&#1080;&#1082;&#1090;&#1086;&#1088;&#1086;&#1074;&#1080;&#1095;</tspan>
+<tspan x="1387.66666666667" y="914" style="stroke:none;fill: black;text-anchor:middle;">&#1052;&#1077;&#1085;&#1103;&#1081;&#1083;&#1077;&#1085;&#1082;&#1086;</tspan>
+</text>
+<rect x="1377" y="847" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="1377" y="847" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../ind00199.htm' target='detail'>
+<rect x="1483" y="828" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="1496" y="825.5">
+<tspan x="1498" dy="16" style="stroke:none;fill:#000000;">1986</tspan>
+</text>
+<rect x="1462" y="868" height="48px" width="68px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1496" y="866">
+<tspan x="1497.66666666667" y="882" style="stroke:none;fill: black;text-anchor:middle;">&#1040;&#1085;&#1076;&#1088;&#1077;&#1081;</tspan>
+<tspan x="1497.66666666667" y="898" style="stroke:none;fill: black;text-anchor:middle;">&#1042;&#1080;&#1082;&#1090;&#1086;&#1088;&#1086;&#1074;&#1080;&#1095;</tspan>
+<tspan x="1497.66666666667" y="914" style="stroke:none;fill: black;text-anchor:middle;">&#1052;&#1077;&#1085;&#1103;&#1081;&#1083;&#1077;&#1085;&#1082;&#1086;</tspan>
+</text>
+<rect x="1487" y="847" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="1487" y="847" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../ind00200.htm' target='detail'>
+<rect x="1823" y="708" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="1836" y="705.5">
+<tspan x="1838" dy="16" style="stroke:none;fill:#000000;">1958</tspan>
+</text>
+</a>
+<a xlink:href='../genomaps/genomap6.htm?x=-30,y=0,highlight=true' target='popup'>
+<rect x="1810.5" y="748" height="48px" width="51px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1836" y="746">
+<set attributeName="fill" attributeType="CSS" to="maroon" begin="mouseover" end="mouseout"/>
+<tspan x="1837.66666666667" y="762" style="stroke:none;fill:blue;text-anchor:middle;">&#1040;&#1083;&#1077;&#1082;&#1089;&#1077;&#1081;</tspan>
+<tspan x="1837.66666666667" y="778" style="stroke:none;fill:blue;text-anchor:middle;">&#1054;&#1083;&#1077;&#1075;&#1086;&#1074;&#1080;&#1095;</tspan>
+<tspan x="1837.66666666667" y="794" style="stroke:none;fill:blue;text-anchor:middle;">&#1044;&#1088;&#1091;&#1075;&#1086;&#1074;</tspan>
+</text>
+</a>
+<a xlink:href='../ind00200.htm' target='detail'>
+<rect x="1827" y="727" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="1827" y="727" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../ind00201.htm' target='detail'>
+<rect x="1713" y="828" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="1726" y="825.5">
+<tspan x="1728" dy="16" style="stroke:none;fill:#000000;">1979</tspan>
+</text>
+<rect x="1694" y="868" height="48px" width="64px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1726" y="866">
+<tspan x="1727.66666666667" y="882" style="stroke:none;fill: black;text-anchor:middle;">&#1053;&#1072;&#1090;&#1072;&#1083;&#1100;&#1103;</tspan>
+<tspan x="1727.66666666667" y="898" style="stroke:none;fill: black;text-anchor:middle;">&#1040;&#1083;&#1077;&#1082;&#1089;&#1077;&#1077;&#1074;&#1085;&#1072;</tspan>
+<tspan x="1727.66666666667" y="914" style="stroke:none;fill: black;text-anchor:middle;">&#1044;&#1088;&#1091;&#1075;&#1086;&#1074;&#1072;</tspan>
+</text>
+<circle cx="1726" cy="856" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="1726" cy="856" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../ind00202.htm' target='detail'>
+<rect x="1813" y="828" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="1826" y="825.5">
+<tspan x="1828" dy="16" style="stroke:none;fill:#000000;">1982</tspan>
+</text>
+<rect x="1794" y="868" height="48px" width="64px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1826" y="866">
+<tspan x="1827.66666666667" y="882" style="stroke:none;fill: black;text-anchor:middle;">&#1040;&#1085;&#1072;&#1089;&#1090;&#1072;&#1089;&#1080;&#1103;</tspan>
+<tspan x="1827.66666666667" y="898" style="stroke:none;fill: black;text-anchor:middle;">&#1040;&#1083;&#1077;&#1082;&#1089;&#1077;&#1077;&#1074;&#1085;&#1072;</tspan>
+<tspan x="1827.66666666667" y="914" style="stroke:none;fill: black;text-anchor:middle;">&#1044;&#1088;&#1091;&#1075;&#1086;&#1074;&#1072;</tspan>
+</text>
+<circle cx="1826" cy="856" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="1826" cy="856" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<a xlink:href='../ind00203.htm' target='detail'>
+<rect x="1613" y="828" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="1626" y="825.5">
+<tspan x="1628" dy="16" style="stroke:none;fill:#000000;">1980</tspan>
+</text>
+</a>
+<a xlink:href='../genomaps/genomap5.htm?x=0,y=0,highlight=true' target='popup'>
+<rect x="1596" y="868" height="48px" width="60px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1626" y="866">
+<set attributeName="fill" attributeType="CSS" to="maroon" begin="mouseover" end="mouseout"/>
+<tspan x="1627.66666666667" y="882" style="stroke:none;fill:blue;text-anchor:middle;">&#1040;&#1083;&#1077;&#1082;&#1089;&#1072;&#1085;&#1076;&#1088;</tspan>
+<tspan x="1627.66666666667" y="898" style="stroke:none;fill:blue;text-anchor:middle;">&#1057;&#1077;&#1088;&#1075;&#1077;&#1077;&#1074;&#1080;&#1095;</tspan>
+<tspan x="1627.66666666667" y="914" style="stroke:none;fill:blue;text-anchor:middle;">&#1048;&#1074;&#1072;&#1085;&#1086;&#1074;</tspan>
+</text>
+</a>
+<a xlink:href='../ind00203.htm' target='detail'>
+<rect x="1617" y="847" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="1617" y="847" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+<a xlink:href='../ind00204.htm' target='detail'>
+<rect x="1663" y="948" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="1676" y="945.5">
+<tspan x="1678" dy="16" style="stroke:none;fill:#000000;">2005</tspan>
+</text>
+<rect x="1634.5" y="988" height="48px" width="83px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="1676" y="986">
+<tspan x="1677.66666666667" y="1002" style="stroke:none;fill: black;text-anchor:middle;">&#1040;&#1083;&#1080;&#1085;&#1072;</tspan>
+<tspan x="1677.66666666667" y="1018" style="stroke:none;fill: black;text-anchor:middle;">&#1040;&#1083;&#1077;&#1082;&#1089;&#1072;&#1085;&#1076;&#1088;&#1086;&#1074;&#1085;&#1072;</tspan>
+<tspan x="1677.66666666667" y="1034" style="stroke:none;fill: black;text-anchor:middle;">&#1048;&#1074;&#1072;&#1085;&#1086;&#1074;&#1072;</tspan>
+</text>
+<circle cx="1676" cy="976" r="9" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<circle cx="1676" cy="976" r="9" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="pink" begin="mouseover" end="mouseout"/>
+</circle>
+</a>
+<rect x="117" y="847" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="117" y="847" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+<a xlink:href='../ind00348.htm' target='detail'>
+<rect x="163" y="938" height="16px" width="26px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;text-anchor:middle;" x="176" y="935.5">
+<tspan x="178" dy="16" style="stroke:none;fill:#000000;">2006</tspan>
+</text>
+<rect x="153.5" y="978" height="16px" width="45px" style="stroke:none;fill:#FFFFFF;"/>
+<text style="font-size:10px;" x="176" y="976">
+<tspan x="177.666666666667" y="992" style="stroke:none;fill: black;text-anchor:middle;">&#1071;&#1088;&#1086;&#1089;&#1083;&#1072;&#1074;</tspan>
+</text>
+<rect x="167" y="957" width="18px" height="18px" style="cursor:pointer;stroke: white;fill:#FFFFFF;stroke-width:3px;"/>
+<rect x="167" y="957" width="18px" height="18px" style="cursor:pointer;stroke: #000000;fill:none;stroke-width:3px;">
+<set attributeName="fill" attributeType="CSS" to="cyan" begin="mouseover" end="mouseout"/>
+</rect>
+</a>
+
+	<circle id="highlight" cx="0" cy="0" r="50" style="stroke: fuchsia;stroke-width:5px;fill:none;opacity:0.3;" visibility="hidden"/>
+</g>
+	<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="64.163315"
+   height="111.75571"
+   x="10"
+   y="10"
+   id="controls">
+  <defs
+     id="defs2820">
+    <filter
+       x="-0.25"
+       y="-0.25"
+       width="1.5"
+       height="1.5"
+       color-interpolation-filters="sRGB"
+       id="filter3696">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2.000000"
+         in="SourceAlpha"
+         id="feGaussianBlur3698" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.500000 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix3700" />
+      <feOffset
+         result="offsetBlur"
+         dy="4.000000"
+         dx="4.000000"
+         in="bluralpha"
+         id="feOffset3702" />
+      <feMerge
+         result="fbSourceGraphic"
+         id="feMerge3704">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode3706" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode3708" />
+      </feMerge>
+      <feColorMatrix
+         id="feColorMatrix4144"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="1.000000"
+         in="fbSourceGraphicAlpha"
+         id="feGaussianBlur4146" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.500000 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix4148" />
+      <feOffset
+         result="offsetBlur"
+         dy="0.100000"
+         dx="0.100000"
+         in="bluralpha"
+         id="feOffset4150" />
+      <feMerge
+         result="fbSourceGraphic"
+         id="feMerge4152">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode4154" />
+        <feMergeNode
+           in="fbSourceGraphic"
+           id="feMergeNode4156" />
+      </feMerge>
+      <feColorMatrix
+         id="feColorMatrix4186"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="4.000000"
+         in="fbSourceGraphicAlpha"
+         id="feGaussianBlur4188" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.500000 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix4190" />
+      <feOffset
+         result="offsetBlur"
+         dy="0.100000"
+         dx="2.000000"
+         in="bluralpha"
+         id="feOffset4192" />
+      <feMerge
+         id="feMerge4194">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode4196" />
+        <feMergeNode
+           in="fbSourceGraphic"
+           id="feMergeNode4198" />
+      </feMerge>
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter4226">
+      <feGaussianBlur
+         id="feGaussianBlur4228"
+         stdDeviation="0.27510791" />
+    </filter>
+  </defs>
+  <g style="stroke:#B39B14">
+  <path
+     d="m 68.275423,4.9512706 a 51.336864,51.076271 0 1 1 -102.673729,0 51.336864,51.076271 0 1 1 102.673729,0 z"
+     transform="matrix(0.4959168,0,0,0.49844699,23.681542,29.646234)"
+     id="path3694"
+     style="fill:#ffffff;fill-opacity:1;stroke-width:0.99963737;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter3696)" />
+  <path
+     d="m 18.58418,27.739188 0.01309,-0.0027 -4.169491,3.84375 3.974046,4.039195 -2.084745,1.954449 -5.993644,-6.123941 6.254237,-5.863347 2.006502,2.152605 z"
+     id="path2836"
+     style="fill:#B39B14;fill-opacity:1;stroke:none" />
+  <path
+     d="m 35.645184,18.817952 0.0027,0.01309 -3.84375,-4.169491 -4.039195,3.974046 -1.954449,-2.084745 6.123941,-5.993645 5.863347,6.254238 -2.152605,2.006502 z"
+     id="path2836-1"
+     style="fill:#B39B14;fill-opacity:1;stroke:none" />
+  <path
+     d="m 27.778817,44.475469 -0.0027,-0.01309 3.84375,4.169491 4.039195,-3.974046 1.954449,2.084745 -6.123941,5.993644 -5.863347,-6.254237 2.152605,-2.006502 z"
+     id="path2836-4"
+     style="fill:#B39B14;fill-opacity:1;stroke:none" />
+  <path
+     d="m 44.637113,35.877315 -0.01309,0.0027 4.169491,-3.84375 -3.974046,-4.039195 2.084745,-1.954449 5.993644,6.123941 -6.254237,5.863347 -2.006502,-2.152605 z"
+     id="path2836-1-4"
+     style="fill:#B39B14;fill-opacity:1;stroke:none" />
+  <path
+     d="m 35.871081,37.288902 1.19637,-1.794555 1.26283,-2.25981 0.79758,-3.655575 -1.1299,-1.595161 -1.3293,0.996976 -0.79758,2.25981 0.0665,-4.519621 -1.92748,0.13293 -0.33233,3.788506 -0.0665,-4.386691 -1.92749,-0.06647 0.0665,3.921436 -1.3293,-1.06344 0.0665,-1.728091 -2.25981,-0.199395 -0.46525,2.126881 2.19334,2.459205 -2.92446,-0.66465 -0.13293,2.193345 1.39577,1.129905 1.1299,1.46223 1.66163,1.46223"
+     id="path4200"
+     style="fill:none;stroke-width:0.40000001;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:0.99415205;stroke-dasharray:none;filter:url(#filter4226)" />
+  <g
+     onclick="ZoomIn();"
+     id="ZoomIn">
+    <path
+       d="m 41.540844,75.846165 -0.0897,14.985927 -17.58828,-0.08974"
+       id="path4245"
+       style="fill:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 23.683364,75.935901 0.0897,13.99883 17.22933,-0.08974 -0.17947,-13.909094"
+       id="path4232"
+       style="fill:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 185.4845,16.219238 a 9.2428179,4.8457489 0 0 1 -18.48493,0.05967"
+       transform="matrix(0.9140012,0,0,-0.98675774,-128.87679,91.594199)"
+       id="path4241"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:1.23615646;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 32.230414,76.991732 0.0238,7.46195"
+       id="path4249"
+       style="fill:#ffffff;stroke-width:1.98008847;stroke-opacity:1" />
+    <path
+       d="m 28.363214,80.612923 7.74993,0 -7.74993,0 z"
+       id="path4251"
+       style="fill:#ffffff;stroke-width:1.84633887px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     transform="translate(2.3022537,3.699402)"
+     onclick="ZoomOut();"
+     id="ZoomOut">
+    <path
+       d="M 39.320482,89.514025 39.180261,102.27412"
+       id="path4338"
+       style="fill:#ffffff;;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 21.484491,102.34319 0.0897,-13.998827 17.22933,0.08974 -0.17947,13.909097"
+       id="path4232-2"
+       style="fill:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 185.4845,16.219238 a 9.2428179,4.8457489 0 0 1 -18.48493,0.05967"
+       transform="matrix(0.9140012,0,0,0.98675774,-130.59886,86.683287)"
+       id="path4241-4-1"
+       style="fill:#ffffff;stroke-width:1.23615646;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:0.87134507;stroke-dasharray:none" />
+    <path
+       d="m 185.4845,16.219238 a 9.2428179,4.8457489 0 0 1 -18.48493,0.05967"
+       transform="matrix(0.9140012,0,0,0.98675774,-131.05531,86.167363)"
+       id="path4241-4"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:1.23615646;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 25.802333,97.053049 7.74993,0 -7.74993,0 z"
+       id="path4251-5"
+       style="fill:#ffffff;stroke-width:1.84633887px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <rect
+     width="14.906313"
+     height="14.211117"
+     x="8.5363598"
+     y="25.281897"
+     id="PanLeft"
+     onclick="panmap(evt,getInnerWidth()/5,0)"
+     style="fill:#dbdce9;opacity:0" />
+  <rect
+     width="14.906313"
+     height="14.211117"
+     x="24.525877"
+     y="9.6399784"
+     id="PanUp"
+     onclick="panmap(evt,0,getInnerHeight()/5)"
+     style="fill:#dbdce9;opacity:0" />
+  <rect
+     width="14.906313"
+     height="14.211117"
+     x="40.051929"
+     y="24.934298"
+     id="PanRight"
+     onclick="panmap(evt,-getInnerWidth()/5,0)"
+     style="fill:#dbdce9;opacity:0" />
+  <rect
+     width="14.906313"
+     height="14.211117"
+     x="23.830681"
+     y="41.155548"
+     id="PanDown"
+     onclick="panmap(evt,0,-getInnerHeight()/5);"
+     style="fill:#dbdce9;opacity:0" />
+</g>
+</svg>
+	<g id="GenoPro" x="0" y="0" opacity='0.8' style="font-size:9px; stroke:none; text-anchor:middle; fill:darkblue" background-color="white">
+		<a xlink:href='http://www.genopro.com/reportgenerator/' target='_blank'>
+			<text cursor="pointer">
+				<tspan>Generated by GenoPro®. Click here for details.</tspan>
+			</text>
+	  </a>
+  </g>
+
+	<g id='ToolTip' opacity='0.9' visibility='hidden' pointer-events='none'>
+		<rect id='tipbox' x='0' y='5' width='0px' height='18px' rx='2' ry='2' fill='yellow' stroke='black' stroke-width='1'/>
+		<text id='tipText' x='5' y='6' font-size='9px' stroke='none' style='text-anchor:start;'>
+		</text>
+	</g>
+	<g>
+		<text id='tipTemp' x='0' y='0'  font-size='9px' stroke='none' ></text>
+	</g>
+</svg>

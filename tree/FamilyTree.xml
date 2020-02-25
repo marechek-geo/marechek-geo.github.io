@@ -1,0 +1,5390 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GenoPro>
+  <Software>GenoPro
+    <Name>GenoPro® - Picture Your Family Tree!(TM)</Name>
+    <Version>2.5.4.1</Version>
+    <Address>http://www.genopro.com</Address>
+  </Software>
+  <Date>24 Sep 2012</Date>
+
+<Global>
+  <Name>
+    <Full Format="%T %F (%N) %M %L (%L2) %S"/>
+    <Display Format="%F %M %L (%L2)" Lines="3"/>
+  </Name>
+  <Font>Palatino Linotype</Font>
+  <Display>
+    <Tag>YoB_YoD</Tag>
+    <Colors>
+      <Gender Symbol="#000000" Text="#000000" Fill="#FFFFFF">
+        <Fill>
+          <Top Left="#FF0000" Right="#FF0000"/>
+          <Bottom Left="#FF0000" Right="#FF0000"/>
+        </Fill>
+      </Gender>
+      <Border Outline="#000080">
+        <Fill>#FFFF80</Fill>
+      </Border>
+      <Label Top="#000000" Bottom="#000000">
+        <Fill Top="#FFFFFF" Bottom="#FFFFFF"/>
+      </Label>
+    </Colors>
+  </Display>
+  <Document>
+    <Title>Mareček genealogy</Title>
+    <Description>Mareček genealogy tracks the pedigrees and biographies of families related to the Mareček family.</Description>
+  </Document>
+  <ActiveGenoMap>Marechek</ActiveGenoMap>
+  <Options CreateNamelessBookmarks="Y"/>
+</Global>
+<GenoMaps>
+<GenoMap Name="Marechek" Zoom="50" Position="1856,-165" BoundaryRect="-166,356,3878,-687"/>
+<GenoMap Name="Krauskopf" Position="417,247" BoundaryRect="67,489,767,6"/>
+<GenoMap Name="Bauerova" Position="709,-5" BoundaryRect="34,330,1384,-341"/>
+<GenoMap Name="Křižova" Position="-119,-72" BoundaryRect="-476,140,238,-285"/>
+<GenoMap Name="Пятницкая" Position="80,39" BoundaryRect="-506,386,666,-307"/>
+<GenoMap Name="Иванов" Position="107,34" BoundaryRect="-47,136,262,-67"/>
+<GenoMap Name="Другов" Zoom="50" Position="596,159" BoundaryRect="-452,506,1644,-187"/>
+<GenoMap Name="Кузнецова_Анфиса" Position="98,34" BoundaryRect="-79,136,276,-67"/>
+<GenoMap Name="Латышева" Position="152,39" BoundaryRect="-386,266,690,-187"/>
+</GenoMaps>
+<Individuals>
+<Individual ID="ind00001">
+  <Name>Kalus
+    <Display>Kalus</Display>
+    <Last>Kalus</Last>
+  </Name>
+  <Position BoundaryRect="254,356,306,295">280,330</Position>
+  <Gender>M</Gender>
+  <Comment>Kalus was active in Czech culture and academia. Lived in the first half of the 19th century.</Comment>
+</Individual>
+<Individual ID="ind00002">
+  <Position BoundaryRect="324,356,376,304">350,330</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00003">
+  <Name>Filipp
+    <Display>Filipp</Display>
+    <First>Filipp</First>
+  </Name>
+  <Position BoundaryRect="-166,216,-114,155">-140,190</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00004">
+  <Name>Johanka
+    <Display>Johanka</Display>
+    <First>Johanka</First>
+  </Name>
+  <Position BoundaryRect="-97,216,-43,155">-70,190</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00005">
+  <Name>Cecilia
+    <Display>Cecilia</Display>
+    <First>Cecilia</First>
+  </Name>
+  <Position BoundaryRect="-26,216,26,155">0,190</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00006">
+  <Name>Viktoria
+    <Display>Viktoria</Display>
+    <First>Viktoria</First>
+  </Name>
+  <Position BoundaryRect="42,216,98,155">70,190</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00007">
+  <Name>Marie
+    <Display>Marie</Display>
+    <First>Marie</First>
+  </Name>
+  <Position BoundaryRect="114,216,166,155">140,190</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00008">
+  <Name>Jan
+    <Display>Jan</Display>
+    <First>Jan</First>
+  </Name>
+  <Position BoundaryRect="174,216,226,155">200,190</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00009">
+  <Name>Františko
+    <Display>Františko</Display>
+    <First>Františko</First>
+  </Name>
+  <Position BoundaryRect="249,216,310,155">280,190</Position>
+</Individual>
+<Individual ID="ind00010">
+  <Name>Věra
+    <Display>Věra</Display>
+    <First>Věra</First>
+  </Name>
+  <Position BoundaryRect="324,216,376,155">350,190</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00011">
+  <Name>Anna
+    <Display>Anna</Display>
+    <First>Anna</First>
+  </Name>
+  <Position BoundaryRect="394,216,446,155">420,190</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00012">
+  <Name>Amalie
+    <Display>Amalie</Display>
+    <First>Amalie</First>
+  </Name>
+  <Position BoundaryRect="454,216,506,155">480,190</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00013">
+  <Name>Aněžka
+    <Display>Aněžka</Display>
+    <First>Aněžka</First>
+  </Name>
+  <Position BoundaryRect="523,216,577,155">550,190</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00014">
+  <Name>Antonia
+    <Display>Antonia</Display>
+    <First>Antonia</First>
+  </Name>
+  <Position BoundaryRect="592,216,647,155">620,190</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00015">
+  <Name>František
+    <Display>František</Display>
+    <First>František</First>
+  </Name>
+  <Position BoundaryRect="660,216,720,155">690,190</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00016">
+  <Name>Josef Kalus
+    <Display>Josef Kalus</Display>
+    <First>Josef</First>
+    <Last>Kalus</Last>
+  </Name>
+  <Position BoundaryRect="744,216,796,139">770,190</Position>
+  <Gender>M</Gender>
+  <Families Order="fam00004, fam00005, fam00002"/>
+</Individual>
+<Individual ID="ind00017">
+  <Name>Marie Blahova
+    <Display>Marie Blahova</Display>
+    <First>Marie</First>
+    <Last>Blahova</Last>
+  </Name>
+  <Position BoundaryRect="3822,216,3878,139">3850,190</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00018">
+  <Name>František Blaha
+    <Display>František Blaha</Display>
+    <First>František</First>
+    <Last>Blaha</Last>
+  </Name>
+  <Position BoundaryRect="3680,106,3740,29">3710,80</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00019">
+  <Position BoundaryRect="3754,106,3806,54">3780,80</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00020">
+  <Name>Rudolf Bláha
+    <Display>Rudolf Bláha</Display>
+    <First>Rudolf</First>
+    <Last>Bláha</Last>
+  </Name>
+  <Contacts>contact00001</Contacts>
+  <Position BoundaryRect="3704,-4,3756,-81">3730,-30</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00021">
+  <Position BoundaryRect="824,216,876,164">850,190</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00022">
+  <Name>Jan Kalus
+    <Display>Jan Kalus</Display>
+    <First>Jan</First>
+    <Last>Kalus</Last>
+  </Name>
+  <Position BoundaryRect="764,106,816,29">790,80</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00023">
+  <Name>Marie Plankova
+    <Display>Marie Plankova</Display>
+    <First>Marie</First>
+    <Last>Plankova</Last>
+  </Name>
+  <Position BoundaryRect="3629,216,3691,139">3660,190</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00024">
+  <Name>Pavel Planka
+    <Display>Pavel Planka</Display>
+    <First>Pavel</First>
+    <Last>Planka</Last>
+  </Name>
+  <Position BoundaryRect="874,106,926,29">900,80</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00025">
+  <Name>Rozina Marečkova
+    <Display>Rozina Marečkova</Display>
+    <First>Rozina</First>
+    <Last>Marečkova</Last>
+  </Name>
+  <Position BoundaryRect="1483,106,1556,29">1520,80</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00026">
+  <Name>Marie
+    <Display>Marie</Display>
+    <First>Marie</First>
+  </Name>
+  <Position BoundaryRect="1964,106,2016,45">1990,80</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00027">
+  <Name>Marie
+    <Display>Marie</Display>
+    <First>Marie</First>
+  </Name>
+  <Position BoundaryRect="3374,106,3426,45">3400,80</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00028">
+  <Name>Rudolf Mareček
+    <Display>Rudolf Mareček</Display>
+    <First>Rudolf</First>
+    <Last>Mareček</Last>
+    <Alternative>Рудольф Павлович Маречек (in USSR)</Alternative>
+  </Name>
+  <Pictures Primary="pic00023">pic00003, pic00004, pic00005, pic00010, pic00013, pic00015, pic00017, pic00018, pic00021, pic00022, pic00023</Pictures>
+  <Position BoundaryRect="885,4,955,-81">920,-30</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>28 Feb 1888</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>20 Mar 1970</Date>
+    <Place>place00004</Place>
+  </Death>
+</Individual>
+<Individual ID="ind00029">
+  <Name>František Planka
+    <Display>František Planka</Display>
+    <First>František</First>
+    <Last>Planka</Last>
+  </Name>
+  <Position BoundaryRect="1610,-4,1670,-81">1640,-30</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00030">
+  <Name>Josef Planka
+    <Display>Josef Planka</Display>
+    <First>Josef</First>
+    <Last>Planka</Last>
+  </Name>
+  <Position BoundaryRect="1754,-4,1806,-81">1780,-30</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00031">
+  <Name>Emil Planka
+    <Display>Emil Planka</Display>
+    <First>Emil</First>
+    <Last>Planka</Last>
+  </Name>
+  <Position BoundaryRect="2354,-4,2406,-81">2380,-30</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00032">
+  <Name>Pavel Planka
+    <Display>Pavel Planka</Display>
+    <First>Pavel</First>
+    <Last>Planka</Last>
+  </Name>
+  <Position BoundaryRect="2944,-4,2996,-81">2970,-30</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00033">
+  <Name>Jaroslav Planka
+    <Display>Jaroslav Planka</Display>
+    <First>Jaroslav</First>
+    <Last>Planka</Last>
+  </Name>
+  <Position BoundaryRect="3325,4,3395,-81">3360,-30</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>18 Dec 1915</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00034">
+  <Name>Albina (Bela) Krauskopfova (Marečkova)
+    <Display>Albina (Bela) Krauskopfova (Marečkova)</Display>
+    <First>Albina (Bela)</First>
+    <Last>Krauskopfova</Last>
+    <Last2>Marečkova</Last2>
+    <Alternative>Albina Krauskopf (maiden name); Бела Томасовна Маречек (in USSR, after marriage)</Alternative>
+  </Name>
+  <Pictures Primary="pic00012">pic00004, pic00005, pic00010, pic00012, pic00014, pic00016, pic00020</Pictures>
+  <Position BoundaryRect="1297,4,1382,-97">1340,-30</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>4 Jan 1895</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>30 Nov 1982</Date>
+    <Place>place00006</Place>
+  </Death>
+  <Comment>Albina Krauskopfova (or Albina Krauskopf) is her maiden name. Upon marriage, she changed her name to Bela Marečkova. After she moved to USSR, her name became Бела Томасовна Маречек.</Comment>
+</Individual>
+<Individual ID="ind00035">
+  <Name>Анна Афанасьевна
+    <Display>Анна Афанасьевна</Display>
+    <First>Анна</First>
+    <Middle>Афанасьевна</Middle>
+  </Name>
+  <Pictures Primary="pic00013">pic00013, pic00021</Pictures>
+  <Position BoundaryRect="1397,4,1483,-81">1440,-30</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>26 Jun 1896</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>12 Jun 1980</Date>
+    <Place>place00004</Place>
+  </Death>
+</Individual>
+<Individual ID="ind00036">
+  <Position BoundaryRect="1684,-4,1736,-56">1710,-30</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00037">
+  <Name>Gizela
+    <Display>Gizela</Display>
+    <First>Gizela</First>
+  </Name>
+  <Position BoundaryRect="1824,-4,1876,-65">1850,-30</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00038">
+  <Position BoundaryRect="2424,-4,2476,-56">2450,-30</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00039">
+  <Position BoundaryRect="3014,-4,3066,-56">3040,-30</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00040">
+  <Name>Věra
+    <Display>Věra</Display>
+    <First>Věra</First>
+  </Name>
+  <Position BoundaryRect="3395,4,3465,-65">3430,-30</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>21 Jul 1927</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00041">
+  <Name>Miroslav Mareček
+    <Display>Miroslav Mareček</Display>
+    <First>Miroslav</First>
+    <Last>Mareček</Last>
+  </Name>
+  <Pictures Primary="pic00004">pic00004</Pictures>
+  <Position BoundaryRect="905,-116,975,-201">940,-150</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>1913</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>1918</Date>
+  </Death>
+</Individual>
+<Individual ID="ind00042">
+  <Name>Venceslava Marečkova
+    <Display>Venceslava Marečkova</Display>
+    <First>Venceslava</First>
+    <Last>Marečkova</Last>
+  </Name>
+  <Pictures Primary="pic00004">pic00004</Pictures>
+  <Position BoundaryRect="973,-116,1047,-201">1010,-150</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>1915</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>1918</Date>
+  </Death>
+</Individual>
+<Individual ID="ind00043">
+  <Name>Bořivoi Mareček
+    <Display>Bořivoi Mareček</Display>
+    <First>Bořivoi</First>
+    <Last>Mareček</Last>
+  </Name>
+  <Pictures Primary="pic00019">pic00005, pic00009, pic00011, pic00013, pic00014, pic00015, pic00019</Pictures>
+  <Position BoundaryRect="1045,-116,1115,-201">1080,-150</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>21 Mar 1917</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>8 May 2001</Date>
+  </Death>
+</Individual>
+<Individual ID="ind00044">
+  <Name>Drahomira Marečkova
+    <Display>Drahomira Marečkova</Display>
+    <First>Drahomira</First>
+    <Last>Marečkova</Last>
+  </Name>
+  <Pictures Primary="pic00020">pic00005, pic00009, pic00011, pic00013, pic00014, pic00015, pic00020, pic00022</Pictures>
+  <Position BoundaryRect="1113,-116,1186,-201">1150,-150</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>12 Feb 1919</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>8 Aug 2004</Date>
+  </Death>
+</Individual>
+<Individual ID="ind00045">
+  <Name>Vladivoj Mareček
+    <Display>Vladivoj Mareček</Display>
+    <First>Vladivoj</First>
+    <Last>Mareček</Last>
+  </Name>
+  <Pictures Primary="pic00015">pic00005, pic00009, pic00011, pic00013, pic00014, pic00015</Pictures>
+  <Position BoundaryRect="1185,-116,1255,-201">1220,-150</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>20 Nov 1920</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>3 Sep 2012</Date>
+  </Death>
+</Individual>
+<Individual ID="ind00046">
+  <Name>Kvetoslav Mareček
+    <Display>Kvetoslav Mareček</Display>
+    <First>Kvetoslav</First>
+    <Last>Mareček</Last>
+  </Name>
+  <Pictures Primary="pic00016">pic00005, pic00011, pic00013, pic00014, pic00015, pic00016</Pictures>
+  <Position BoundaryRect="1245,-116,1315,-201">1280,-150</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>30 Jul 1923</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>26 Jun 2004</Date>
+  </Death>
+</Individual>
+<Individual ID="ind00047">
+  <Name>Olga Planka
+    <Display>Olga Planka</Display>
+    <First>Olga</First>
+    <Last>Planka</Last>
+  </Name>
+  <Contacts>contact00002</Contacts>
+  <Position BoundaryRect="1614,-144,1666,-221">1640,-170</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00048">
+  <Name>Bořivoj Planka
+    <Display>Bořivoj Planka</Display>
+    <First>Bořivoj</First>
+    <Last>Planka</Last>
+  </Name>
+  <Position BoundaryRect="1683,-144,1737,-221">1710,-170</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00049">
+  <Name>Vodopič
+    <Display>Vodopič</Display>
+    <First>Vodopič</First>
+  </Name>
+  <Contacts>contact00002</Contacts>
+  <Position BoundaryRect="1540,-144,1600,-205">1570,-170</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00050">
+  <Name>Rudolf Planka
+    <Display>Rudolf Planka</Display>
+    <First>Rudolf</First>
+    <Last>Planka</Last>
+  </Name>
+  <Position BoundaryRect="1754,-144,1806,-221">1780,-170</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00051">
+  <Name>Josef Planka
+    <Display>Josef Planka</Display>
+    <First>Josef</First>
+    <Last>Planka</Last>
+  </Name>
+  <Position BoundaryRect="1824,-144,1876,-221">1850,-170</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00052">
+  <Name>Gabriela
+    <Display>Gabriela</Display>
+    <First>Gabriela</First>
+  </Name>
+  <Position BoundaryRect="1891,-144,1948,-205">1920,-170</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00053">
+  <Name>Rudolf Planka
+    <Display>Rudolf Planka</Display>
+    <First>Rudolf</First>
+    <Last>Planka</Last>
+  </Name>
+  <Position BoundaryRect="2054,-144,2106,-221">2080,-170</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00054">
+  <Name>Marie
+    <Display>Marie</Display>
+    <First>Marie</First>
+  </Name>
+  <Position BoundaryRect="2124,-144,2176,-205">2150,-170</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00055">
+  <Name>Věra (Hrnčiarova)
+    <Display>Věra (Hrnčiarova)</Display>
+    <First>Věra</First>
+    <Last2>Hrnčiarova</Last2>
+  </Name>
+  <Position BoundaryRect="2290,-144,2370,-221">2330,-170</Position>
+  <Gender>F</Gender>
+  <Comment>Took husband&#39;s last name.</Comment>
+</Individual>
+<Individual ID="ind00056">
+  <Name>Emil Planka
+    <Display>Emil Planka</Display>
+    <First>Emil</First>
+    <Last>Planka</Last>
+  </Name>
+  <Position BoundaryRect="2555,-146,2625,-231">2590,-180</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>16 Nov 1946</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00057">
+  <Name>Emilie Biclikova
+    <Display>Emilie Biclikova</Display>
+    <First>Emilie</First>
+    <Last>Biclikova</Last>
+  </Name>
+  <Position BoundaryRect="2625,-146,2695,-231">2660,-180</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>17 Mar 1946</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00058">
+  <Name>Peter Planka
+    <Display>Peter Planka</Display>
+    <First>Peter</First>
+    <Last>Planka</Last>
+  </Name>
+  <Position BoundaryRect="2375,-146,2445,-231">2410,-180</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>16 Oct 1944</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00059">
+  <Name>Anna
+    <Display>Anna</Display>
+    <First>Anna</First>
+  </Name>
+  <Position BoundaryRect="2445,-146,2515,-215">2480,-180</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>12 Oct 1946</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00060">
+  <Name>Pavel
+    <Display>Pavel</Display>
+    <First>Pavel</First>
+  </Name>
+  <Position BoundaryRect="2724,-144,2776,-205">2750,-170</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00061">
+  <Name>Eva
+    <Display>Eva</Display>
+    <First>Eva</First>
+  </Name>
+  <Position BoundaryRect="2794,-144,2846,-205">2820,-170</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00062">
+  <Name>Margarita Plankova (Herp)
+    <Display>Margarita Plankova (Herp)</Display>
+    <First>Margarita</First>
+    <Last>Plankova</Last>
+    <Last2>Herp</Last2>
+  </Name>
+  <Position BoundaryRect="2928,-144,2991,-237">2960,-170</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00063">
+  <Name>Pavel Planka
+    <Display>Pavel Planka</Display>
+    <First>Pavel</First>
+    <Last>Planka</Last>
+  </Name>
+  <Position BoundaryRect="3004,-144,3056,-221">3030,-170</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00064">
+  <Name>Jaroslav Planka
+    <Display>Jaroslav Planka</Display>
+    <First>Jaroslav</First>
+    <Last>Planka</Last>
+  </Name>
+  <Position BoundaryRect="3155,-146,3225,-231">3190,-180</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>18 Jan 1941</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00065">
+  <Name>Dušan Planka
+    <Display>Dušan Planka</Display>
+    <First>Dušan</First>
+    <Last>Planka</Last>
+  </Name>
+  <Position BoundaryRect="3355,-146,3425,-231">3390,-180</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>18 Dec 1947</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00066">
+  <Name>Jan Planka
+    <Display>Jan Planka</Display>
+    <First>Jan</First>
+    <Last>Planka</Last>
+  </Name>
+  <Position BoundaryRect="3425,-146,3495,-231">3460,-180</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>29 Nov 1951</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00067">
+  <Name>Anna
+    <Display>Anna</Display>
+    <First>Anna</First>
+  </Name>
+  <Position BoundaryRect="3504,-154,3556,-215">3530,-180</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00068">
+  <Name>Milan Planka
+    <Display>Milan Planka</Display>
+    <First>Milan</First>
+    <Last>Planka</Last>
+  </Name>
+  <Position BoundaryRect="3555,-146,3625,-231">3590,-180</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>19 Feb 1955</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00069">
+  <Name>Pavel Planka
+    <Display>Pavel Planka</Display>
+    <First>Pavel</First>
+    <Last>Planka</Last>
+  </Name>
+  <Position BoundaryRect="1844,-264,1896,-341">1870,-290</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00070">
+  <Name>Jaroslava
+    <Display>Jaroslava</Display>
+    <First>Jaroslava</First>
+  </Name>
+  <Position BoundaryRect="2010,-294,2070,-355">2040,-320</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00071">
+  <Name>Kamil
+    <Display>Kamil</Display>
+    <First>Kamil</First>
+  </Name>
+  <Position BoundaryRect="2094,-294,2146,-355">2120,-320</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00072">
+  <Name>Bořivoj
+    <Display>Bořivoj</Display>
+    <First>Bořivoj</First>
+  </Name>
+  <Position BoundaryRect="2153,-294,2207,-355">2180,-320</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00073">
+  <Name>Stefan Hrnčiar
+    <Display>Stefan Hrnčiar</Display>
+    <First>Stefan</First>
+    <Last>Hrnčiar</Last>
+  </Name>
+  <Position BoundaryRect="2223,-144,2276,-221">2250,-170</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00074">
+  <Name>Olga
+    <Display>Olga</Display>
+    <First>Olga</First>
+  </Name>
+  <Position BoundaryRect="2224,-294,2276,-355">2250,-320</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00075">
+  <Name>Jan
+    <Display>Jan</Display>
+    <First>Jan</First>
+  </Name>
+  <Position BoundaryRect="2294,-294,2346,-355">2320,-320</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00076">
+  <Name>Jan
+    <Display>Jan</Display>
+    <First>Jan</First>
+  </Name>
+  <Position BoundaryRect="2384,-294,2436,-355">2410,-320</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00077">
+  <Name>Marie
+    <Display>Marie</Display>
+    <First>Marie</First>
+  </Name>
+  <Position BoundaryRect="2454,-294,2506,-355">2480,-320</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00078">
+  <Name>Jvan
+    <Display>Jvan</Display>
+    <First>Jvan</First>
+  </Name>
+  <Position BoundaryRect="2524,-294,2576,-355">2550,-320</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00079">
+  <Name>Peter
+    <Display>Peter</Display>
+    <First>Peter</First>
+  </Name>
+  <Position BoundaryRect="2594,-294,2646,-355">2620,-320</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00080">
+  <Position BoundaryRect="2654,-294,2706,-346">2680,-320</Position>
+</Individual>
+<Individual ID="ind00081">
+  <Position BoundaryRect="2724,-294,2776,-346">2750,-320</Position>
+</Individual>
+<Individual ID="ind00082">
+  <Position BoundaryRect="2794,-294,2846,-346">2820,-320</Position>
+</Individual>
+<Individual ID="ind00083">
+  <Name>Herp
+    <Display>Herp</Display>
+    <Last>Herp</Last>
+  </Name>
+  <Position BoundaryRect="2864,-164,2916,-225">2890,-190</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00084">
+  <Name>Richard Herp
+    <Display>Richard Herp</Display>
+    <First>Richard</First>
+    <Last>Herp</Last>
+  </Name>
+  <Position BoundaryRect="2883,-274,2936,-351">2910,-300</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00085">
+  <Name>Marie Čupalkova
+    <Display>Marie Čupalkova</Display>
+    <First>Marie</First>
+    <Last>Čupalkova</Last>
+  </Name>
+  <Position BoundaryRect="3235,-154,3304,-231">3270,-180</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00086">
+  <Name>Dušanka
+    <Display>Dušanka</Display>
+    <First>Dušanka</First>
+  </Name>
+  <Position BoundaryRect="3075,-286,3145,-355">3110,-320</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>19 Sep 1960</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00087">
+  <Name>Alenka
+    <Display>Alenka</Display>
+    <First>Alenka</First>
+  </Name>
+  <Position BoundaryRect="3145,-286,3215,-355">3180,-320</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>18 Apr 1962</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00088">
+  <Name>Jaroslav
+    <Display>Jaroslav</Display>
+    <First>Jaroslav</First>
+  </Name>
+  <Position BoundaryRect="3215,-286,3285,-355">3250,-320</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>5 Feb 1965</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00089">
+  <Name>Zuzana
+    <Display>Zuzana</Display>
+    <First>Zuzana</First>
+  </Name>
+  <Position BoundaryRect="3285,-286,3355,-355">3320,-320</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>8 Nov 1966</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00090">
+  <Name>Monika
+    <Display>Monika</Display>
+    <First>Monika</First>
+  </Name>
+  <Position BoundaryRect="3453,-264,3507,-325">3480,-290</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00091" IndividualInternalHyperlink="ind00034">
+  <Name>
+    <Display>Albina (Bela) Krauskopfova (Marečkova)</Display>
+  </Name>
+  <Position GenoMap="Krauskopf" BoundaryRect="249,207,334,106">292,173</Position>
+</Individual>
+<Individual ID="ind00092">
+  <Name>Tomàš Krauskopf
+    <Display>Tomàš Krauskopf</Display>
+    <First>Tomàš</First>
+    <Last>Krauskopf</Last>
+  </Name>
+  <Position GenoMap="Krauskopf" BoundaryRect="228,347,294,270">261,321</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00093">
+  <Name>Eva Bauerova
+    <Display>Eva Bauerova</Display>
+    <First>Eva</First>
+    <Last>Bauerova</Last>
+  </Name>
+  <Position GenoMap="Krauskopf" BoundaryRect="309,347,372,270">341,321</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00094">
+  <Name>Marie Krauskopfova
+    <Display>Marie Krauskopfova</Display>
+    <First>Marie</First>
+    <Last>Krauskopfova</Last>
+  </Name>
+  <Pictures Primary="pic00008">pic00008</Pictures>
+  <Position GenoMap="Krauskopf" BoundaryRect="148,202,233,125">191,176</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00095">
+  <Name>Killian Krauskopf
+    <Display>Killian Krauskopf</Display>
+    <First>Killian</First>
+    <Last>Krauskopf</Last>
+  </Name>
+  <Pictures Primary="pic00006">pic00006, pic00007</Pictures>
+  <Position GenoMap="Krauskopf" BoundaryRect="351,202,417,125">384,176</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00096">
+  <Name>Krauskopf
+    <Display>Krauskopf</Display>
+    <Last>Krauskopf</Last>
+  </Name>
+  <Position GenoMap="Krauskopf" BoundaryRect="217,489,283,428">250,463</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00097">
+  <Position GenoMap="Krauskopf" BoundaryRect="299,489,351,437">325,463</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00098">
+  <Name>Krauskopf
+    <Display>Krauskopf</Display>
+    <Last>Krauskopf</Last>
+  </Name>
+  <Contacts>contact00004</Contacts>
+  <Position GenoMap="Krauskopf" BoundaryRect="67,347,133,286">100,321</Position>
+  <Gender>M</Gender>
+  <Comment>musician</Comment>
+</Individual>
+<Individual ID="ind00099">
+  <Name>Tereza Krauskopfova
+    <Display>Tereza Krauskopfova</Display>
+    <First>Tereza</First>
+    <Last>Krauskopfova</Last>
+  </Name>
+  <Position GenoMap="Krauskopf" BoundaryRect="653,344,738,267">696,318</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00100">
+  <Name>Tácha
+    <Display>Tácha</Display>
+    <Last>Tácha</Last>
+  </Name>
+  <Position GenoMap="Krauskopf" BoundaryRect="575,343,627,282">601,317</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00101">
+  <Name>Marie Táchova
+    <Display>Marie Táchova</Display>
+    <First>Marie</First>
+    <Last>Táchova</Last>
+  </Name>
+  <Position GenoMap="Krauskopf" BoundaryRect="441,201,500,124">471,175</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00102">
+  <Name>Cecilie Táchova
+    <Display>Cecilie Táchova</Display>
+    <First>Cecilie</First>
+    <Last>Táchova</Last>
+  </Name>
+  <Position GenoMap="Krauskopf" BoundaryRect="516,201,575,124">546,175</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00103">
+  <Name>Margarita Táchova
+    <Display>Margarita Táchova</Display>
+    <First>Margarita</First>
+    <Last>Táchova</Last>
+  </Name>
+  <Position GenoMap="Krauskopf" BoundaryRect="703,201,766,124">735,175</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00104">
+  <Position GenoMap="Krauskopf" BoundaryRect="624,200,676,148">650,174</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00105">
+  <Contacts>contact00005</Contacts>
+  <Position GenoMap="Krauskopf" BoundaryRect="634,58,686,6">660,32</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00106">
+  <Contacts>contact00005</Contacts>
+  <Position GenoMap="Krauskopf" BoundaryRect="702,58,754,6">728,32</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00107" IndividualInternalHyperlink="ind00093">
+  <Name>
+    <Display>Eva Bauerova</Display>
+  </Name>
+  <Position GenoMap="Bauerova" BoundaryRect="392,68,455,-9">424,42</Position>
+</Individual>
+<Individual ID="ind00108">
+  <Name>Bauer
+    <Display>Bauer</Display>
+    <Last>Bauer</Last>
+  </Name>
+  <Position GenoMap="Bauerova" BoundaryRect="374,176,426,115">400,150</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00109">
+  <Name>Marie Binderova
+    <Display>Marie Binderova</Display>
+    <First>Marie</First>
+    <Last>Binderova</Last>
+  </Name>
+  <Position GenoMap="Bauerova" BoundaryRect="1316,186,1383,109">1350,160</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00110">
+  <Name>Binder
+    <Display>Binder</Display>
+    <Last>Binder</Last>
+  </Name>
+  <Position GenoMap="Bauerova" BoundaryRect="274,330,326,269">300,304</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00111">
+  <Position GenoMap="Bauerova" BoundaryRect="342,330,394,278">368,304</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00112">
+  <Name>Hlavnička
+    <Display>Hlavnička</Display>
+    <Last>Hlavnička</Last>
+  </Name>
+  <Position GenoMap="Krauskopf" BoundaryRect="78,202,144,141">111,176</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00113">
+  <Name>Binderova
+    <Display>Binderova</Display>
+    <Last>Binderova</Last>
+  </Name>
+  <Contacts>contact00008</Contacts>
+  <Position GenoMap="Bauerova" BoundaryRect="282,188,349,127">316,162</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00114">
+  <Name>Moser
+    <Display>Moser</Display>
+    <Last>Moser</Last>
+  </Name>
+  <Contacts>contact00008</Contacts>
+  <Position GenoMap="Bauerova" BoundaryRect="232,188,284,127">258,162</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00115">
+  <Name>Binder
+    <Display>Binder</Display>
+    <Last>Binder</Last>
+  </Name>
+  <Contacts>contact00007</Contacts>
+  <Position GenoMap="Bauerova" BoundaryRect="64,186,116,125">90,160</Position>
+  <Gender>M</Gender>
+  <Occupations>occu00001</Occupations>
+</Individual>
+<Individual ID="ind00116">
+  <Position GenoMap="Bauerova" BoundaryRect="124,186,176,134">150,160</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00117">
+  <Position GenoMap="Bauerova" BoundaryRect="94,66,146,14">120,40</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00118">
+  <Position GenoMap="Bauerova" BoundaryRect="34,66,86,14">60,40</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00119">
+  <Position GenoMap="Bauerova" BoundaryRect="64,-34,116,-86">90,-60</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00120">
+  <Name>Anna Bauerova
+    <Display>Anna Bauerova</Display>
+    <First>Anna</First>
+    <Last>Bauerova</Last>
+  </Name>
+  <Position GenoMap="Bauerova" BoundaryRect="1298,56,1361,-21">1330,30</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00121">
+  <Name>Blaha
+    <Display>Blaha</Display>
+    <Last>Blaha</Last>
+  </Name>
+  <Position GenoMap="Bauerova" BoundaryRect="464,66,516,5">490,40</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00122">
+  <Name>Ján Blaha
+    <Display>Ján Blaha</Display>
+    <First>Ján</First>
+    <Last>Blaha</Last>
+  </Name>
+  <Position GenoMap="Bauerova" BoundaryRect="484,-44,536,-121">510,-70</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00123">
+  <Name>Jaroslav Blaha
+    <Display>Jaroslav Blaha</Display>
+    <First>Jaroslav</First>
+    <Last>Blaha</Last>
+  </Name>
+  <Position GenoMap="Bauerova" BoundaryRect="602,-44,657,-121">630,-70</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00124">
+  <Name>Anna Bláhová
+    <Display>Anna Bláhová</Display>
+    <First>Anna</First>
+    <Last>Bláhová</Last>
+  </Name>
+  <Position GenoMap="Bauerova" BoundaryRect="1272,-44,1328,-121">1300,-70</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00125">
+  <Name>Růžena Křižová
+    <Display>Růžena Křižová</Display>
+    <First>Růžena</First>
+    <Last>Křižová</Last>
+  </Name>
+  <Position GenoMap="Bauerova" BoundaryRect="532,-44,588,-121">560,-70</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00126" IndividualInternalHyperlink="ind00125">
+  <Name>
+    <Display>Růžena Křižová</Display>
+  </Name>
+  <Position GenoMap="Křižova" BoundaryRect="-38,-4,18,-81">-10,-30</Position>
+</Individual>
+<Individual ID="ind00127">
+  <Name>Křiž
+    <Display>Křiž</Display>
+    <Last>Křiž</Last>
+  </Name>
+  <Position GenoMap="Křižova" BoundaryRect="-56,140,-4,79">-30,114</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00128">
+  <Position GenoMap="Křižova" BoundaryRect="12,140,64,88">38,114</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00129">
+  <Name>Pavla Křižová
+    <Display>Pavla Křižová</Display>
+    <First>Pavla</First>
+    <Last>Křižová</Last>
+  </Name>
+  <Position GenoMap="Křižova" BoundaryRect="-408,-4,-352,-81">-380,-30</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00130">
+  <Name>František Křiž
+    <Display>František Křiž</Display>
+    <First>František</First>
+    <Last>Křiž</Last>
+  </Name>
+  <Position GenoMap="Křižova" BoundaryRect="-290,-4,-230,-81">-260,-30</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00131">
+  <Name>Adolf Křiž
+    <Display>Adolf Křiž</Display>
+    <First>Adolf</First>
+    <Last>Křiž</Last>
+  </Name>
+  <Position GenoMap="Křižova" BoundaryRect="44,-4,96,-81">70,-30</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00132">
+  <Name>Anna Křižová
+    <Display>Anna Křižová</Display>
+    <First>Anna</First>
+    <Last>Křižová</Last>
+  </Name>
+  <Position GenoMap="Křižova" BoundaryRect="122,-4,178,-81">150,-30</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00133">
+  <Name>Emma Křižová
+    <Display>Emma Křižová</Display>
+    <First>Emma</First>
+    <Last>Křižová</Last>
+  </Name>
+  <Position GenoMap="Křižova" BoundaryRect="182,-4,238,-81">210,-30</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00134">
+  <Position GenoMap="Křižova" BoundaryRect="-106,-4,-54,-56">-80,-30</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00135">
+  <Name>Zdena Křižová
+    <Display>Zdena Křižová</Display>
+    <First>Zdena</First>
+    <Last>Křižová</Last>
+  </Name>
+  <Position GenoMap="Křižova" BoundaryRect="-268,-114,-212,-191">-240,-140</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00136">
+  <Name>Dáša Křižová
+    <Display>Dáša Křižová</Display>
+    <First>Dáša</First>
+    <Last>Křižová</Last>
+  </Name>
+  <Position GenoMap="Křižova" BoundaryRect="-128,-114,-72,-191">-100,-140</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00137">
+  <Name>Allizár
+    <Display>Allizár</Display>
+    <Last>Allizár</Last>
+  </Name>
+  <Position GenoMap="Křižova" BoundaryRect="-426,-114,-374,-175">-400,-140</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00138">
+  <Name>Ivo
+    <Display>Ivo</Display>
+    <First>Ivo</First>
+  </Name>
+  <Position GenoMap="Křižova" BoundaryRect="-396,-224,-344,-285">-370,-250</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00139">
+  <Name>Jiri
+    <Display>Jiri</Display>
+    <First>Jiri</First>
+  </Name>
+  <Position GenoMap="Křižova" BoundaryRect="-346,-224,-294,-285">-320,-250</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00140">
+  <Name>Eva
+    <Display>Eva</Display>
+    <First>Eva</First>
+  </Name>
+  <Position GenoMap="Křižova" BoundaryRect="-296,-224,-244,-285">-270,-250</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00141">
+  <Name>Vogl
+    <Display>Vogl</Display>
+    <Last>Vogl</Last>
+  </Name>
+  <Position GenoMap="Křižova" BoundaryRect="-216,-114,-164,-175">-190,-140</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00142">
+  <Name>Dáša
+    <Display>Dáša</Display>
+    <First>Dáša</First>
+  </Name>
+  <Position GenoMap="Křižova" BoundaryRect="-196,-224,-144,-285">-170,-250</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00143">
+  <Name>Jan
+    <Display>Jan</Display>
+    <First>Jan</First>
+  </Name>
+  <Position GenoMap="Křižova" BoundaryRect="-146,-224,-94,-285">-120,-250</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00144">
+  <Name>Růžena
+    <Display>Růžena</Display>
+    <First>Růžena</First>
+  </Name>
+  <Position GenoMap="Bauerova" BoundaryRect="804,-44,856,-105">830,-70</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00145">
+  <Name>Anna Blaha
+    <Display>Anna Blaha</Display>
+    <First>Anna</First>
+    <Last>Blaha</Last>
+  </Name>
+  <Position GenoMap="Bauerova" BoundaryRect="624,-154,676,-231">650,-180</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00146">
+  <Name>Alena Blaha
+    <Display>Alena Blaha</Display>
+    <First>Alena</First>
+    <Last>Blaha</Last>
+  </Name>
+  <Position GenoMap="Bauerova" BoundaryRect="794,-154,846,-231">820,-180</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00147">
+  <Name>Kušl
+    <Display>Kušl</Display>
+    <Last>Kušl</Last>
+  </Name>
+  <Position GenoMap="Bauerova" BoundaryRect="514,-154,566,-215">540,-180</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00148">
+  <Name>Anna Kušlova
+    <Display>Anna Kušlova</Display>
+    <First>Anna</First>
+    <Last>Kušlova</Last>
+  </Name>
+  <Position GenoMap="Bauerova" BoundaryRect="531,-264,588,-341">560,-290</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00149">
+  <Name>Milan Kušl
+    <Display>Milan Kušl</Display>
+    <First>Milan</First>
+    <Last>Kušl</Last>
+  </Name>
+  <Position GenoMap="Bauerova" BoundaryRect="604,-264,656,-341">630,-290</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00150">
+  <Name>Mojziš
+    <Display>Mojziš</Display>
+    <Last>Mojziš</Last>
+  </Name>
+  <Position GenoMap="Bauerova" BoundaryRect="674,-154,726,-215">700,-180</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00151">
+  <Name>Jaroslava Mojzišova
+    <Display>Jaroslava Mojzišova</Display>
+    <First>Jaroslava</First>
+    <Last>Mojzišova</Last>
+  </Name>
+  <Position GenoMap="Bauerova" BoundaryRect="685,-264,755,-341">720,-290</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00152">
+  <Name>Václav Mojziš
+    <Display>Václav Mojziš</Display>
+    <First>Václav</First>
+    <Last>Mojziš</Last>
+  </Name>
+  <Position GenoMap="Bauerova" BoundaryRect="774,-264,826,-341">800,-290</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00153">
+  <Name>Flachs
+    <Display>Flachs</Display>
+    <Last>Flachs</Last>
+  </Name>
+  <Position GenoMap="Bauerova" BoundaryRect="864,-44,916,-105">890,-70</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00154">
+  <Name>Jaroslava Flachsová
+    <Display>Jaroslava Flachsová</Display>
+    <First>Jaroslava</First>
+    <Last>Flachsová</Last>
+  </Name>
+  <Position GenoMap="Bauerova" BoundaryRect="967,-154,1033,-231">1000,-180</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00155">
+  <Name>Anna Flachsová
+    <Display>Anna Flachsová</Display>
+    <First>Anna</First>
+    <Last>Flachsová</Last>
+  </Name>
+  <Position GenoMap="Bauerova" BoundaryRect="1137,-154,1203,-231">1170,-180</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00156">
+  <Name>František Flachs
+    <Display>František Flachs</Display>
+    <First>František</First>
+    <Last>Flachs</Last>
+  </Name>
+  <Position GenoMap="Bauerova" BoundaryRect="1240,-154,1300,-231">1270,-180</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00157">
+  <Name>Josef Pechoto
+    <Display>Josef Pechoto</Display>
+    <First>Josef</First>
+    <Last>Pechoto</Last>
+  </Name>
+  <Position GenoMap="Bauerova" BoundaryRect="871,-154,929,-231">900,-180</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00158">
+  <Position GenoMap="Bauerova" BoundaryRect="904,-264,956,-316">930,-290</Position>
+</Individual>
+<Individual ID="ind00159">
+  <Position GenoMap="Bauerova" BoundaryRect="954,-264,1006,-316">980,-290</Position>
+</Individual>
+<Individual ID="ind00160">
+  <Name>Pechoto
+    <Display>Pechoto</Display>
+    <Last>Pechoto</Last>
+  </Name>
+  <Position GenoMap="Bauerova" BoundaryRect="1051,-154,1109,-215">1080,-180</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00161">
+  <Position GenoMap="Bauerova" BoundaryRect="1084,-264,1136,-316">1110,-290</Position>
+</Individual>
+<Individual ID="ind00162">
+  <Position GenoMap="Bauerova" BoundaryRect="1134,-264,1186,-316">1160,-290</Position>
+</Individual>
+<Individual ID="ind00163">
+  <Name>Spánek
+    <Display>Spánek</Display>
+    <Last>Spánek</Last>
+  </Name>
+  <Position GenoMap="Křižova" BoundaryRect="-476,-4,-424,-65">-450,-30</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00164">
+  <Name>Marina Bauerova
+    <Display>Marina Bauerova</Display>
+    <First>Marina</First>
+    <Last>Bauerova</Last>
+  </Name>
+  <Position GenoMap="Bauerova" BoundaryRect="278,56,341,-21">310,30</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00165">
+  <Name>Schutz
+    <Display>Schutz</Display>
+    <Last>Schutz</Last>
+  </Name>
+  <Position GenoMap="Bauerova" BoundaryRect="194,56,246,-5">220,30</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00166">
+  <Contacts>contact00007</Contacts>
+  <Position GenoMap="Bauerova" BoundaryRect="214,-54,266,-106">240,-80</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00167">
+  <Contacts>contact00007</Contacts>
+  <Position GenoMap="Bauerova" BoundaryRect="264,-54,316,-106">290,-80</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00168">
+  <Name>Анастасия Ивановна Бондаренко
+    <Display>Анастасия Ивановна Бондаренко</Display>
+    <First>Анастасия</First>
+    <Middle>Ивановна</Middle>
+    <Last>Бондаренко</Last>
+  </Name>
+  <Pictures Primary="pic00013">pic00013, pic00014, pic00015</Pictures>
+  <Position BoundaryRect="141,-216,219,-317">180,-250</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>17 Apr 1921</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>16 Jan 2005</Date>
+  </Death>
+</Individual>
+<Individual ID="ind00169">
+  <Name>Инезилия (Ина) Маречек
+    <Display Format="%F (%N) %M %L (%L2)">Инезилия (Ина) Маречек</Display>
+    <First>Инезилия</First>
+    <Last>Маречек</Last>
+    <Nick>Ина</Nick>
+  </Name>
+  <Pictures Primary="pic00018">pic00018, pic00021</Pictures>
+  <Position BoundaryRect="165,-346,235,-447">200,-380</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>26 Sep 1944</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00170">
+  <Name>Эльвира (Эла) Маречек
+    <Display Format="%F (%N) %M %L (%L2)">Эльвира (Эла) Маречек</Display>
+    <First>Эльвира</First>
+    <Last>Маречек</Last>
+    <Nick>Эла</Nick>
+  </Name>
+  <Pictures Primary="pic00021">pic00021</Pictures>
+  <Position BoundaryRect="485,-346,555,-447">520,-380</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>18 Aug 1947</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00171">
+  <Name>Виктор Тимошинов
+    <Display>Виктор Тимошинов</Display>
+    <First>Виктор</First>
+    <Last>Тимошинов</Last>
+  </Name>
+  <Position BoundaryRect="2,-354,78,-431">40,-380</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00172">
+  <Name>Лейла Тимошинова
+    <Display>Лейла Тимошинова</Display>
+    <First>Лейла</First>
+    <Last>Тимошинова</Last>
+  </Name>
+  <Position BoundaryRect="29,-466,111,-551">70,-500</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>10 Sep 1970</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00173">
+  <Name>Юлия-Лидия (Юля) Тимошинова
+    <Display>Юлия-Лидия Тимошинова</Display>
+    <First>Юлия-Лидия</First>
+    <Last>Тимошинова</Last>
+    <Nick>Юля</Nick>
+  </Name>
+  <Position BoundaryRect="119,-466,201,-567">160,-500</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>13 Nov 1980</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00174">
+  <Name>Юрий Балабанов
+    <Display>Юрий Балабанов</Display>
+    <First>Юрий</First>
+    <Last>Балабанов</Last>
+  </Name>
+  <Position BoundaryRect="255,-354,325,-431">290,-380</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00175">
+  <Name>Владимир Самохвалов
+    <Display>Владимир Самохвалов</Display>
+    <First>Владимир</First>
+    <Last>Самохвалов</Last>
+  </Name>
+  <Position BoundaryRect="592,-354,668,-431">630,-380</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00176">
+  <Name>Лада Маречек
+    <Display>Лада Маречек</Display>
+    <First>Лада</First>
+    <Last>Маречек</Last>
+  </Name>
+  <Position BoundaryRect="375,-466,445,-551">410,-500</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>6 Nov 1967</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00177">
+  <Name>Дмитрий Недайводин
+    <Display>Дмитрий Недайводин</Display>
+    <First>Дмитрий</First>
+    <Last>Недайводин</Last>
+  </Name>
+  <Position BoundaryRect="230,-474,310,-551">270,-500</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00178">
+  <Name>Владимир Нестеров
+    <Display>Владимир Нестеров</Display>
+    <First>Владимир</First>
+    <Last>Нестеров</Last>
+  </Name>
+  <Position BoundaryRect="455,-466,525,-551">490,-500</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>4 Jul 1967</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00179">
+  <Name>Данила Маречек
+    <Display>Данила Маречек</Display>
+    <First>Данила</First>
+    <Last>Маречек</Last>
+  </Name>
+  <Position BoundaryRect="265,-576,335,-661">300,-610</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>30 Jul 1988</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00180">
+  <Name>Ксения Маречек
+    <Display>Ксения Маречек</Display>
+    <First>Ксения</First>
+    <Last>Маречек</Last>
+  </Name>
+  <Position BoundaryRect="335,-576,405,-661">370,-610</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>22 Jun 1993</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00181">
+  <Name>Дарья Самохвалова
+    <Display>Дарья Самохвалова</Display>
+    <First>Дарья</First>
+    <Last>Самохвалова</Last>
+  </Name>
+  <Position BoundaryRect="539,-466,621,-551">580,-500</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>9 Mar 1988</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00183">
+  <Name>Зоя Геннадьевна Зырянова
+    <Display>Зоя Геннадьевна Зырянова</Display>
+    <First>Зоя</First>
+    <Middle>Геннадьевна</Middle>
+    <Last>Зырянова</Last>
+  </Name>
+  <Pictures Primary="pic00021">pic00021</Pictures>
+  <Position BoundaryRect="810,-216,890,-317">850,-250</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>28 Jan 1928</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00184">
+  <Name>Святослав Маречек
+    <Display>Святослав Маречек</Display>
+    <First>Святослав</First>
+    <Last>Маречек</Last>
+  </Name>
+  <Pictures Primary="pic00021">pic00021</Pictures>
+  <Position BoundaryRect="865,-346,935,-431">900,-380</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>27 Jun 1949</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00185">
+  <Name>Светлана Маречек
+    <Display>Светлана Маречек</Display>
+    <First>Светлана</First>
+    <Last>Маречек</Last>
+  </Name>
+  <Pictures Primary="pic00021">pic00021</Pictures>
+  <Position BoundaryRect="955,-346,1025,-431">990,-380</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>29 Mar 1954</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00186">
+  <Name>Валентина Ивановна Рубцова
+    <Display>Валентина Ивановна Рубцова</Display>
+    <First>Валентина</First>
+    <Middle>Ивановна</Middle>
+    <Last>Рубцова</Last>
+  </Name>
+  <Position BoundaryRect="754,-346,825,-447">790,-380</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>27 Jun 1947</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00187">
+  <Name>Юлия Маречек
+    <Display>Юлия Маречек</Display>
+    <First>Юлия</First>
+    <Last>Маречек</Last>
+  </Name>
+  <Position BoundaryRect="775,-466,845,-551">810,-500</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>25 May 1973</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00188">
+  <Name>Мария Маречек
+    <Display>Мария Маречек</Display>
+    <First>Мария</First>
+    <Last>Маречек</Last>
+  </Name>
+  <Position BoundaryRect="845,-466,915,-551">880,-500</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>31 Aug 1981</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00189">
+  <Name>Роман Киселёв
+    <Display>Роман Киселёв</Display>
+    <First>Роман</First>
+    <Last>Киселёв</Last>
+  </Name>
+  <Position BoundaryRect="700,-474,760,-551">730,-500</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00190">
+  <Name>Саша Киселёв
+    <Display>Саша Киселёв</Display>
+    <First>Саша</First>
+    <Last>Киселёв</Last>
+  </Name>
+  <Position BoundaryRect="725,-576,795,-661">760,-610</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>6 Jul 1995</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00191">
+  <Name>Станислав Краповницкий
+    <Display>Станислав Краповницкий</Display>
+    <First>Станислав</First>
+    <Last>Краповницкий</Last>
+  </Name>
+  <Position BoundaryRect="1053,-354,1147,-431">1100,-380</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00192">
+  <Name>Эдуард Краповницкий
+    <Display>Эдуард Краповницкий</Display>
+    <First>Эдуард</First>
+    <Last>Краповницкий</Last>
+  </Name>
+  <Position BoundaryRect="953,-466,1047,-551">1000,-500</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>30 Apr 1981</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00193">
+  <Name>Александр Краповницкий
+    <Display>Александр Краповницкий</Display>
+    <First>Александр</First>
+    <Last>Краповницкий</Last>
+  </Name>
+  <Position BoundaryRect="1043,-474,1137,-551">1090,-500</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00194">
+  <Name>Лидия Ивановна Пятницкая (Маречек)
+    <Display>Лидия Ивановна Пятницкая (Маречек)</Display>
+    <First>Лидия</First>
+    <Middle>Ивановна</Middle>
+    <Last>Пятницкая</Last>
+    <Last2>Маречек</Last2>
+  </Name>
+  <Contacts>contact00036</Contacts>
+  <Position BoundaryRect="1459,-216,1561,-317">1510,-250</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>19 Dec 1932</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00195">
+  <Name>Маргарита Кветославовна Маречек (Меняйленко)
+    <Display>Маргарита Кветославовна Маречек (Меняйленко)</Display>
+    <First>Маргарита</First>
+    <Middle>Кветославовна</Middle>
+    <Last>Маречек</Last>
+    <Last2>Меняйленко</Last2>
+    <Alternative>Margarita Meniailenko</Alternative>
+  </Name>
+  <Pictures Primary="pic00021">pic00021</Pictures>
+  <Sources>source00001</Sources>
+  <Contacts>contact00015, contact00014, contact00045</Contacts>
+  <Position BoundaryRect="1299,-346,1440,-447">1370,-380</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>10 Nov 1955</Date>
+    <Place>place00022</Place>
+    <Source>source00001</Source>
+  </Birth>
+  <Comment>Name changed to Margarita Meniailenko after she moved to United States of America</Comment>
+  <Educations>edu00002, edu00001</Educations>
+</Individual>
+<Individual ID="ind00196">
+  <Name>Марина Кветославовна Маречек (Другова)
+    <Display>Марина Кветославовна Маречек (Другова)</Display>
+    <First>Марина</First>
+    <Middle>Кветославовна</Middle>
+    <Last>Маречек</Last>
+    <Last2>Другова</Last2>
+  </Name>
+  <Pictures Primary="pic00021">pic00021</Pictures>
+  <Contacts>contact00037</Contacts>
+  <Position BoundaryRect="1441,-346,1558,-447">1500,-380</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>20 Sep 1958</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00197">
+  <Name>Виктор Владленович Меняйленко
+    <Display>Виктор Владленович Меняйленко</Display>
+    <First>Виктор</First>
+    <Middle>Владленович</Middle>
+    <Last>Меняйленко</Last>
+    <Alternative>Viktor Meniailenko</Alternative>
+  </Name>
+  <Contacts>contact00045</Contacts>
+  <Position BoundaryRect="1158,-346,1241,-447">1200,-380</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>19 Feb 1956</Date>
+  </Birth>
+  <Comment>After he moved to USA, his name became Viktor Meniailenko</Comment>
+</Individual>
+<Individual ID="ind00198">
+  <Name>Сергей Викторович Меняйленко
+    <Display>Сергей Викторович Меняйленко</Display>
+    <First>Сергей</First>
+    <Middle>Викторович</Middle>
+    <Last>Меняйленко</Last>
+  </Name>
+  <Sources>source00003</Sources>
+  <Contacts>contact00018, contact00045</Contacts>
+  <Position BoundaryRect="1179,-466,1261,-567">1220,-500</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>8 May 1983</Date>
+    <Place>place00020</Place>
+    <Source>source00003</Source>
+  </Birth>
+  <Comment>After moving to the United States of America, he changed his name to Sergey Viktorovich Meniailenko.</Comment>
+</Individual>
+<Individual ID="ind00199">
+  <Name>Андрей Викторович Меняйленко
+    <Display>Андрей Викторович Меняйленко</Display>
+    <First>Андрей</First>
+    <Middle>Викторович</Middle>
+    <Last>Меняйленко</Last>
+  </Name>
+  <Sources>source00003</Sources>
+  <Contacts>contact00026, contact00045</Contacts>
+  <Position BoundaryRect="1289,-466,1371,-567">1330,-500</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>12 May 1986</Date>
+    <Place>place00020</Place>
+    <Source>source00003</Source>
+  </Birth>
+  <Comment>After moving to the United States of America, he changed his name to Andrei Meniailenko</Comment>
+</Individual>
+<Individual ID="ind00200">
+  <Name>Алексей Олегович Другов
+    <Display>Алексей Олегович Другов</Display>
+    <First>Алексей</First>
+    <Middle>Олегович</Middle>
+    <Last>Другов</Last>
+  </Name>
+  <Contacts>contact00037</Contacts>
+  <Position BoundaryRect="1635,-346,1705,-447">1670,-380</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>30 Nov 1958</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00201">
+  <Name>Наталья Алексеевна Другова
+    <Display>Наталья Алексеевна Другова</Display>
+    <First>Наталья</First>
+    <Middle>Алексеевна</Middle>
+    <Last>Другова</Last>
+  </Name>
+  <Contacts>contact00037</Contacts>
+  <Position BoundaryRect="1521,-466,1599,-567">1560,-500</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>7 Dec 1979</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00202">
+  <Name>Анастасия Алексеевна Другова
+    <Display>Анастасия Алексеевна Другова</Display>
+    <First>Анастасия</First>
+    <Middle>Алексеевна</Middle>
+    <Last>Другова</Last>
+  </Name>
+  <Contacts>contact00037</Contacts>
+  <Position BoundaryRect="1621,-466,1699,-567">1660,-500</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>20 Dec 1982</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00203">
+  <Name>Александр Сергеевич Иванов
+    <Display>Александр Сергеевич Иванов</Display>
+    <First>Александр</First>
+    <Middle>Сергеевич</Middle>
+    <Last>Иванов</Last>
+  </Name>
+  <Contacts>contact00037</Contacts>
+  <Position BoundaryRect="1423,-466,1497,-567">1460,-500</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>18 Jan 1980</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00204">
+  <Name>Алина Александровна Иванова
+    <Display>Алина Александровна Иванова</Display>
+    <First>Алина</First>
+    <Middle>Александровна</Middle>
+    <Last>Иванова</Last>
+  </Name>
+  <Contacts>contact00037</Contacts>
+  <Position BoundaryRect="1461,-586,1558,-687">1510,-620</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>19 Apr 2005</Date>
+    <Place>place00019</Place>
+  </Birth>
+</Individual>
+<Individual ID="ind00205" IndividualInternalHyperlink="ind00194">
+  <Name>
+    <Display>Лидия Ивановна Пятницкая (Маречек)</Display>
+  </Name>
+  <Position GenoMap="Пятницкая" BoundaryRect="-21,34,81,-67">30,0</Position>
+</Individual>
+<Individual ID="ind00206">
+  <Name>Иван Григорьевич Пятницкий
+    <Display>Иван Григорьевич Пятницкий</Display>
+    <First>Иван</First>
+    <Middle>Григорьевич</Middle>
+    <Last>Пятницкий</Last>
+  </Name>
+  <Contacts>contact00032</Contacts>
+  <Position GenoMap="Пятницкая" BoundaryRect="-71,154,11,53">-30,120</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>19 Jul 1907</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>18 Sep 1956</Date>
+    <Cause>Murder</Cause>
+    <Disposition>
+      <Place>place00022</Place>
+    </Disposition>
+  </Death>
+</Individual>
+<Individual ID="ind00207">
+  <Name>Татьяна Егоровна (Пятницкая)
+    <Display>Татьяна Егоровна (Пятницкая)</Display>
+    <First>Татьяна</First>
+    <Middle>Егоровна</Middle>
+    <Last2>Пятницкая</Last2>
+  </Name>
+  <Position GenoMap="Пятницкая" BoundaryRect="159,154,241,53">200,120</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>12 Jan 1894</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>24 Aug 1960</Date>
+    <Place>place00022</Place>
+  </Death>
+  <Comment>В одно время жила в деревне Замошье (Каргопольский район Архангельской области). Этой деревни теперь нет.</Comment>
+</Individual>
+<Individual ID="ind00208">
+  <Name>Григорий Пятницкий
+    <Display>Григорий Пятницкий</Display>
+    <First>Григорий</First>
+    <Last>Пятницкий</Last>
+  </Name>
+  <Position GenoMap="Пятницкая" BoundaryRect="-378,266,-302,189">-340,240</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00209">
+  <Position GenoMap="Пятницкая" BoundaryRect="-46,266,6,214">-20,240</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00210">
+  <Name>Анна Григорьевна Пятницкая (Яйцева)
+    <Display>Анна Григорьевна Пятницкая (Яйцева)</Display>
+    <First>Анна</First>
+    <Middle>Григорьевна</Middle>
+    <Last>Пятницкая</Last>
+    <Last2>Яйцева</Last2>
+  </Name>
+  <Contacts>contact00043</Contacts>
+  <Position GenoMap="Пятницкая" BoundaryRect="-216,146,-105,53">-160,120</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00211">
+  <Name>Дмитрий Григорьевич Пятницкий
+    <Display>Дмитрий Григорьевич Пятницкий</Display>
+    <First>Дмитрий</First>
+    <Middle>Григорьевич</Middle>
+    <Last>Пятницкий</Last>
+  </Name>
+  <Contacts>contact00033</Contacts>
+  <Position GenoMap="Пятницкая" BoundaryRect="-351,146,-269,53">-310,120</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00212">
+  <Name>Яйцев
+    <Display>Яйцев</Display>
+    <Last>Яйцев</Last>
+  </Name>
+  <Position GenoMap="Пятницкая" BoundaryRect="-256,146,-204,85">-230,120</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00213">
+  <Name>Виктор
+    <Display>Виктор</Display>
+    <First>Виктор</First>
+  </Name>
+  <Position GenoMap="Пятницкая" BoundaryRect="-217,26,-163,-35">-190,0</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00214">
+  <Position GenoMap="Пятницкая" BoundaryRect="-96,26,-44,-26">-70,0</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00215">
+  <Position GenoMap="Пятницкая" BoundaryRect="-206,-94,-154,-146">-180,-120</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00216">
+  <Position GenoMap="Пятницкая" BoundaryRect="-156,-94,-104,-146">-130,-120</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00217">
+  <Name>Любовь
+    <Display>Любовь</Display>
+    <First>Любовь</First>
+  </Name>
+  <Contacts>contact00030</Contacts>
+  <Position GenoMap="Пятницкая" BoundaryRect="-108,-94,-53,-155">-80,-120</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00218">
+  <Position GenoMap="Пятницкая" BoundaryRect="-6,-94,46,-146">20,-120</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00219">
+  <Name>Андрей
+    <Display>Андрей</Display>
+    <First>Андрей</First>
+  </Name>
+  <Position GenoMap="Пятницкая" BoundaryRect="-89,-214,-32,-275">-60,-240</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00220">
+  <Name>Сергей
+    <Display>Сергей</Display>
+    <First>Сергей</First>
+  </Name>
+  <Position GenoMap="Пятницкая" BoundaryRect="-27,-214,27,-275">0,-240</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00221">
+  <Name>Виталий Иванович Пятницкий
+    <Display>Виталий Иванович Пятницкий</Display>
+    <First>Виталий</First>
+    <Middle>Иванович</Middle>
+    <Last>Пятницкий</Last>
+  </Name>
+  <Sources>source00005</Sources>
+  <Position GenoMap="Пятницкая" BoundaryRect="142,34,218,-67">180,0</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>2 Mar 1937</Date>
+    <Place>place00035</Place>
+    <Source>source00005</Source>
+  </Birth>
+</Individual>
+<Individual ID="ind00222">
+  <Name>Наталья Владимировна Мелузова
+    <Display>Наталья Владимировна Мелузова</Display>
+    <First>Наталья</First>
+    <Middle>Владимировна</Middle>
+    <Last>Мелузова</Last>
+  </Name>
+  <Position GenoMap="Пятницкая" BoundaryRect="234,34,326,-67">280,0</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>20 Dec 1950</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00223">
+  <Name>Денис Витальевич Пятницкий
+    <Display>Денис Витальевич Пятницкий</Display>
+    <First>Денис</First>
+    <Middle>Витальевич</Middle>
+    <Last>Пятницкий</Last>
+  </Name>
+  <Sources>source00005</Sources>
+  <Position GenoMap="Пятницкая" BoundaryRect="152,-86,228,-187">190,-120</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>3 Nov 1971</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>25 Jun 2007</Date>
+    <Source>source00005</Source>
+  </Death>
+</Individual>
+<Individual ID="ind00224">
+  <Name>Ксения Витальевна Пятницкая
+    <Display>Ксения Витальевна Пятницкая</Display>
+    <First>Ксения</First>
+    <Middle>Витальевна</Middle>
+    <Last>Пятницкая</Last>
+  </Name>
+  <Position GenoMap="Пятницкая" BoundaryRect="232,-86,307,-187">270,-120</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>14 Jun 1978</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00225">
+  <Name>Елена Молчанова
+    <Display>Елена Молчанова</Display>
+    <First>Елена</First>
+    <Last>Молчанова</Last>
+  </Name>
+  <Position GenoMap="Пятницкая" BoundaryRect="63,-94,137,-171">100,-120</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00226">
+  <Name>Артур Денисович Пятницкий
+    <Display>Артур Денисович Пятницкий</Display>
+    <First>Артур</First>
+    <Middle>Денисович</Middle>
+    <Last>Пятницкий</Last>
+  </Name>
+  <Position GenoMap="Пятницкая" BoundaryRect="102,-206,178,-307">140,-240</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>23 Mar 1996</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00227">
+  <Name>Владимир Павлович Мелузов
+    <Display>Владимир Павлович Мелузов</Display>
+    <First>Владимир</First>
+    <Middle>Павлович</Middle>
+    <Last>Мелузов</Last>
+  </Name>
+  <Position GenoMap="Пятницкая" BoundaryRect="325,154,395,53">360,120</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>27 Aug 1923</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>21 Jun 2002</Date>
+  </Death>
+</Individual>
+<Individual ID="ind00228">
+  <Name>Вера Михайловна Ласовская
+    <Display>Вера Михайловна Ласовская</Display>
+    <First>Вера</First>
+    <Middle>Михайловна</Middle>
+    <Last>Ласовская</Last>
+  </Name>
+  <Contacts>contact00031</Contacts>
+  <Position GenoMap="Пятницкая" BoundaryRect="439,154,520,53">480,120</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>18 Nov 1920</Date>
+  </Birth>
+  <Comment>Oldest of five children</Comment>
+</Individual>
+<Individual ID="ind00229">
+  <Name>Павел Мелузов
+    <Display>Павел Мелузов</Display>
+    <First>Павел</First>
+    <Last>Мелузов</Last>
+  </Name>
+  <Position GenoMap="Пятницкая" BoundaryRect="299,266,360,189">330,240</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00230">
+  <Position GenoMap="Пятницкая" BoundaryRect="364,266,416,214">390,240</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00231">
+  <Name>Михаил Ласовский
+    <Display>Михаил Ласовский</Display>
+    <First>Михаил</First>
+    <Last>Ласовский</Last>
+  </Name>
+  <Position GenoMap="Пятницкая" BoundaryRect="423,266,496,189">460,240</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00232">
+  <Position GenoMap="Пятницкая" BoundaryRect="614,266,666,214">640,240</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00233">
+  <Position GenoMap="Пятницкая" BoundaryRect="504,146,556,94">530,120</Position>
+</Individual>
+<Individual ID="ind00234">
+  <Position GenoMap="Пятницкая" BoundaryRect="534,146,586,94">560,120</Position>
+</Individual>
+<Individual ID="ind00235">
+  <Position GenoMap="Пятницкая" BoundaryRect="564,146,616,94">590,120</Position>
+</Individual>
+<Individual ID="ind00236">
+  <Position GenoMap="Пятницкая" BoundaryRect="594,146,646,94">620,120</Position>
+</Individual>
+<Individual ID="ind00237">
+  <Name>Валентина Владимировна Мелузова (Енькова)
+    <Display>Валентина Владимировна Мелузова (Енькова)</Display>
+    <First>Валентина</First>
+    <Middle>Владимировна</Middle>
+    <Last>Мелузова</Last>
+    <Last2>Енькова</Last2>
+  </Name>
+  <Position GenoMap="Пятницкая" BoundaryRect="390,34,509,-67">450,0</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>1 Dec 1953</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00238">
+  <Name>Алексей Иванович Еньков
+    <Display>Алексей Иванович Еньков</Display>
+    <First>Алексей</First>
+    <Middle>Иванович</Middle>
+    <Last>Еньков</Last>
+  </Name>
+  <Position GenoMap="Пятницкая" BoundaryRect="567,26,633,-67">600,0</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00239">
+  <Name>Арина Алексеевна Енькова
+    <Display>Арина Алексеевна Енькова</Display>
+    <First>Арина</First>
+    <Middle>Алексеевна</Middle>
+    <Last>Енькова</Last>
+  </Name>
+  <Position GenoMap="Пятницкая" BoundaryRect="471,-86,549,-187">510,-120</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>2 Jun 1976</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00240">
+  <Name>Кирилл Алексеевич Еньков
+    <Display>Кирилл Алексеевич Еньков</Display>
+    <First>Кирилл</First>
+    <Middle>Алексеевич</Middle>
+    <Last>Еньков</Last>
+  </Name>
+  <Position GenoMap="Пятницкая" BoundaryRect="540,-94,619,-187">580,-120</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00241">
+  <Name>Олег Панов
+    <Display>Олег Панов</Display>
+    <First>Олег</First>
+    <Last>Панов</Last>
+  </Name>
+  <Position GenoMap="Пятницкая" BoundaryRect="404,-94,456,-171">430,-120</Position>
+  <Gender>M</Gender>
+  <Families Order="fam00106, fam00076"/>
+</Individual>
+<Individual ID="ind00242">
+  <Name>Денис Панов
+    <Display>Денис Панов</Display>
+    <First>Денис</First>
+    <Last>Панов</Last>
+  </Name>
+  <Position GenoMap="Пятницкая" BoundaryRect="374,-214,426,-291">400,-240</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00243">
+  <Name>Алёнка Панова
+    <Display>Алёнка Панова</Display>
+    <First>Алёнка</First>
+    <Last>Панова</Last>
+  </Name>
+  <Position GenoMap="Пятницкая" BoundaryRect="472,-214,527,-291">500,-240</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00244">
+  <Position GenoMap="Пятницкая" BoundaryRect="-506,146,-454,94">-480,120</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00245">
+  <Position GenoMap="Пятницкая" BoundaryRect="-496,26,-444,-26">-470,0</Position>
+</Individual>
+<Individual ID="ind00246">
+  <Position GenoMap="Пятницкая" BoundaryRect="-466,26,-414,-26">-440,0</Position>
+</Individual>
+<Individual ID="ind00247">
+  <Position GenoMap="Пятницкая" BoundaryRect="-436,26,-384,-26">-410,0</Position>
+</Individual>
+<Individual ID="ind00248">
+  <Position GenoMap="Пятницкая" BoundaryRect="-406,26,-354,-26">-380,0</Position>
+</Individual>
+<Individual ID="ind00249">
+  <Position GenoMap="Пятницкая" BoundaryRect="-376,26,-324,-26">-350,0</Position>
+</Individual>
+<Individual ID="ind00250">
+  <Position GenoMap="Пятницкая" BoundaryRect="-346,26,-294,-26">-320,0</Position>
+</Individual>
+<Individual ID="ind00251" IndividualInternalHyperlink="ind00203">
+  <Name>
+    <Display>Александр Сергеевич Иванов</Display>
+  </Name>
+  <Position GenoMap="Иванов" BoundaryRect="-37,34,37,-67">0,0</Position>
+</Individual>
+<Individual ID="ind00252">
+  <Name>Сергей Иванов
+    <Display>Сергей Иванов</Display>
+    <First>Сергей</First>
+    <Last>Иванов</Last>
+  </Name>
+  <Position GenoMap="Иванов" BoundaryRect="-47,136,7,59">-20,110</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00253">
+  <Name>Татьяна
+    <Display>Татьяна</Display>
+    <First>Татьяна</First>
+  </Name>
+  <Position GenoMap="Иванов" BoundaryRect="101,136,158,75">130,110</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00254">
+  <Name>Виталий Мартыненко
+    <Display>Виталий Мартыненко</Display>
+    <First>Виталий</First>
+    <Last>Мартыненко</Last>
+  </Name>
+  <Position GenoMap="Иванов" BoundaryRect="178,136,261,59">220,110</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00255">
+  <Name>Алексей Иванов
+    <Display>Алексей Иванов</Display>
+    <First>Алексей</First>
+    <Last>Иванов</Last>
+  </Name>
+  <Position GenoMap="Иванов" BoundaryRect="69,26,131,-51">100,0</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00256">
+  <Name>Сергей Мартыненко
+    <Display>Сергей Мартыненко</Display>
+    <First>Сергей</First>
+    <Last>Мартыненко</Last>
+  </Name>
+  <Position GenoMap="Иванов" BoundaryRect="138,26,221,-51">180,0</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00257" IndividualInternalHyperlink="ind00200">
+  <Name>
+    <Display>Алексей Олегович Другов</Display>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="-65,34,5,-67">-30,0</Position>
+</Individual>
+<Individual ID="ind00258">
+  <Name>Олег Николаевич Другов
+    <Display>Олег Николаевич Другов</Display>
+    <First>Олег</First>
+    <Middle>Николаевич</Middle>
+    <Last>Другов</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="-90,154,-10,53">-50,120</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>9 Sep 1931</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00259">
+  <Name>Галина Павловна Кузнецова
+    <Display>Галина Павловна Кузнецова</Display>
+    <First>Галина</First>
+    <Middle>Павловна</Middle>
+    <Last>Кузнецова</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="204,154,275,53">240,120</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>23 Aug 1931</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>5 Feb 2003</Date>
+  </Death>
+</Individual>
+<Individual ID="ind00260">
+  <Name>Владимир Олегович Другов
+    <Display>Владимир Олегович Другов</Display>
+    <First>Владимир</First>
+    <Middle>Олегович</Middle>
+    <Last>Другов</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="95,34,165,-67">130,0</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>29 Mar 1963</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00261">
+  <Name>Людмила Олеговна Другова
+    <Display>Людмила Олеговна Другова</Display>
+    <First>Людмила</First>
+    <Middle>Олеговна</Middle>
+    <Last>Другова</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="355,34,425,-67">390,0</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>29 Mar 1963</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00262">
+  <Name>Елена Малкова
+    <Display>Елена Малкова</Display>
+    <First>Елена</First>
+    <Last>Малкова</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="15,34,85,-51">50,0</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>29 Sep 1963</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00263">
+  <Name>Ксения Владимировна Другова
+    <Display>Ксения Владимировна Другова</Display>
+    <First>Ксения</First>
+    <Middle>Владимировна</Middle>
+    <Last>Другова</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="44,-86,136,-187">90,-120</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>17 Feb 1986</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00264">
+  <Name>Наталья Миргород (Другова)
+    <Display>Наталья Миргород (Другова)</Display>
+    <First>Наталья</First>
+    <Last>Миргород</Last>
+    <Last2>Другова</Last2>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="165,34,235,-67">200,0</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>25 Aug 1961</Date>
+  </Birth>
+  <Families Order="fam00107, fam00082"/>
+</Individual>
+<Individual ID="ind00265">
+  <Name>Александр Степаненко
+    <Display>Александр Степаненко</Display>
+    <First>Александр</First>
+    <Last>Степаненко</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="461,34,538,-51">500,0</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>21 Nov 1955</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00266">
+  <Name>Борис Александрович Степаненко
+    <Display>Борис Александрович Степаненко</Display>
+    <First>Борис</First>
+    <Middle>Александрович</Middle>
+    <Last>Степаненко</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="351,-86,449,-187">400,-120</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>1 May 1992</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00267">
+  <Name>Дарья Александровна Степаненко
+    <Display>Дарья Александровна Степаненко</Display>
+    <First>Дарья</First>
+    <Middle>Александровна</Middle>
+    <Last>Степаненко</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="441,-86,538,-187">490,-120</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>2 Aug 1993</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00268">
+  <Name>Николай Николаевич Другов
+    <Display>Николай Николаевич Другов</Display>
+    <First>Николай</First>
+    <Middle>Николаевич</Middle>
+    <Last>Другов</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="-140,266,-60,173">-100,240</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00269">
+  <Name>Зинаида Ивановна Чеботарёва
+    <Display>Зинаида Ивановна Чеботарёва</Display>
+    <First>Зинаида</First>
+    <Middle>Ивановна</Middle>
+    <Last>Чеботарёва</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="-39,274,38,173">0,240</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>18 Oct 1899</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00270">
+  <Name>Николай Другов
+    <Display>Николай Другов</Display>
+    <First>Николай</First>
+    <Last>Другов</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="-452,386,-389,309">-420,360</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00271">
+  <Position GenoMap="Другов" BoundaryRect="-306,386,-254,334">-280,360</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00272">
+  <Position GenoMap="Другов" BoundaryRect="-156,386,-104,334">-130,360</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00273">
+  <Name>Тамара
+    <Display>Тамара</Display>
+    <First>Тамара</First>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="-98,386,-43,325">-70,360</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00274">
+  <Name>Сергей Николаевич Другов
+    <Display>Сергей Николаевич Другов</Display>
+    <First>Сергей</First>
+    <Middle>Николаевич</Middle>
+    <Last>Другов</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="-430,266,-350,173">-390,240</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00275">
+  <Name>Василий Николаевич Другов
+    <Display>Василий Николаевич Другов</Display>
+    <First>Василий</First>
+    <Middle>Николаевич</Middle>
+    <Last>Другов</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="-350,266,-270,173">-310,240</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00276">
+  <Name>Михаил Николаевич Другов
+    <Display>Михаил Николаевич Другов</Display>
+    <First>Михаил</First>
+    <Middle>Николаевич</Middle>
+    <Last>Другов</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="-280,266,-200,173">-240,240</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00277">
+  <Name>Александр Николаевич Другов
+    <Display>Александр Николаевич Другов</Display>
+    <First>Александр</First>
+    <Middle>Николаевич</Middle>
+    <Last>Другов</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="-210,266,-130,173">-170,240</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00278">
+  <Name>Иван Дмитриевич Чеботарёв
+    <Display>Иван Дмитриевич Чеботарёв</Display>
+    <First>Иван</First>
+    <Middle>Дмитриевич</Middle>
+    <Last>Чеботарёв</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="679,386,760,293">720,360</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00279">
+  <Name>Анфиса Алексеевна Кузнецова
+    <Display>Анфиса Алексеевна Кузнецова</Display>
+    <First>Анфиса</First>
+    <Middle>Алексеевна</Middle>
+    <Last>Кузнецова</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="1481,386,1559,293">1520,360</Position>
+  <Gender>F</Gender>
+  <Comment>She was the oldest of her mother&#39;s children. She had many brothers, probably from her mother&#39;s second husband.</Comment>
+</Individual>
+<Individual ID="ind00280">
+  <Name>Дмитрий Чеботарёв
+    <Display>Дмитрий Чеботарёв</Display>
+    <First>Дмитрий</First>
+    <Last>Чеботарёв</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="654,506,725,429">690,480</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00281">
+  <Name>Елизавета
+    <Display>Елизавета</Display>
+    <First>Елизавета</First>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="1575,506,1644,445">1610,480</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00282">
+  <Name>Пётр Дмитриевич Чеботарёв
+    <Display>Пётр Дмитриевич Чеботарёв</Display>
+    <First>Пётр</First>
+    <Middle>Дмитриевич</Middle>
+    <Last>Чеботарёв</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="1549,386,1630,293">1590,360</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00283" IndividualInternalHyperlink="ind00279">
+  <Name>
+    <Display>Анфиса Алексеевна Кузнецова</Display>
+  </Name>
+  <Position GenoMap="Кузнецова_Анфиса" BoundaryRect="-79,26,-1,-67">-40,0</Position>
+</Individual>
+<Individual ID="ind00284">
+  <Position GenoMap="Кузнецова_Анфиса" BoundaryRect="-76,136,-24,84">-50,110</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00285">
+  <Name>Надежда Никифоровна
+    <Display>Надежда Никифоровна</Display>
+    <First>Надежда</First>
+    <Middle>Никифоровна</Middle>
+  </Name>
+  <Position GenoMap="Кузнецова_Анфиса" BoundaryRect="5,136,95,59">50,110</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00286">
+  <Position GenoMap="Кузнецова_Анфиса" BoundaryRect="224,136,276,84">250,110</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00287">
+  <Name>Константин
+    <Display>Константин</Display>
+    <First>Константин</First>
+  </Name>
+  <Position GenoMap="Кузнецова_Анфиса" BoundaryRect="1,26,78,-35">40,0</Position>
+  <Gender>M</Gender>
+  <Comment>It is not clear whether his father is his mother&#39;s first husband or second husband.</Comment>
+</Individual>
+<Individual ID="ind00288">
+  <Name>Ольга
+    <Display>Ольга</Display>
+    <First>Ольга</First>
+  </Name>
+  <Position GenoMap="Кузнецова_Анфиса" BoundaryRect="74,26,126,-35">100,0</Position>
+  <Gender>F</Gender>
+  <Comment>It is not clear whether her father is her mother&#39;s first husband or second husband.</Comment>
+</Individual>
+<Individual ID="ind00289">
+  <Position GenoMap="Кузнецова_Анфиса" BoundaryRect="124,26,176,-26">150,0</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00290">
+  <Position GenoMap="Кузнецова_Анфиса" BoundaryRect="174,26,226,-26">200,0</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00291">
+  <Name>Сергей Иванович Чеботарёв
+    <Display>Сергей Иванович Чеботарёв</Display>
+    <First>Сергей</First>
+    <Middle>Иванович</Middle>
+    <Last>Чеботарёв</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="734,266,805,173">770,240</Position>
+  <Gender>M</Gender>
+  <IsDead>Y</IsDead>
+</Individual>
+<Individual ID="ind00292">
+  <Name>Николай Иванович Чеботарёв
+    <Display>Николай Иванович Чеботарёв</Display>
+    <First>Николай</First>
+    <Middle>Иванович</Middle>
+    <Last>Чеботарёв</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="804,274,875,173">840,240</Position>
+  <Gender>M</Gender>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>1942</Date>
+    <Cause>War</Cause>
+  </Death>
+</Individual>
+<Individual ID="ind00293">
+  <Name>Екатерина Ивановна Чеботарёва
+    <Display>Екатерина Ивановна Чеботарёва</Display>
+    <First>Екатерина</First>
+    <Middle>Ивановна</Middle>
+    <Last>Чеботарёва</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="871,266,948,173">910,240</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00294">
+  <Name>Серафима Ивановна Чеботарёва
+    <Display>Серафима Ивановна Чеботарёва</Display>
+    <First>Серафима</First>
+    <Middle>Ивановна</Middle>
+    <Last>Чеботарёва</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="1061,266,1138,173">1100,240</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00295">
+  <Name>Александр Иванович Чеботарёв
+    <Display>Александр Иванович Чеботарёв</Display>
+    <First>Александр</First>
+    <Middle>Иванович</Middle>
+    <Last>Чеботарёв</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="1403,266,1477,173">1440,240</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00296">
+  <Name>Надежда
+    <Display>Надежда</Display>
+    <First>Надежда</First>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="1478,266,1542,205">1510,240</Position>
+  <Gender>F</Gender>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Age>20</Age>
+  </Death>
+</Individual>
+<Individual ID="ind00297">
+  <Name>Софья
+    <Display>Софья</Display>
+    <First>Софья</First>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="664,266,716,205">690,240</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00298">
+  <Name>Алекс Сергеевич Чеботарёв
+    <Display>Алекс Сергеевич Чеботарёв</Display>
+    <First>Алекс</First>
+    <Middle>Сергеевич</Middle>
+    <Last>Чеботарёв</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="684,154,755,53">720,120</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>1938</Date>
+  </Birth>
+  <Comment>Неизвестно, зовут его Алексей или Александр.</Comment>
+</Individual>
+<Individual ID="ind00299">
+  <Name>Людмила
+    <Display>Людмила</Display>
+    <First>Людмила</First>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="585,154,655,85">620,120</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>1938</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00300">
+  <Name>Дмитрий Чеботарёв
+    <Display>Дмитрий Чеботарёв</Display>
+    <First>Дмитрий</First>
+    <Last>Чеботарёв</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="594,26,665,-51">630,0</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00301">
+  <Name>Вера Чеботарёва
+    <Display>Вера Чеботарёва</Display>
+    <First>Вера</First>
+    <Last>Чеботарёва</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="671,26,748,-51">710,0</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00302">
+  <Name>Нурула Абдулаевич Файзулаев
+    <Display>Нурула Абдулаевич Файзулаев</Display>
+    <First>Нурула</First>
+    <Middle>Абдулаевич</Middle>
+    <Last>Файзулаев</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="940,266,1019,173">980,240</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00303">
+  <Name>Борис Файзулаев
+    <Display>Борис Файзулаев</Display>
+    <First>Борис</First>
+    <Last>Файзулаев</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="954,146,1026,69">990,120</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00304">
+  <Name>Мансур
+    <Display>Мансур</Display>
+    <First>Мансур</First>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="1011,146,1069,85">1040,120</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00305">
+  <Name>Рустам
+    <Display>Рустам</Display>
+    <First>Рустам</First>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="1063,146,1116,85">1090,120</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00306">
+  <Name>Фаина Ароновна Гинзбург
+    <Display>Фаина Ароновна Гинзбург</Display>
+    <First>Фаина</First>
+    <Middle>Ароновна</Middle>
+    <Last>Гинзбург</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="1136,266,1203,173">1170,240</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00307">
+  <Name>Виктор Александрович Чеботарёв
+    <Display>Виктор Александрович Чеботарёв</Display>
+    <First>Виктор</First>
+    <Middle>Александрович</Middle>
+    <Last>Чеботарёв</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="1131,146,1229,53">1180,120</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00308">
+  <Name>Сергей Александрович Чеботарёв
+    <Display>Сергей Александрович Чеботарёв</Display>
+    <First>Сергей</First>
+    <Middle>Александрович</Middle>
+    <Last>Чеботарёв</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="1221,146,1319,53">1270,120</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00309">
+  <Name>Татьяна Александровна Чеботарёва
+    <Display>Татьяна Александровна Чеботарёва</Display>
+    <First>Татьяна</First>
+    <Middle>Александровна</Middle>
+    <Last>Чеботарёва</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="1381,146,1478,53">1430,120</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00310">
+  <Position GenoMap="Другов" BoundaryRect="1344,146,1396,94">1370,120</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00311">
+  <Name>Роман Сергеевич Чеботарёв
+    <Display>Роман Сергеевич Чеботарёв</Display>
+    <First>Роман</First>
+    <Middle>Сергеевич</Middle>
+    <Last>Чеботарёв</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="1244,26,1315,-67">1280,0</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00312">
+  <Name>Василий Сергеевич Чеботарёв
+    <Display>Василий Сергеевич Чеботарёв</Display>
+    <First>Василий</First>
+    <Middle>Сергеевич</Middle>
+    <Last>Чеботарёв</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="1324,26,1395,-67">1360,0</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00314">
+  <Name>Павел Кондратьевич Кузнецов
+    <Display>Павел Кондратьевич Кузнецов</Display>
+    <First>Павел</First>
+    <Middle>Кондратьевич</Middle>
+    <Last>Кузнецов</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="145,274,234,173">190,240</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>1903</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00315">
+  <Name>Ираида Мефодьевна Латышева
+    <Display>Ираида Мефодьевна Латышева</Display>
+    <First>Ираида</First>
+    <Middle>Мефодьевна</Middle>
+    <Last>Латышева</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="249,274,331,173">290,240</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>7 Oct 1910</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00316">
+  <Name>Аркадий Андрианович Базуев
+    <Display>Аркадий Андрианович Базуев</Display>
+    <First>Аркадий</First>
+    <Middle>Андрианович</Middle>
+    <Last>Базуев</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="326,274,413,173">370,240</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>1907</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00317">
+  <Name>Татьяна Аркадьевна Базуева
+    <Display>Татьяна Аркадьевна Базуева</Display>
+    <First>Татьяна</First>
+    <Middle>Аркадьевна</Middle>
+    <Last>Базуева</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="291,146,369,53">330,120</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00318">
+  <Name>Кондратий Кузнецов
+    <Display>Кондратий Кузнецов</Display>
+    <First>Кондратий</First>
+    <Last>Кузнецов</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="103,386,177,309">140,360</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00319">
+  <Position GenoMap="Другов" BoundaryRect="524,386,576,334">550,360</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00320">
+  <Name>Фёдор Кондратьевич Кузнецов
+    <Display>Фёдор Кондратьевич Кузнецов</Display>
+    <First>Фёдор</First>
+    <Middle>Кондратьевич</Middle>
+    <Last>Кузнецов</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="415,266,504,173">460,240</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00321">
+  <Name>Анна Кондратьевна Кузнецова
+    <Display>Анна Кондратьевна Кузнецова</Display>
+    <First>Анна</First>
+    <Middle>Кондратьевна</Middle>
+    <Last>Кузнецова</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="496,266,584,173">540,240</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00322" IndividualInternalHyperlink="ind00315">
+  <Name>
+    <Display>Ираида Мефодьевна Латышева</Display>
+  </Name>
+  <Position GenoMap="Латышева" BoundaryRect="39,34,121,-67">80,0</Position>
+</Individual>
+<Individual ID="ind00323">
+  <Name>Мефодий Иванович Латышев
+    <Display>Мефодий Иванович Латышев</Display>
+    <First>Мефодий</First>
+    <Middle>Иванович</Middle>
+    <Last>Латышев</Last>
+  </Name>
+  <Position GenoMap="Латышева" BoundaryRect="-84,146,-16,53">-50,120</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00324">
+  <Name>Матрёна Николаевна Ступина
+    <Display>Матрёна Николаевна Ступина</Display>
+    <First>Матрёна</First>
+    <Middle>Николаевна</Middle>
+    <Last>Ступина</Last>
+  </Name>
+  <Position GenoMap="Латышева" BoundaryRect="570,154,649,53">610,120</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>1881</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>1950</Date>
+  </Death>
+</Individual>
+<Individual ID="ind00325">
+  <Name>Иван Латышев
+    <Display>Иван Латышев</Display>
+    <First>Иван</First>
+    <Last>Латышев</Last>
+  </Name>
+  <Position GenoMap="Латышева" BoundaryRect="-172,266,-109,189">-140,240</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00326">
+  <Position GenoMap="Латышева" BoundaryRect="-56,266,-4,214">-30,240</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00327">
+  <Name>Анна
+    <Display>Анна</Display>
+    <First>Анна</First>
+  </Name>
+  <Position GenoMap="Латышева" BoundaryRect="-146,146,-94,85">-120,120</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00328">
+  <Name>Анна Латышева
+    <Display>Анна Латышева</Display>
+    <First>Анна</First>
+    <Last>Латышева</Last>
+  </Name>
+  <Position GenoMap="Латышева" BoundaryRect="-75,26,-6,-51">-40,0</Position>
+  <Gender>F</Gender>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Age>20</Age>
+  </Death>
+</Individual>
+<Individual ID="ind00329">
+  <Name>Василий Латышев
+    <Display>Василий Латышев</Display>
+    <First>Василий</First>
+    <Last>Латышев</Last>
+  </Name>
+  <Position GenoMap="Латышева" BoundaryRect="-15,34,55,-51">20,0</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>1907</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00330">
+  <Name>Николай Латышев
+    <Display>Николай Латышев</Display>
+    <First>Николай</First>
+    <Last>Латышев</Last>
+  </Name>
+  <Position GenoMap="Латышева" BoundaryRect="105,34,175,-51">140,0</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>1912</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>1960</Date>
+  </Death>
+</Individual>
+<Individual ID="ind00331">
+  <Name>Алексей Латышев
+    <Display>Алексей Латышев</Display>
+    <First>Алексей</First>
+    <Last>Латышев</Last>
+  </Name>
+  <Position GenoMap="Латышева" BoundaryRect="168,26,231,-51">200,0</Position>
+  <Gender>M</Gender>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Cause>War</Cause>
+  </Death>
+</Individual>
+<Individual ID="ind00332">
+  <Position GenoMap="Латышева" BoundaryRect="224,26,276,-26">250,0</Position>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Age>1</Age>
+  </Death>
+</Individual>
+<Individual ID="ind00333">
+  <Position GenoMap="Латышева" BoundaryRect="274,26,326,-26">300,0</Position>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Age>1</Age>
+  </Death>
+</Individual>
+<Individual ID="ind00334">
+  <Position GenoMap="Латышева" BoundaryRect="324,26,376,-26">350,0</Position>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Age>1</Age>
+  </Death>
+</Individual>
+<Individual ID="ind00335">
+  <Name>Павел Мефодьевич Латышев
+    <Display>Павел Мефодьевич Латышев</Display>
+    <First>Павел</First>
+    <Middle>Мефодьевич</Middle>
+    <Last>Латышев</Last>
+  </Name>
+  <Position GenoMap="Латышева" BoundaryRect="368,34,451,-67">410,0</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>1919</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>1979</Date>
+  </Death>
+</Individual>
+<Individual ID="ind00336">
+  <Name>Вера Александровна
+    <Display>Вера Александровна</Display>
+    <First>Вера</First>
+    <Middle>Александровна</Middle>
+  </Name>
+  <Position GenoMap="Латышева" BoundaryRect="441,26,538,-51">490,0</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00337">
+  <Name>Иван Латышев
+    <Display>Иван Латышев</Display>
+    <First>Иван</First>
+    <Last>Латышев</Last>
+  </Name>
+  <Position GenoMap="Латышева" BoundaryRect="535,34,605,-51">570,0</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>1925</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00338">
+  <Name>Александра
+    <Display>Александра</Display>
+    <First>Александра</First>
+  </Name>
+  <Position GenoMap="Латышева" BoundaryRect="610,26,690,-35">650,0</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00339">
+  <Name>Надежда
+    <Display>Надежда</Display>
+    <First>Надежда</First>
+  </Name>
+  <Position GenoMap="Латышева" BoundaryRect="578,-94,642,-155">610,-120</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00340">
+  <Position GenoMap="Латышева" BoundaryRect="-386,26,-334,-26">-360,0</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00341">
+  <Name>Ольга Васильевна Латышева
+    <Display>Ольга Васильевна Латышева</Display>
+    <First>Ольга</First>
+    <Middle>Васильевна</Middle>
+    <Last>Латышева</Last>
+  </Name>
+  <Position GenoMap="Латышева" BoundaryRect="-378,-86,-302,-187">-340,-120</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>1929</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00342">
+  <Name>Борис Васильевич Латышев
+    <Display>Борис Васильевич Латышев</Display>
+    <First>Борис</First>
+    <Middle>Васильевич</Middle>
+    <Last>Латышев</Last>
+  </Name>
+  <Position GenoMap="Латышева" BoundaryRect="-309,-86,-232,-187">-270,-120</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>1930</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00343">
+  <Name>Анатолий Васильевич Латышев
+    <Display>Анатолий Васильевич Латышев</Display>
+    <First>Анатолий</First>
+    <Middle>Васильевич</Middle>
+    <Last>Латышев</Last>
+  </Name>
+  <Position GenoMap="Латышева" BoundaryRect="-239,-86,-162,-187">-200,-120</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>1933</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00344">
+  <Name>Вениамин Васильевич Латышев
+    <Display>Вениамин Васильевич Латышев</Display>
+    <First>Вениамин</First>
+    <Middle>Васильевич</Middle>
+    <Last>Латышев</Last>
+  </Name>
+  <Position GenoMap="Латышева" BoundaryRect="-169,-86,-92,-187">-130,-120</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>1935</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00345">
+  <Name>Галина Васильевна Латышева
+    <Display>Галина Васильевна Латышева</Display>
+    <First>Галина</First>
+    <Middle>Васильевна</Middle>
+    <Last>Латышева</Last>
+  </Name>
+  <Position GenoMap="Латышева" BoundaryRect="-98,-86,-22,-187">-60,-120</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>1937</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00346">
+  <Name>Владимир Васильевич Латышев
+    <Display>Владимир Васильевич Латышев</Display>
+    <First>Владимир</First>
+    <Middle>Васильевич</Middle>
+    <Last>Латышев</Last>
+  </Name>
+  <Position GenoMap="Латышева" BoundaryRect="-29,-86,48,-187">10,-120</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>1946</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00347">
+  <Position BoundaryRect="-66,-474,-14,-526">-40,-500</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00348">
+  <Name>Ярослав
+    <Display>Ярослав</Display>
+    <First>Ярослав</First>
+  </Name>
+  <Position BoundaryRect="-25,-576,45,-645">10,-610</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>2006</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00349">
+  <Position GenoMap="Пятницкая" BoundaryRect="344,-94,396,-146">370,-120</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00350">
+  <Position GenoMap="Другов" BoundaryRect="274,26,326,-26">300,0</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00351">
+  <Name>Сергей Другов
+    <Display>Сергей Другов</Display>
+    <First>Сергей</First>
+    <Last>Другов</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="205,-86,275,-171">240,-120</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>24 Jan 1982</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00352">
+  <Name>Мария Другова
+    <Display>Мария Другова</Display>
+    <First>Мария</First>
+    <Last>Другова</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="255,-86,325,-171">290,-120</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>27 Nov 1982</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00353">
+  <Name>Евгения Другова
+    <Display>Евгения Другова</Display>
+    <First>Евгения</First>
+    <Last>Другова</Last>
+  </Name>
+  <Position GenoMap="Другов" BoundaryRect="155,-86,225,-171">190,-120</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>22 Jul 1991</Date>
+  </Birth>
+</Individual>
+<Individual ID="ind00354">
+  <Position GenoMap="Пятницкая" BoundaryRect="124,266,176,214">150,240</Position>
+</Individual>
+<Individual ID="ind00355">
+  <Position GenoMap="Пятницкая" BoundaryRect="224,266,276,214">250,240</Position>
+</Individual>
+<Individual ID="ind00356">
+  <Position GenoMap="Пятницкая" BoundaryRect="34,386,86,334">60,360</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00357">
+  <Position GenoMap="Пятницкая" BoundaryRect="174,386,226,334">200,360</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00358">
+  <Position GenoMap="Пятницкая" BoundaryRect="84,266,136,214">110,240</Position>
+</Individual>
+<Individual ID="ind00359">
+  <Position GenoMap="Пятницкая" BoundaryRect="24,266,76,214">50,240</Position>
+</Individual>
+<Individual ID="ind00360">
+  <Name>Попов
+    <Display>Попов</Display>
+    <Last>Попов</Last>
+  </Name>
+  <Contacts>contact00044</Contacts>
+  <Position GenoMap="Пятницкая" BoundaryRect="54,146,106,85">80,120</Position>
+  <Gender>M</Gender>
+</Individual>
+</Individuals>
+<Families>
+<Family ID="fam00001">
+  <Position>310,270
+    <Top>
+      <Left>280,270</Left>
+      <Right>350,270</Right>
+    </Top>
+    <Bottom>
+      <Left>-140,240</Left>
+      <Right>770,240</Right>
+    </Bottom>
+  </Position>
+</Family>
+<Family ID="fam00002">
+  <Position>3690,130
+    <Top>
+      <Left>3660,130</Left>
+      <Right>3850,130</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00003">
+  <Position>3740,20
+    <Top>
+      <Left>3710,20</Left>
+      <Right>3780,20</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00004">
+  <Position>800,130
+    <Top>
+      <Left>770,130</Left>
+      <Right>850,130</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00005">
+  <Position>880,130
+    <Top>
+      <Left>850,130</Left>
+      <Right>3660,130</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00006">
+  <Position>930,20
+    <Top>
+      <Left>900,20</Left>
+      <Right>1520,20</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00007">
+  <Position>1550,20
+    <Top>
+      <Left>1520,20</Left>
+      <Right>1990,20</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00008">
+  <Position>2020,20
+    <Top>
+      <Left>1990,20</Left>
+      <Right>3400,20</Right>
+    </Top>
+  </Position>
+  <Children Order="ind00031, ind00032, ind00033"/>
+</Family>
+<Family ID="fam00009">
+  <Position>950,-100
+    <Top>
+      <Left>920,-100</Left>
+      <Right>1340,-100</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00010">
+  <Position>1370,-100
+    <Top>
+      <Left>1340,-100</Left>
+      <Right>1440,-100</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00011">
+  <Position>1670,-100
+    <Top>
+      <Left>1640,-100</Left>
+      <Right>1710,-100</Right>
+    </Top>
+    <Bottom>
+      <Left>1640,-130</Left>
+      <Right>1710,-130</Right>
+    </Bottom>
+  </Position>
+</Family>
+<Family ID="fam00012">
+  <Position>1810,-100
+    <Top>
+      <Left>1780,-100</Left>
+      <Right>1850,-100</Right>
+    </Top>
+    <Bottom>
+      <Left>1780,-130</Left>
+      <Right>1850,-130</Right>
+    </Bottom>
+  </Position>
+</Family>
+<Family ID="fam00013">
+  <Position>2410,-100
+    <Top>
+      <Left>2380,-100</Left>
+      <Right>2450,-100</Right>
+    </Top>
+    <Bottom>
+      <Left>2080,-130</Left>
+      <Right>2750,-130</Right>
+    </Bottom>
+  </Position>
+  <Children Order="ind00053, ind00055, ind00058, ind00056, ind00060"/>
+</Family>
+<Family ID="fam00014">
+  <Position>3000,-100
+    <Top>
+      <Left>2970,-100</Left>
+      <Right>3040,-100</Right>
+    </Top>
+    <Bottom>
+      <Left>2960,-130</Left>
+      <Right>3030,-130</Right>
+    </Bottom>
+  </Position>
+</Family>
+<Family ID="fam00015">
+  <Position>3390,-100
+    <Top>
+      <Left>3360,-100</Left>
+      <Right>3430,-100</Right>
+    </Top>
+    <Bottom>
+      <Left>3190,-130</Left>
+      <Right>3590,-130</Right>
+    </Bottom>
+  </Position>
+</Family>
+<Family ID="fam00016">
+  <Position>1600,-240
+    <Top>
+      <Left>1570,-240</Left>
+      <Right>1640,-240</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00017">
+  <Position>1880,-240
+    <Top>
+      <Left>1850,-240</Left>
+      <Right>1920,-240</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00018">
+  <Position>2110,-240
+    <Top>
+      <Left>2080,-240</Left>
+      <Right>2150,-240</Right>
+    </Top>
+    <Bottom>
+      <Left>2040,-270</Left>
+      <Right>2180,-270</Right>
+    </Bottom>
+  </Position>
+</Family>
+<Family ID="fam00019">
+  <Position>2620,-240
+    <Top>
+      <Left>2590,-240</Left>
+      <Right>2660,-240</Right>
+    </Top>
+    <Bottom>
+      <Left>2550,-270</Left>
+      <Right>2680,-270</Right>
+    </Bottom>
+  </Position>
+</Family>
+<Family ID="fam00020">
+  <Position>2440,-240
+    <Top>
+      <Left>2410,-240</Left>
+      <Right>2480,-240</Right>
+    </Top>
+    <Bottom>
+      <Left>2410,-270</Left>
+      <Right>2480,-270</Right>
+    </Bottom>
+  </Position>
+</Family>
+<Family ID="fam00021">
+  <Position>2780,-240
+    <Top>
+      <Left>2750,-240</Left>
+      <Right>2820,-240</Right>
+    </Top>
+    <Bottom>
+      <Left>2750,-270</Left>
+      <Right>2820,-270</Right>
+    </Bottom>
+  </Position>
+</Family>
+<Family ID="fam00022">
+  <Position>3490,-240
+    <Top>
+      <Left>3460,-240</Left>
+      <Right>3530,-240</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00023">
+  <Position>2280,-240
+    <Top>
+      <Left>2250,-240</Left>
+      <Right>2330,-240</Right>
+    </Top>
+    <Bottom>
+      <Left>2250,-270</Left>
+      <Right>2320,-270</Right>
+    </Bottom>
+  </Position>
+</Family>
+<Family ID="fam00024">
+  <Position>2920,-250
+    <Top>
+      <Left>2890,-250</Left>
+      <Right>2960,-250</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00025">
+  <Position>3220,-240
+    <Top>
+      <Left>3190,-240</Left>
+      <Right>3270,-240</Right>
+    </Top>
+    <Bottom>
+      <Left>3110,-270</Left>
+      <Right>3320,-270</Right>
+    </Bottom>
+  </Position>
+</Family>
+<Family ID="fam00026">
+  <Position GenoMap="Krauskopf">291,254
+    <Top>
+      <Left>261,254</Left>
+      <Right>341,254</Right>
+    </Top>
+    <Bottom>
+      <Left>191,224</Left>
+      <Right>384,224</Right>
+    </Bottom>
+  </Position>
+  <Children Order="ind00094, ind00034"/>
+</Family>
+<Family ID="fam00027">
+  <Position GenoMap="Krauskopf">280,399
+    <Top>
+      <Left>250,399</Left>
+      <Right>325,399</Right>
+    </Top>
+    <Bottom>
+      <Left>100,360</Left>
+      <Right>696,360</Right>
+    </Bottom>
+  </Position>
+  <Children Order="ind00098, ind00092, ind00099"/>
+</Family>
+<Family ID="fam00028">
+  <Position GenoMap="Krauskopf">631,253
+    <Top>
+      <Left>601,253</Left>
+      <Right>696,253</Right>
+    </Top>
+    <Bottom>
+      <Left>471,223</Left>
+      <Right>735,223</Right>
+    </Bottom>
+  </Position>
+</Family>
+<Family ID="fam00029">
+  <Position GenoMap="Krauskopf">690,110
+    <Top>
+      <Left>650,110</Left>
+      <Right>735,110</Right>
+    </Top>
+    <Bottom>
+      <Left>660,80</Left>
+      <Right>728,80</Right>
+    </Bottom>
+  </Position>
+</Family>
+<Family ID="fam00030">
+  <Position GenoMap="Bauerova">430,90
+    <Top>
+      <Left>400,90</Left>
+      <Right>1350,90</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00031">
+  <Position GenoMap="Bauerova">330,240
+    <Top>
+      <Left>300,240</Left>
+      <Right>368,240</Right>
+    </Top>
+    <Bottom>
+      <Left>90,210</Left>
+      <Right>1350,210</Right>
+    </Bottom>
+  </Position>
+  <Children Order="ind00115, ind00113, ind00109"/>
+</Family>
+<Family ID="fam00032">
+  <Position GenoMap="Krauskopf">151,120
+    <Top>
+      <Left>111,120</Left>
+      <Right>191,120</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00033">
+  <Position GenoMap="Bauerova">288,98
+    <Top>
+      <Left>258,98</Left>
+      <Right>316,98</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00034">
+  <Position GenoMap="Bauerova">120,100
+    <Top>
+      <Left>90,100</Left>
+      <Right>150,100</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00035">
+  <Position GenoMap="Bauerova">120,-10
+    <Top>
+      <Left>60,-10</Left>
+      <Right>120,-10</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00036">
+  <Position GenoMap="Bauerova">500,-20
+    <Top>
+      <Left>490,-20</Left>
+      <Right>1330,-20</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00037">
+  <Position GenoMap="Bauerova">510,-130
+    <Top>
+      <Left>510,-130</Left>
+      <Right>560,-130</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00038">
+  <Position GenoMap="Křižova">0,50
+    <Top>
+      <Left>-30,50</Left>
+      <Right>38,50</Right>
+    </Top>
+    <Bottom>
+      <Left>-380,20</Left>
+      <Right>210,20</Right>
+    </Bottom>
+  </Position>
+  <Children Order="ind00129, ind00130, ind00125, ind00131, ind00132, ind00133"/>
+</Family>
+<Family ID="fam00039">
+  <Position GenoMap="Křižova">-140,-90
+    <Top>
+      <Left>-260,-90</Left>
+      <Right>-80,-90</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00040">
+  <Position GenoMap="Křižova">-400,-200
+    <Top>
+      <Left>-400,-200</Left>
+      <Right>-240,-200</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00041">
+  <Position GenoMap="Křižova">-145,-200
+    <Top>
+      <Left>-190,-200</Left>
+      <Right>-100,-200</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00042">
+  <Position GenoMap="Bauerova">630,-130
+    <Top>
+      <Left>630,-130</Left>
+      <Right>830,-130</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00043">
+  <Position GenoMap="Bauerova">595,-240
+    <Top>
+      <Left>540,-240</Left>
+      <Right>650,-240</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00044">
+  <Position GenoMap="Bauerova">760,-240
+    <Top>
+      <Left>700,-240</Left>
+      <Right>820,-240</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00045">
+  <Position GenoMap="Bauerova">1095,-130
+    <Top>
+      <Left>890,-130</Left>
+      <Right>1300,-130</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00046">
+  <Position GenoMap="Bauerova">950,-240
+    <Top>
+      <Left>900,-240</Left>
+      <Right>1000,-240</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00047">
+  <Position GenoMap="Bauerova">1125,-240
+    <Top>
+      <Left>1080,-240</Left>
+      <Right>1170,-240</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00048">
+  <Position GenoMap="Křižova">-415,-90
+    <Top>
+      <Left>-450,-90</Left>
+      <Right>-380,-90</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00049">
+  <Position GenoMap="Bauerova">265,-30
+    <Top>
+      <Left>220,-30</Left>
+      <Right>310,-30</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00050">
+  <Position>405,-330
+    <Top>
+      <Left>180,-330</Left>
+      <Right>580,-330</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00051">
+  <Position>40,-450
+    <Top>
+      <Left>40,-450</Left>
+      <Right>200,-450</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00052">
+  <Position>405,-450
+    <Top>
+      <Left>290,-450</Left>
+      <Right>520,-450</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00053">
+  <Position>575,-450
+    <Top>
+      <Left>520,-450</Left>
+      <Right>630,-450</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00054">
+  <Position>340,-560
+    <Top>
+      <Left>270,-560</Left>
+      <Right>410,-560</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00055">
+  <Position>410,-560
+    <Top>
+      <Left>410,-560</Left>
+      <Right>490,-560</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00057">
+  <Position>930,-330
+    <Top>
+      <Left>850,-330</Left>
+      <Right>1010,-330</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00058">
+  <Position>900,-450
+    <Top>
+      <Left>790,-450</Left>
+      <Right>900,-450</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00059">
+  <Position>770,-560
+    <Top>
+      <Left>730,-560</Left>
+      <Right>810,-560</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00060">
+  <Position>1045,-450
+    <Top>
+      <Left>990,-450</Left>
+      <Right>1100,-450</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00061">
+  <Position>1435,-330
+    <Top>
+      <Left>1360,-330</Left>
+      <Right>1510,-330</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00062">
+  <Pictures Primary="pic00001">pic00001</Pictures>
+  <Position>1220,-450
+    <Top>
+      <Left>1200,-450</Left>
+      <Right>1370,-450</Right>
+    </Top>
+  </Position>
+  <Relation>Marriage</Relation>
+  <Unions>marr00001</Unions>
+</Family>
+<Family ID="fam00063">
+  <Position>1585,-450
+    <Top>
+      <Left>1500,-450</Left>
+      <Right>1670,-450</Right>
+    </Top>
+  </Position>
+  <Relation>Marriage</Relation>
+</Family>
+<Family ID="fam00064">
+  <Position>1510,-570
+    <Top>
+      <Left>1460,-570</Left>
+      <Right>1560,-570</Right>
+    </Top>
+  </Position>
+  <Relation>Marriage</Relation>
+  <Unions>marr00002</Unions>
+</Family>
+<Family ID="fam00065">
+  <Position GenoMap="Пятницкая">20,50
+    <Top>
+      <Left>-30,50</Left>
+      <Right>200,50</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00066">
+  <Position GenoMap="Пятницкая">-50,170
+    <Top>
+      <Left>-340,170</Left>
+      <Right>-20,170</Right>
+    </Top>
+  </Position>
+  <Children Order="ind00211, ind00210, ind00206"/>
+</Family>
+<Family ID="fam00067">
+  <Position GenoMap="Пятницкая">-195,50
+    <Top>
+      <Left>-230,50</Left>
+      <Right>-160,50</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00068">
+  <Position GenoMap="Пятницкая">-180,-70
+    <Top>
+      <Left>-190,-70</Left>
+      <Right>-70,-70</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00069">
+  <Position GenoMap="Пятницкая">-30,-190
+    <Top>
+      <Left>-80,-190</Left>
+      <Right>20,-190</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00070">
+  <Position GenoMap="Пятницкая">180,-70
+    <Top>
+      <Left>180,-70</Left>
+      <Right>280,-70</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00071">
+  <Position GenoMap="Пятницкая">190,-190
+    <Top>
+      <Left>100,-190</Left>
+      <Right>190,-190</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00072">
+  <Position GenoMap="Пятницкая">420,50
+    <Top>
+      <Left>360,50</Left>
+      <Right>480,50</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00073">
+  <Position GenoMap="Пятницкая">360,170
+    <Top>
+      <Left>330,170</Left>
+      <Right>390,170</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00074">
+  <Position GenoMap="Пятницкая">490,170
+    <Top>
+      <Left>460,170</Left>
+      <Right>640,170</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00075">
+  <Position GenoMap="Пятницкая">525,-70
+    <Top>
+      <Left>450,-70</Left>
+      <Right>600,-70</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00076">
+  <Position GenoMap="Пятницкая">470,-190
+    <Top>
+      <Left>430,-190</Left>
+      <Right>510,-190</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00077">
+  <Position GenoMap="Пятницкая">-310,50
+    <Top>
+      <Left>-480,50</Left>
+      <Right>-310,50</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00078">
+  <Position GenoMap="Иванов">30,50
+    <Top>
+      <Left>-20,50</Left>
+      <Right>130,50</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00079">
+  <Position GenoMap="Иванов">130,50
+    <Top>
+      <Left>130,50</Left>
+      <Right>220,50</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00080">
+  <Position GenoMap="Другов">50,50
+    <Top>
+      <Left>-50,50</Left>
+      <Right>240,50</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00081">
+  <Position GenoMap="Другов">120,-70
+    <Top>
+      <Left>50,-70</Left>
+      <Right>130,-70</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00082">
+  <Position GenoMap="Другов">130,-70
+    <Top>
+      <Left>130,-70</Left>
+      <Right>200,-70</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00083">
+  <Position GenoMap="Другов">440,-70
+    <Top>
+      <Left>390,-70</Left>
+      <Right>500,-70</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00084">
+  <Position GenoMap="Другов">-50,170
+    <Top>
+      <Left>-100,170</Left>
+      <Right>0,170</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00085">
+  <Position GenoMap="Другов">-400,290
+    <Top>
+      <Left>-420,290</Left>
+      <Right>-170,290</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00086">
+  <Position GenoMap="Другов">-240,290
+    <Top>
+      <Left>-280,290</Left>
+      <Right>-130,290</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00087">
+  <Position GenoMap="Другов">-80,290
+    <Top>
+      <Left>-130,290</Left>
+      <Right>-70,290</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00088">
+  <Position GenoMap="Другов">1120,290
+    <Top>
+      <Left>720,290</Left>
+      <Right>1520,290</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00089">
+  <Position GenoMap="Другов">720,410
+    <Top>
+      <Left>690,410</Left>
+      <Right>1610,410</Right>
+    </Top>
+  </Position>
+  <Children Order="ind00278, ind00282"/>
+</Family>
+<Family ID="fam00090">
+  <Position GenoMap="Кузнецова_Анфиса">0,50
+    <Top>
+      <Left>-50,50</Left>
+      <Right>50,50</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00091">
+  <Position GenoMap="Кузнецова_Анфиса">50,50
+    <Top>
+      <Left>50,50</Left>
+      <Right>250,50</Right>
+    </Top>
+  </Position>
+  <FamilyLine>PossiblyMoreChildren</FamilyLine>
+</Family>
+<Family ID="fam00092">
+  <Position GenoMap="Другов">730,170
+    <Top>
+      <Left>690,170</Left>
+      <Right>770,170</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00093">
+  <Position GenoMap="Другов">720,50
+    <Top>
+      <Left>620,50</Left>
+      <Right>720,50</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00094">
+  <Position GenoMap="Другов">1040,170
+    <Top>
+      <Left>980,170</Left>
+      <Right>1100,170</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00095">
+  <Position GenoMap="Другов">1300,170
+    <Top>
+      <Left>1170,170</Left>
+      <Right>1440,170</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00096">
+  <Position GenoMap="Другов">1270,50
+    <Top>
+      <Left>1270,50</Left>
+      <Right>1370,50</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00097">
+  <Position GenoMap="Другов">240,170
+    <Top>
+      <Left>190,170</Left>
+      <Right>290,170</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00098">
+  <Position GenoMap="Другов">290,170
+    <Top>
+      <Left>290,170</Left>
+      <Right>370,170</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00099">
+  <Position GenoMap="Другов">190,290
+    <Top>
+      <Left>140,290</Left>
+      <Right>550,290</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00100">
+  <Position GenoMap="Латышева">0,50
+    <Top>
+      <Left>-50,50</Left>
+      <Right>610,50</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00101">
+  <Position GenoMap="Латышева">-50,170
+    <Top>
+      <Left>-140,170</Left>
+      <Right>-30,170</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00102">
+  <Position GenoMap="Латышева">410,-70
+    <Top>
+      <Left>410,-70</Left>
+      <Right>490,-70</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00103">
+  <Position GenoMap="Латышева">570,-70
+    <Top>
+      <Left>570,-70</Left>
+      <Right>650,-70</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00104">
+  <Position GenoMap="Латышева">20,-70
+    <Top>
+      <Left>-360,-70</Left>
+      <Right>20,-70</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00105">
+  <Position>15,-560
+    <Top>
+      <Left>-40,-560</Left>
+      <Right>70,-560</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00106">
+  <Position GenoMap="Пятницкая">400,-190
+    <Top>
+      <Left>370,-190</Left>
+      <Right>430,-190</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00107">
+  <Position GenoMap="Другов">200,-70
+    <Top>
+      <Left>200,-70</Left>
+      <Right>300,-70</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00108">
+  <Position GenoMap="Пятницкая">200,170
+    <Top>
+      <Left>150,170</Left>
+      <Right>250,170</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00109">
+  <Position GenoMap="Пятницкая">150,290
+    <Top>
+      <Left>60,290</Left>
+      <Right>200,290</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="fam00110">
+  <Position GenoMap="Пятницкая">110,170
+    <Top>
+      <Left>50,170</Left>
+      <Right>110,170</Right>
+    </Top>
+  </Position>
+</Family>
+</Families>
+<Marriages>
+<Marriage ID="marr00001">
+  <Type>Civil</Type>
+  <Date>15 Apr 1982</Date>
+  <Place>place00019</Place>
+</Marriage>
+<Marriage ID="marr00002">
+  <Date>31 Aug 2002</Date>
+</Marriage>
+</Marriages>
+<PedigreeLinks>
+<PedigreeLink PedigreeLink="Parent" Family="fam00001" Individual="ind00001"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00001" Individual="ind00002"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00001" Individual="ind00003"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00001" Individual="ind00004"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00001" Individual="ind00005"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00001" Individual="ind00006"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00001" Individual="ind00007"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00001" Individual="ind00008"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00001" Individual="ind00009"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00001" Individual="ind00010"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00001" Individual="ind00011"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00001" Individual="ind00012"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00001" Individual="ind00013"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00001" Individual="ind00014"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00001" Individual="ind00015"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00001" Individual="ind00016"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00002" Individual="ind00016"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00002" Individual="ind00017"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00002" Individual="ind00018"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00003" Individual="ind00018"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00003" Individual="ind00019"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00003" Individual="ind00020"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00004" Individual="ind00021"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00004" Individual="ind00016"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00004" Individual="ind00022"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00005" Individual="ind00023"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00005" Individual="ind00016"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00005" Individual="ind00024"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00006" Individual="ind00024"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00006" Individual="ind00025"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00007" Individual="ind00024"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00007" Individual="ind00026"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00008" Individual="ind00024"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00008" Individual="ind00027"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00006" Individual="ind00028"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00007" Individual="ind00029"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00007" Individual="ind00030"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00008" Individual="ind00031"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00008" Individual="ind00032"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00008" Individual="ind00033"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00009" Individual="ind00028"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00009" Individual="ind00034"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00010" Individual="ind00028"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00010" Individual="ind00035"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00011" Individual="ind00029"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00011" Individual="ind00036"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00012" Individual="ind00030"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00012" Individual="ind00037"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00013" Individual="ind00031"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00013" Individual="ind00038"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00014" Individual="ind00032"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00014" Individual="ind00039"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00015" Individual="ind00033"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00015" Individual="ind00040"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00009" Individual="ind00041"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00009" Individual="ind00042"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00009" Individual="ind00043"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00009" Individual="ind00044"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00009" Individual="ind00045"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00009" Individual="ind00046"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00011" Individual="ind00047"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00011" Individual="ind00048"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00016" Individual="ind00047"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00016" Individual="ind00049"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00012" Individual="ind00050"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00012" Individual="ind00051"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00017" Individual="ind00051"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00017" Individual="ind00052"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00013" Individual="ind00053"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00018" Individual="ind00053"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00018" Individual="ind00054"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00013" Individual="ind00055"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00013" Individual="ind00056"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00019" Individual="ind00056"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00019" Individual="ind00057"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00013" Individual="ind00058"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00020" Individual="ind00058"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00020" Individual="ind00059"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00013" Individual="ind00060"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00021" Individual="ind00060"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00021" Individual="ind00061"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00014" Individual="ind00062"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00014" Individual="ind00063"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00015" Individual="ind00064"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00015" Individual="ind00065"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00015" Individual="ind00066"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00022" Individual="ind00066"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00022" Individual="ind00067"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00015" Individual="ind00068"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00017" Individual="ind00069"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00018" Individual="ind00070"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00018" Individual="ind00071"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00018" Individual="ind00072"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00023" Individual="ind00055"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00023" Individual="ind00073"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00023" Individual="ind00074"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00023" Individual="ind00075"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00020" Individual="ind00076"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00020" Individual="ind00077"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00019" Individual="ind00078"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00019" Individual="ind00079"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00019" Individual="ind00080"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00021" Individual="ind00081"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00021" Individual="ind00082"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00024" Individual="ind00062"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00024" Individual="ind00083"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00024" Individual="ind00084"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00025" Individual="ind00064"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00025" Individual="ind00085"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00025" Individual="ind00086"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00025" Individual="ind00087"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00025" Individual="ind00088"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00025" Individual="ind00089"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00022" Individual="ind00090"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00026" Individual="ind00092"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00026" Individual="ind00093"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00026" Individual="ind00091"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00026" Individual="ind00094"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00026" Individual="ind00095"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00027" Individual="ind00096"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00027" Individual="ind00097"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00027" Individual="ind00092"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00027" Individual="ind00098"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00027" Individual="ind00099"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00028" Individual="ind00099"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00028" Individual="ind00100"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00028" Individual="ind00101"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00028" Individual="ind00102"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00028" Individual="ind00103"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00029" Individual="ind00103"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00029" Individual="ind00104"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00029" Individual="ind00105"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00029" Individual="ind00106"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00030" Individual="ind00108"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00030" Individual="ind00109"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00030" Individual="ind00107"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00031" Individual="ind00110"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00031" Individual="ind00111"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00031" Individual="ind00109"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00032" Individual="ind00094"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00032" Individual="ind00112"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00031" Individual="ind00113"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00033" Individual="ind00113"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00033" Individual="ind00114"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00031" Individual="ind00115"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00034" Individual="ind00115"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00034" Individual="ind00116"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00034" Individual="ind00117"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00035" Individual="ind00117"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00035" Individual="ind00118"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00035" Individual="ind00119"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00030" Individual="ind00120"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00036" Individual="ind00120"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00036" Individual="ind00121"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00036" Individual="ind00122"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00036" Individual="ind00123"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00036" Individual="ind00124"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00037" Individual="ind00122"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00037" Individual="ind00125"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00038" Individual="ind00127"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00038" Individual="ind00128"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00038" Individual="ind00126"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00038" Individual="ind00129"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00038" Individual="ind00130"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00038" Individual="ind00131"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00038" Individual="ind00132"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00038" Individual="ind00133"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00039" Individual="ind00130"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00039" Individual="ind00134"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00039" Individual="ind00135"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00039" Individual="ind00136"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00040" Individual="ind00135"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00040" Individual="ind00137"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00040" Individual="ind00138"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00040" Individual="ind00139"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00040" Individual="ind00140"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00041" Individual="ind00136"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00041" Individual="ind00141"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00041" Individual="ind00142"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00041" Individual="ind00143"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00042" Individual="ind00123"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00042" Individual="ind00144"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00042" Individual="ind00145"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00042" Individual="ind00146"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00043" Individual="ind00145"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00043" Individual="ind00147"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00043" Individual="ind00148"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00043" Individual="ind00149"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00044" Individual="ind00146"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00044" Individual="ind00150"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00044" Individual="ind00151"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00044" Individual="ind00152"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00045" Individual="ind00124"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00045" Individual="ind00153"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00045" Individual="ind00154"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00045" Individual="ind00155"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00045" Individual="ind00156"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00046" Individual="ind00154"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00046" Individual="ind00157"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00046" Individual="ind00158"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00046" Individual="ind00159"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00047" Individual="ind00155"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00047" Individual="ind00160"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00047" Individual="ind00161"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00047" Individual="ind00162"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00048" Individual="ind00129"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00048" Individual="ind00163"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00049" Individual="ind00164"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00049" Individual="ind00165"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00049" Individual="ind00166"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00049" Individual="ind00167"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00050" Individual="ind00043">
+  <Position>
+    <Points>580,-220, 1080,-200</Points>
+  </Position>
+</PedigreeLink>
+<PedigreeLink PedigreeLink="Parent" Family="fam00050" Individual="ind00168"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00050" Individual="ind00169"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00050" Individual="ind00170"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00051" Individual="ind00169"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00051" Individual="ind00171"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00051" Individual="ind00172"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00051" Individual="ind00173"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00052" Individual="ind00170"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00052" Individual="ind00174"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00053" Individual="ind00170"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00053" Individual="ind00175"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00052" Individual="ind00176"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00054" Individual="ind00176"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00054" Individual="ind00177"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00055" Individual="ind00176"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00055" Individual="ind00178"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00054" Individual="ind00179"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00054" Individual="ind00180"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00053" Individual="ind00181"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00057" Individual="ind00045">
+  <Position>
+    <Points>1010,-280, 1220,-200</Points>
+  </Position>
+</PedigreeLink>
+<PedigreeLink PedigreeLink="Parent" Family="fam00057" Individual="ind00183"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00057" Individual="ind00184"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00057" Individual="ind00185"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00058" Individual="ind00184"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00058" Individual="ind00186"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00058" Individual="ind00187"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00058" Individual="ind00188"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00059" Individual="ind00187"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00059" Individual="ind00189"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00059" Individual="ind00190"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00060" Individual="ind00185"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00060" Individual="ind00191"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00060" Individual="ind00192"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00060" Individual="ind00193"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00061" Individual="ind00046">
+  <Position>
+    <Points>1360,-280, 1280,-200</Points>
+  </Position>
+</PedigreeLink>
+<PedigreeLink PedigreeLink="Parent" Family="fam00061" Individual="ind00194"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00061" Individual="ind00195"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00061" Individual="ind00196"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00062" Individual="ind00195"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00062" Individual="ind00197"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00062" Individual="ind00198"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00062" Individual="ind00199"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00063" Individual="ind00196"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00063" Individual="ind00200"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00063" Individual="ind00201"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00063" Individual="ind00202"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00064" Individual="ind00201"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00064" Individual="ind00203"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00064" Individual="ind00204"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00065" Individual="ind00206"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00065" Individual="ind00207"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00065" Individual="ind00205"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00066" Individual="ind00208"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00066" Individual="ind00209"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00066" Individual="ind00206"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00066" Individual="ind00210"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00066" Individual="ind00211"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00067" Individual="ind00210"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00067" Individual="ind00212"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00067" Individual="ind00213"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00068" Individual="ind00213"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00068" Individual="ind00214"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00068" Individual="ind00215"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00068" Individual="ind00216"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00068" Individual="ind00217"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00069" Individual="ind00217"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00069" Individual="ind00218"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00069" Individual="ind00219"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00069" Individual="ind00220"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00065" Individual="ind00221"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00070" Individual="ind00221"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00070" Individual="ind00222"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00070" Individual="ind00223"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00070" Individual="ind00224"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00071" Individual="ind00223"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00071" Individual="ind00225"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00071" Individual="ind00226"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00072" Individual="ind00227"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00072" Individual="ind00228"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00072" Individual="ind00222">
+  <Position>
+    <Points>390,40, 280,40</Points>
+  </Position>
+</PedigreeLink>
+<PedigreeLink PedigreeLink="Parent" Family="fam00073" Individual="ind00229"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00073" Individual="ind00230"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00073" Individual="ind00227"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00074" Individual="ind00231"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00074" Individual="ind00232"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00074" Individual="ind00228"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00074" Individual="ind00233"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00074" Individual="ind00234"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00074" Individual="ind00235"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00074" Individual="ind00236"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00072" Individual="ind00237"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00075" Individual="ind00237"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00075" Individual="ind00238"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00075" Individual="ind00239"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00075" Individual="ind00240"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00076" Individual="ind00239"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00076" Individual="ind00241"/>
+<PedigreeLink PedigreeLink="Foster" Family="fam00076" Individual="ind00242">
+  <Position>
+    <Points>450,-240</Points>
+  </Position>
+</PedigreeLink>
+<PedigreeLink PedigreeLink="Biological" Family="fam00076" Individual="ind00243"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00077" Individual="ind00211"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00077" Individual="ind00244"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00077" Individual="ind00245"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00077" Individual="ind00246"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00077" Individual="ind00247"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00077" Individual="ind00248"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00077" Individual="ind00249"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00077" Individual="ind00250"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00078" Individual="ind00252"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00078" Individual="ind00253"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00078" Individual="ind00251"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00079" Individual="ind00253"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00079" Individual="ind00254"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00078" Individual="ind00255"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00079" Individual="ind00256"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00080" Individual="ind00258"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00080" Individual="ind00259"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00080" Individual="ind00257"/>
+<PedigreeLink PedigreeLink="Biological" Twin="twin00001" Family="fam00080" Individual="ind00260"/>
+<PedigreeLink PedigreeLink="Biological" Twin="twin00001" Family="fam00080" Individual="ind00261"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00081" Individual="ind00260"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00081" Individual="ind00262"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00081" Individual="ind00263"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00082" Individual="ind00260"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00082" Individual="ind00264"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00083" Individual="ind00261"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00083" Individual="ind00265"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00083" Individual="ind00266"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00083" Individual="ind00267"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00084" Individual="ind00268"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00084" Individual="ind00269"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00084" Individual="ind00258"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00085" Individual="ind00270"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00085" Individual="ind00271"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00086" Individual="ind00270"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00086" Individual="ind00272"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00087" Individual="ind00270"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00087" Individual="ind00273"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00085" Individual="ind00274"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00085" Individual="ind00275"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00085" Individual="ind00276"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00085" Individual="ind00277"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00087" Individual="ind00268"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00088" Individual="ind00278"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00088" Individual="ind00279"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00088" Individual="ind00269">
+  <Position>
+    <Points>740,280, 0,280</Points>
+  </Position>
+  <Display Color="#008080"/>
+</PedigreeLink>
+<PedigreeLink PedigreeLink="Parent" Family="fam00089" Individual="ind00280"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00089" Individual="ind00281"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00089" Individual="ind00278"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00089" Individual="ind00282"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00090" Individual="ind00284"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00090" Individual="ind00285"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00090" Individual="ind00283"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00091" Individual="ind00285"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00091" Individual="ind00286"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00090" Individual="ind00287"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00091" Individual="ind00288"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00091" Individual="ind00289"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00091" Individual="ind00290"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00088" Individual="ind00291"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00088" Individual="ind00292"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00088" Individual="ind00293"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00088" Individual="ind00294"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00088" Individual="ind00295"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00088" Individual="ind00296"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00092" Individual="ind00291"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00092" Individual="ind00297"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00092" Individual="ind00298"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00093" Individual="ind00298"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00093" Individual="ind00299"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00093" Individual="ind00300"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00093" Individual="ind00301"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00094" Individual="ind00294"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00094" Individual="ind00302"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00094" Individual="ind00303"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00094" Individual="ind00304"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00094" Individual="ind00305"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00095" Individual="ind00295"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00095" Individual="ind00306"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00095" Individual="ind00307"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00095" Individual="ind00308"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00095" Individual="ind00309"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00096" Individual="ind00308"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00096" Individual="ind00310"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00096" Individual="ind00311"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00096" Individual="ind00312"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00097" Individual="ind00314"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00097" Individual="ind00315"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00097" Individual="ind00259"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00098" Individual="ind00315"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00098" Individual="ind00316"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00098" Individual="ind00317"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00099" Individual="ind00318"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00099" Individual="ind00319"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00099" Individual="ind00314"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00099" Individual="ind00320"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00099" Individual="ind00321"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00100" Individual="ind00323"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00100" Individual="ind00324"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00100" Individual="ind00322"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00101" Individual="ind00325"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00101" Individual="ind00326"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00101" Individual="ind00323"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00101" Individual="ind00327"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00100" Individual="ind00328"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00100" Individual="ind00329"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00100" Individual="ind00330"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00100" Individual="ind00331"/>
+<PedigreeLink PedigreeLink="Biological" Twin="twin00002" Family="fam00100" Individual="ind00332"/>
+<PedigreeLink PedigreeLink="Biological" Twin="twin00002" Family="fam00100" Individual="ind00333"/>
+<PedigreeLink PedigreeLink="Biological" Twin="twin00002" Family="fam00100" Individual="ind00334"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00100" Individual="ind00335"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00102" Individual="ind00335"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00102" Individual="ind00336"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00100" Individual="ind00337"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00103" Individual="ind00337"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00103" Individual="ind00338"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00103" Individual="ind00339"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00104" Individual="ind00329"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00104" Individual="ind00340"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00104" Individual="ind00341"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00104" Individual="ind00342"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00104" Individual="ind00343"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00104" Individual="ind00344"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00104" Individual="ind00345"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00104" Individual="ind00346"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00105" Individual="ind00172"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00105" Individual="ind00347"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00105" Individual="ind00348"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00106" Individual="ind00241"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00106" Individual="ind00349"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00106" Individual="ind00242"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00107" Individual="ind00264"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00107" Individual="ind00350"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00107" Individual="ind00351"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00107" Individual="ind00352"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00082" Individual="ind00353"/>
+<PedigreeLink PedigreeLink="Foster" Family="fam00082" Individual="ind00351">
+  <Position>
+    <Points>140,-70, 140,-90, 240,-90</Points>
+  </Position>
+</PedigreeLink>
+<PedigreeLink PedigreeLink="Foster" Family="fam00082" Individual="ind00352">
+  <Position>
+    <Points>160,-80, 290,-80</Points>
+  </Position>
+</PedigreeLink>
+<PedigreeLink PedigreeLink="Parent" Family="fam00108" Individual="ind00354"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00108" Individual="ind00355"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00108" Individual="ind00207"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00109" Individual="ind00356"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00109" Individual="ind00357"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00109" Individual="ind00354"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00109" Individual="ind00358"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00110" Individual="ind00358"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00110" Individual="ind00359"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00110" Individual="ind00360"/>
+</PedigreeLinks>
+<Pictures>
+<Picture ID="pic00001">
+  <Path Relative="pictures/2007-11-18_margarita_viktor_svadba.jpg" FileUnique="2007-11-18_margarita_viktor_svadba.jpg" Report="pictures/2007-11-18_margarita_viktor_svadba.jpg">D:\My Documents\my documents\current\information\family tree\pictures\2007-11-18_margarita_viktor_svadba.jpg</Path>
+  <Name>Свадьба Маргариты и Виктора</Name>
+  <Cache FileSize="305944" Dimension="638x550" Megapixels="0.35" BPP="24" DPI="300"/>
+  <Date>15 Apr 1982</Date>
+  <Place>place00019</Place>
+</Picture>
+<Picture ID="pic00003">
+  <Path Relative="pictures/20080308_1902_rudolf.jpg" FileUnique="20080308_1902_rudolf.jpg" Report="pictures/20080308_1902_rudolf.jpg">D:\My Documents\my documents\current\information\family tree\pictures\20080308_1902_rudolf.jpg</Path>
+  <Name>Rudolf Mareček (1902)</Name>
+  <Description>year is approximate</Description>
+  <Cache FileSize="115420" Dimension="483x725" Megapixels="0.35" BPP="24" DPI="300"/>
+  <Date>1902</Date>
+  <Place>place00036</Place>
+</Picture>
+<Picture ID="pic00004">
+  <Path Relative="pictures/20080308_1915_bela_venceslava_rudolf_miroslav.jpg" FileUnique="20080308_1915_bela_venceslava_rudolf_miroslav.jpg" Report="pictures/20080308_1915_bela_venceslava_rudolf_miroslav.jpg">D:\My Documents\my documents\current\information\family tree\pictures\20080308_1915_bela_venceslava_rudolf_miroslav.jpg</Path>
+  <Name>Rudolf, Bela and children (1915)</Name>
+  <Description>from left: Bela, Venceslava, Rudolf, Miroslav&#10;year is approximate</Description>
+  <Cache FileSize="114460" Dimension="483x725" Megapixels="0.35" BPP="24" DPI="300"/>
+  <Date>1915</Date>
+  <Place>place00036</Place>
+</Picture>
+<Picture ID="pic00005">
+  <Path Relative="pictures/20080308_1923_bela_rudolf_and_children.jpg" FileUnique="20080308_1923_bela_rudolf_and_children.jpg" Report="pictures/20080308_1923_bela_rudolf_and_children.jpg">D:\My Documents\my documents\current\information\family tree\pictures\20080308_1923_bela_rudolf_and_children.jpg</Path>
+  <Name>Rudolf, Bela and children (1923)</Name>
+  <Description>from upper left: Bela, Rudolf, Vladivoj, Drahomira; from lower left: Kvetoslav, Bořivoi&#10;year is approximate</Description>
+  <Cache FileSize="161198" Dimension="483x725" Megapixels="0.35" BPP="8" DPI="300"/>
+  <Date>1923</Date>
+  <Place>place00036</Place>
+</Picture>
+<Picture ID="pic00006">
+  <Path Relative="pictures/20080308_1913_killian_krauskopf.jpg" FileUnique="20080308_1913_killian_krauskopf.jpg" Report="pictures/20080308_1913_killian_krauskopf.jpg">D:\My Documents\my documents\current\information\family tree\pictures\20080308_1913_killian_krauskopf.jpg</Path>
+  <Name>Killian Krauskopf (1913)</Name>
+  <Description>year approximate</Description>
+  <Cache FileSize="146761" Dimension="483x725" Megapixels="0.35" BPP="24" DPI="300"/>
+  <Date>1913</Date>
+  <Place>place00036</Place>
+</Picture>
+<Picture ID="pic00007">
+  <Path Relative="pictures/20080308_1913_killian_krauskopf_and_unknown.jpg" FileUnique="20080308_1913_killian_krauskopf_and_unknown.jpg" Report="pictures/20080308_1913_killian_krauskopf_and_unknown.jpg">D:\My Documents\my documents\current\information\family tree\pictures\20080308_1913_killian_krauskopf_and_unknown.jpg</Path>
+  <Name>Killian Krauskopf and unknown woman (1913)</Name>
+  <Description>year approximate</Description>
+  <Cache FileSize="200572" Dimension="483x725" Megapixels="0.35" BPP="24" DPI="300"/>
+  <Date>1913</Date>
+  <Place>place00036</Place>
+</Picture>
+<Picture ID="pic00008">
+  <Path Relative="pictures/20080308_1913_marie_krauskopfova.jpg" FileUnique="20080308_1913_marie_krauskopfova.jpg" Report="pictures/20080308_1913_marie_krauskopfova.jpg">D:\My Documents\my documents\current\information\family tree\pictures\20080308_1913_marie_krauskopfova.jpg</Path>
+  <Name>Marie Krauskopfova (1913)</Name>
+  <Description>year approximate</Description>
+  <Cache FileSize="172042" Dimension="483x725" Megapixels="0.35" BPP="24" DPI="300"/>
+  <Date>1913</Date>
+  <Place>place00036</Place>
+</Picture>
+<Picture ID="pic00009">
+  <Path Relative="pictures/20080308_1922_borivoi_dragomira_vladivoi.jpg" FileUnique="20080308_1922_borivoi_dragomira_vladivoi.jpg" Report="pictures/20080308_1922_borivoi_dragomira_vladivoi.jpg">D:\My Documents\my documents\current\information\family tree\pictures\20080308_1922_borivoi_dragomira_vladivoi.jpg</Path>
+  <Name>Bořivoi, Drahomira, and Vladivoj (1922)</Name>
+  <Description>from left: Bořivoi, Drahomira, and Vladivoj&#10;year approximate</Description>
+  <Cache FileSize="174816" Dimension="725x483" Megapixels="0.35" BPP="24" DPI="300"/>
+  <Date>1922</Date>
+  <Place>place00037</Place>
+</Picture>
+<Picture ID="pic00010">
+  <Path Relative="pictures/20080308_1925_bela_rudolf.jpg" FileUnique="20080308_1925_bela_rudolf.jpg" Report="pictures/20080308_1925_bela_rudolf.jpg">D:\My Documents\my documents\current\information\family tree\pictures\20080308_1925_bela_rudolf.jpg</Path>
+  <Name>Rudolf and Bela (1925)</Name>
+  <Cache FileSize="113379" Dimension="725x483" Megapixels="0.35" BPP="8" DPI="300"/>
+  <Date>1925</Date>
+</Picture>
+<Picture ID="pic00011">
+  <Path Relative="pictures/20080308_1928_borivoi_drahomira_vladivoj_kvetoslav.jpg" FileUnique="20080308_1928_borivoi_drahomira_vladivoj_kvetoslav.jpg" Report="pictures/20080308_1928_borivoi_drahomira_vladivoj_kvetoslav.jpg">D:\My Documents\my documents\current\information\family tree\pictures\20080308_1928_borivoi_drahomira_vladivoj_kvetoslav.jpg</Path>
+  <Name>Bořivoi, Drahomira, Vladivoj and Kvetoslav (1928)</Name>
+  <Description>from left: Bořivoi, Drahomira, Vladivoj, Kvetoslav</Description>
+  <Cache FileSize="169474" Dimension="725x483" Megapixels="0.35" BPP="24" DPI="300"/>
+  <Date>1928</Date>
+</Picture>
+<Picture ID="pic00012">
+  <Path Relative="pictures/20080308_1930_bela.jpg" FileUnique="20080308_1930_bela.jpg" Report="pictures/20080308_1930_bela.jpg">D:\My Documents\my documents\current\information\family tree\pictures\20080308_1930_bela.jpg</Path>
+  <Name>Бела Маречек (1930)</Name>
+  <Cache FileSize="124958" Dimension="483x725" Megapixels="0.35" BPP="8" DPI="300"/>
+  <Date>1930</Date>
+</Picture>
+<Picture ID="pic00013">
+  <Path Relative="pictures/20080308_1939_rudolf_and_family.jpg" FileUnique="20080308_1939_rudolf_and_family.jpg" Report="pictures/20080308_1939_rudolf_and_family.jpg">D:\My Documents\my documents\current\information\family tree\pictures\20080308_1939_rudolf_and_family.jpg</Path>
+  <Name>Rudolf and family (1939)</Name>
+  <Description>from upper left: Bořivoi, Анастасия, Vladivoj; from lower left: Kvetoslav, Rudolf, Drahomira, Анна&#10;year is approximate</Description>
+  <Cache FileSize="188917" Dimension="725x483" Megapixels="0.35" BPP="24" DPI="300"/>
+  <Date>1939</Date>
+  <Place>place00038</Place>
+</Picture>
+<Picture ID="pic00014">
+  <Path Relative="pictures/20080308_1939_bela_and_family.jpg" FileUnique="20080308_1939_bela_and_family.jpg" Report="pictures/20080308_1939_bela_and_family.jpg">D:\My Documents\my documents\current\information\family tree\pictures\20080308_1939_bela_and_family.jpg</Path>
+  <Name>Bela and family (1939)</Name>
+  <Description>from upper left: Bořivoi, Vladivoj, Kvetoslav; from lower left: Анастасия, Bela, Drahomira&#10;year is approximate</Description>
+  <Cache FileSize="136112" Dimension="698x502" Megapixels="0.35" BPP="8" DPI="299"/>
+  <Date>1939</Date>
+</Picture>
+<Picture ID="pic00015">
+  <Path Relative="pictures/20080308_1946_rudolf_and_family.jpg" FileUnique="20080308_1946_rudolf_and_family.jpg" Report="pictures/20080308_1946_rudolf_and_family.jpg">D:\My Documents\my documents\current\information\family tree\pictures\20080308_1946_rudolf_and_family.jpg</Path>
+  <Name>Rudolf and family (1946)</Name>
+  <Description>from upper left: Bořivoi, Kvetoslav, Vladivoj; from lower left: Анастасия, Rudolf, Drahomira&#10;year is approximate</Description>
+  <Cache FileSize="134115" Dimension="725x483" Megapixels="0.35" BPP="8" DPI="300"/>
+  <Date>1946</Date>
+</Picture>
+<Picture ID="pic00016">
+  <Path Relative="pictures/20080308_1950_bela_and_kvetoslav.jpg" FileUnique="20080308_1950_bela_and_kvetoslav.jpg" Report="pictures/20080308_1950_bela_and_kvetoslav.jpg">D:\My Documents\my documents\current\information\family tree\pictures\20080308_1950_bela_and_kvetoslav.jpg</Path>
+  <Name>Bela and Kvetoslav (1950)</Name>
+  <Description>year is approximate</Description>
+  <Cache FileSize="173831" Dimension="725x483" Megapixels="0.35" BPP="24" DPI="300"/>
+  <Date>1950</Date>
+  <Place>place00022</Place>
+</Picture>
+<Picture ID="pic00017">
+  <Path Relative="pictures/20080308_1952_rudolf_in_tian_shan.jpg" FileUnique="20080308_1952_rudolf_in_tian_shan.jpg" Report="pictures/20080308_1952_rudolf_in_tian_shan.jpg">D:\My Documents\my documents\current\information\family tree\pictures\20080308_1952_rudolf_in_tian_shan.jpg</Path>
+  <Name>Rudolf in Tian Shan (1952)</Name>
+  <Cache FileSize="161749" Dimension="725x483" Megapixels="0.35" BPP="24" DPI="300"/>
+  <Date>1952</Date>
+  <Place>place00039</Place>
+</Picture>
+<Picture ID="pic00018">
+  <Path Relative="pictures/20080308_1952_rudolf_ina_tian_shan.jpg" FileUnique="20080308_1952_rudolf_ina_tian_shan.jpg" Report="pictures/20080308_1952_rudolf_ina_tian_shan.jpg">D:\My Documents\my documents\current\information\family tree\pictures\20080308_1952_rudolf_ina_tian_shan.jpg</Path>
+  <Name>Rudolf and Ина in Tian Shan (1952)</Name>
+  <Cache FileSize="118542" Dimension="725x483" Megapixels="0.35" BPP="8" DPI="300"/>
+  <Date>1952</Date>
+  <Place>place00039</Place>
+</Picture>
+<Picture ID="pic00019">
+  <Path Relative="pictures/20080308_1957_borivoi_tian_shan.jpg" FileUnique="20080308_1957_borivoi_tian_shan.jpg" Report="pictures/20080308_1957_borivoi_tian_shan.jpg">D:\My Documents\my documents\current\information\family tree\pictures\20080308_1957_borivoi_tian_shan.jpg</Path>
+  <Name>Bořivoi in Tian Shan (1957)</Name>
+  <Description>year is approximate</Description>
+  <Cache FileSize="142767" Dimension="726x483" Megapixels="0.35" BPP="8" DPI="300"/>
+  <Date>1957</Date>
+  <Place>place00039</Place>
+</Picture>
+<Picture ID="pic00020">
+  <Path Relative="pictures/20080308_1960_drahomira_bela.jpg" FileUnique="20080308_1960_drahomira_bela.jpg" Report="pictures/20080308_1960_drahomira_bela.jpg">D:\My Documents\my documents\current\information\family tree\pictures\20080308_1960_drahomira_bela.jpg</Path>
+  <Name>Drahomira and Bela (1960)</Name>
+  <Description>year is approximate</Description>
+  <Cache FileSize="137548" Dimension="725x483" Megapixels="0.35" BPP="8" DPI="300"/>
+  <Date>1960</Date>
+  <Place>place00006</Place>
+</Picture>
+<Picture ID="pic00021">
+  <Path Relative="pictures/20080308_1960_rudolf_and_family.jpg" FileUnique="20080308_1960_rudolf_and_family.jpg" Report="pictures/20080308_1960_rudolf_and_family.jpg">D:\My Documents\my documents\current\information\family tree\pictures\20080308_1960_rudolf_and_family.jpg</Path>
+  <Name>Rudolf and family (1960)</Name>
+  <Description>top row from left: Эла, Святослав, Ина; middle row from left: Анна, Rudolf, Зоя; bottom row from left: Светлана, Марина, Маргарита</Description>
+  <Cache FileSize="154573" Dimension="725x483" Megapixels="0.35" BPP="24" DPI="300"/>
+  <Date>1960</Date>
+  <Place>place00004</Place>
+</Picture>
+<Picture ID="pic00022">
+  <Path Relative="pictures/20080308_1962_president_of_czechoslovakia.jpg" FileUnique="20080308_1962_president_of_czechoslovakia.jpg" Report="pictures/20080308_1962_president_of_czechoslovakia.jpg">D:\My Documents\my documents\current\information\family tree\pictures\20080308_1962_president_of_czechoslovakia.jpg</Path>
+  <Name>Rudolf and Drahomira with president of Czechoslovakia (1962)</Name>
+  <Description>from left: Rudolf Mareček, unknown, Drahomira Marečkova, A. Zápotocký&#10;year is approximate</Description>
+  <Cache FileSize="144804" Dimension="725x483" Megapixels="0.35" BPP="8" DPI="300"/>
+  <Date>1962</Date>
+</Picture>
+<Picture ID="pic00023">
+  <Path Relative="pictures/20080308_rudolf.jpg" FileUnique="20080308_rudolf.jpg" Report="pictures/20080308_rudolf.jpg">D:\My Documents\my documents\current\information\family tree\pictures\20080308_rudolf.jpg</Path>
+  <Name>Рудольф Павлович Маречек</Name>
+  <Cache FileSize="96373" Dimension="483x725" Megapixels="0.35" BPP="24" DPI="300"/>
+</Picture>
+</Pictures>
+<Places>
+<Place ID="place00001">
+  <Category>Country</Category>
+  <Name>Czech Republic</Name>
+  <Country>Czech Republic</Country>
+</Place>
+<Place ID="place00002">
+  <Parent>place00001</Parent>
+  <Category>City</Category>
+  <Name>Strážnice</Name>
+  <City>Strážnice</City>
+  <County>Jihomoravský kraj</County>
+  <Comment>located in Moravia (Morava) region of Czech Republic</Comment>
+  <Latitude>48.901019</Latitude>
+  <Longitude>17.316803</Longitude>
+</Place>
+<Place ID="place00003">
+  <Category>Country</Category>
+  <Name>Kazakhstan</Name>
+  <Country>Kazakhstan</Country>
+</Place>
+<Place ID="place00004">
+  <Parent>place00003</Parent>
+  <Category>City</Category>
+  <Name>Алматы</Name>
+  <City>Алматы</City>
+  <Latitude>43.2775</Latitude>
+  <Longitude>76.8958</Longitude>
+</Place>
+<Place ID="place00005">
+  <Category>Country</Category>
+  <Name>Kyrgyzstan</Name>
+  <Country>Kyrgyzstan</Country>
+</Place>
+<Place ID="place00006">
+  <Parent>place00005</Parent>
+  <Category>City</Category>
+  <Name>Бишкек</Name>
+  <City>Бишкек</City>
+  <Comment>previously called Фрунзе</Comment>
+  <Latitude>42.874722</Latitude>
+  <Longitude>74.612222</Longitude>
+</Place>
+<Place ID="place00007">
+  <Category>Country</Category>
+  <Name>Croatia</Name>
+  <Country>Croatia</Country>
+</Place>
+<Place ID="place00008">
+  <Parent>place00007</Parent>
+  <Category>City</Category>
+  <Name>Pakrac</Name>
+  <City>Pakrac</City>
+  <Latitude>45.438</Latitude>
+  <Longitude>17.191</Longitude>
+</Place>
+<Place ID="place00009">
+  <Category>Country</Category>
+  <Name>Austria</Name>
+  <Country>Austria</Country>
+</Place>
+<Place ID="place00010">
+  <Parent>place00009</Parent>
+  <Category>City</Category>
+  <Name>Wien</Name>
+  <Latitude>48.208611</Latitude>
+  <Longitude>16.371944</Longitude>
+</Place>
+<Place ID="place00011">
+  <Category>Country</Category>
+  <Name>Denmark</Name>
+  <Country>Denmark</Country>
+</Place>
+<Place ID="place00012">
+  <Category>Country</Category>
+  <Name>United States of America</Name>
+  <Country>United States of America</Country>
+</Place>
+<Place ID="place00013">
+  <Parent>place00012</Parent>
+  <Category>State</Category>
+  <Name>Illinois</Name>
+  <State>Illinois</State>
+</Place>
+<Place ID="place00014">
+  <Parent>place00013</Parent>
+  <Name>Chicago</Name>
+  <Latitude>41.8675</Latitude>
+  <Longitude>-87.6243</Longitude>
+</Place>
+<Place ID="place00015">
+  <Parent>place00012</Parent>
+  <Category>State</Category>
+  <Name>California</Name>
+  <State>California</State>
+  <Latitude>37</Latitude>
+  <Longitude>-120</Longitude>
+</Place>
+<Place ID="place00018">
+  <Category>Country</Category>
+  <Name>Russia</Name>
+  <Country>Russia</Country>
+</Place>
+<Place ID="place00019">
+  <Parent>place00018</Parent>
+  <Category>City</Category>
+  <Name>Москва</Name>
+  <City>Москва</City>
+  <Latitude>55.754</Latitude>
+  <Longitude>37.620</Longitude>
+</Place>
+<Place ID="place00020">
+  <Parent>place00019</Parent>
+  <Category>Municipality</Category>
+  <Name>Зеленоград</Name>
+  <Street>Зеленоград</Street>
+  <Latitude>55.997</Latitude>
+  <Longitude>37.190</Longitude>
+</Place>
+<Place ID="place00021">
+  <Parent>place00018</Parent>
+  <Category>Province</Category>
+  <Name>Архангельская область</Name>
+  <State>Архангельская область</State>
+</Place>
+<Place ID="place00022">
+  <Parent>place00021</Parent>
+  <Category>City</Category>
+  <Name>Северодвинск</Name>
+  <City>Северодвинск</City>
+  <Latitude>64.566</Latitude>
+  <Longitude>39.816</Longitude>
+</Place>
+<Place ID="place00029">
+  <Parent>place00018</Parent>
+  <Category>City</Category>
+  <Name>Санкт-Петербург</Name>
+  <City>Санкт-Петербург</City>
+  <Latitude>59.939</Latitude>
+  <Longitude>30.315</Longitude>
+</Place>
+<Place ID="place00030">
+  <Parent>place00018</Parent>
+  <Category>Province</Category>
+  <Name>Псковская область</Name>
+  <State>Псковская область</State>
+</Place>
+<Place ID="place00031">
+  <Parent>place00021</Parent>
+  <Category>Town</Category>
+  <Name>Двинской</Name>
+  <City>Двинской</City>
+  <Latitude>62.159</Latitude>
+  <Longitude>45.116</Longitude>
+</Place>
+<Place ID="place00032">
+  <Sources>source00005</Sources>
+  <Parent>place00021</Parent>
+  <Category>Village</Category>
+  <Name>Малошуйка</Name>
+  <City>Малошуйка</City>
+  <Latitude>63.719</Latitude>
+  <Longitude>37.461</Longitude>
+</Place>
+<Place ID="place00033">
+  <Sources>source00005</Sources>
+  <Parent>place00021</Parent>
+  <Category>Village</Category>
+  <Name>Нокола</Name>
+  <City>Нокола</City>
+  <County>Каргопольский муниципальный район</County>
+  <Latitude>61.217</Latitude>
+  <Longitude>38.883</Longitude>
+</Place>
+<Place ID="place00034">
+  <Parent>place00021</Parent>
+  <Category>City</Category>
+  <Name>Архангельск</Name>
+  <City>Архангельск</City>
+  <Latitude>64.550</Latitude>
+  <Longitude>40.533</Longitude>
+</Place>
+<Place ID="place00035">
+  <Parent>place00034</Parent>
+  <Name>Соломбала</Name>
+  <Description>a district of Архангельск</Description>
+  <Street>Соломбала</Street>
+  <Latitude>64.578</Latitude>
+  <Longitude>40.518</Longitude>
+</Place>
+<Place ID="place00036">
+  <Category>Country</Category>
+  <Name>Austria-Hungary</Name>
+  <Country>Austria-Hungary</Country>
+</Place>
+<Place ID="place00037">
+  <Name>Soviet Union</Name>
+</Place>
+<Place ID="place00038">
+  <Parent>place00005</Parent>
+  <Category>City</Category>
+  <Name>Пржевальск</Name>
+  <City>Пржевальск</City>
+  <Comment>Renamed to Каракол</Comment>
+  <Latitude>42.50</Latitude>
+  <Longitude>78.38</Longitude>
+</Place>
+<Place ID="place00039">
+  <Category>Landscape</Category>
+  <Name>Тянь-Шань (天山)</Name>
+  <Latitude>42.12</Latitude>
+  <Longitude>80.10</Longitude>
+</Place>
+</Places>
+<Educations>
+<Education ID="edu00001">
+  <Institution>Московский государственный институт электронной техники</Institution>
+  <Place>place00020</Place>
+  <Source>source00001</Source>
+  <Level>Undergraduate / Bachelors</Level>
+  <DateStart>1973</DateStart>
+  <DateEnd>1979</DateEnd>
+</Education>
+<Education ID="edu00002">
+  <Institution>Школа №7</Institution>
+  <Place>place00022</Place>
+  <Source>source00001</Source>
+  <DateEnd>1969</DateEnd>
+</Education>
+</Educations>
+<Occupations>
+<Occupation ID="occu00001">
+  <Title>Miner</Title>
+</Occupation>
+</Occupations>
+<Contacts>
+<Contact ID="contact00001">
+  <Place>place00002</Place>
+</Contact>
+<Contact ID="contact00002">
+  <Place>place00008</Place>
+</Contact>
+<Contact ID="contact00004">
+  <Place>place00010</Place>
+</Contact>
+<Contact ID="contact00005">
+  <Place>place00011</Place>
+</Contact>
+<Contact ID="contact00007">
+  <Place>place00009</Place>
+</Contact>
+<Contact ID="contact00008">
+  <Place>place00014</Place>
+</Contact>
+<Contact ID="contact00014">
+  <Place>place00020</Place>
+  <Source>source00001</Source>
+  <Type>PrimaryResidence</Type>
+  <DateStart>1973</DateStart>
+  <DateEnd>31 Jan 1998</DateEnd>
+</Contact>
+<Contact ID="contact00015">
+  <Place>place00022</Place>
+  <Source>source00001</Source>
+  <Type>PrimaryResidence</Type>
+  <DateStart>10 Nov 1955</DateStart>
+  <DateEnd>1973</DateEnd>
+</Contact>
+<Contact ID="contact00018">
+  <Place>place00020</Place>
+  <Source>source00003</Source>
+  <Type>PrimaryResidence</Type>
+  <DateStart>8 May 1983</DateStart>
+  <DateEnd>30 Jan 1998</DateEnd>
+</Contact>
+<Contact ID="contact00026">
+  <Place>place00020</Place>
+  <Source>source00003</Source>
+  <Type>PrimaryResidence</Type>
+  <DateStart>12 May 1986</DateStart>
+  <DateEnd>30 Jan 1998</DateEnd>
+</Contact>
+<Contact ID="contact00030">
+  <Place>place00029</Place>
+</Contact>
+<Contact ID="contact00031">
+  <Place>place00030</Place>
+</Contact>
+<Contact ID="contact00032">
+  <Place>place00022</Place>
+</Contact>
+<Contact ID="contact00033">
+  <Place>place00031</Place>
+</Contact>
+<Contact ID="contact00036">
+  <Place>place00020</Place>
+</Contact>
+<Contact ID="contact00037">
+  <Place>place00019</Place>
+</Contact>
+<Contact ID="contact00043">
+  <Place>place00032</Place>
+  <Source>source00005</Source>
+</Contact>
+<Contact ID="contact00044">
+  <Place>place00033</Place>
+  <Source>source00005</Source>
+</Contact>
+<Contact ID="contact00045">
+  <Place>place00015</Place>
+  <Type>PrimaryResidence</Type>
+  <DateStart>31 Jan 1998</DateStart>
+</Contact>
+</Contacts>
+<SourcesAndCitations>
+<SourceCitation ID="source00001">
+  <Parent>source00002</Parent>
+  <Title>Interview with Margarita Meniailenko, 2007-11-18</Title>
+  <MediaType>Interview</MediaType>
+  <Originator>Sergey Meniailenko</Originator>
+  <ConfidenceLevel>Primary</ConfidenceLevel>
+</SourceCitation>
+<SourceCitation ID="source00002">
+  <Title>Margarita Meniailenko</Title>
+  <MediaType>Individual</MediaType>
+</SourceCitation>
+<SourceCitation ID="source00003">
+  <Title>Sergey Meniailenko</Title>
+  <MediaType>Individual</MediaType>
+  <ConfidenceLevel>Primary</ConfidenceLevel>
+</SourceCitation>
+<SourceCitation ID="source00004">
+  <Title>Виталий Иванович Пятницкий</Title>
+  <MediaType>Individual</MediaType>
+  <ConfidenceLevel>Primary</ConfidenceLevel>
+</SourceCitation>
+<SourceCitation ID="source00005">
+  <Parent>source00004</Parent>
+  <Title>Interview with Виталий Иванович Пятницкий, 2007-11-24</Title>
+  <MediaType>Interview</MediaType>
+  <Originator>Sergey Meniailenko</Originator>
+</SourceCitation>
+</SourcesAndCitations>
+<Twins>
+<Twin ID="twin00001" Family="fam00080">
+  <Position>165</Position>
+</Twin>
+<Twin ID="twin00002" Family="fam00100">
+  <Position>300</Position>
+</Twin>
+</Twins>
+<Labels>
+<Label ID="label00001">
+  <Position GenoMap="Кузнецова_Анфиса" Width="20" Height="20">40,40</Position>
+  <Text Padding="0">?</Text>
+  <Display>
+    <Color Text="#000000" Fill="Transparent" Border="Transparent"/>
+  </Display>
+</Label>
+<Label ID="label00002">
+  <Position GenoMap="Кузнецова_Анфиса" Width="20" Height="20">100,40</Position>
+  <Text Padding="0">?</Text>
+  <Display>
+    <Color Text="#000000" Fill="Transparent" Border="Transparent"/>
+  </Display>
+</Label>
+<Label ID="label00003">
+  <Position GenoMap="Кузнецова_Анфиса" Width="20" Height="20">150,40</Position>
+  <Text Padding="0">?</Text>
+  <Display>
+    <Color Text="#000000" Fill="Transparent" Border="Transparent"/>
+  </Display>
+</Label>
+<Label ID="label00004">
+  <Position GenoMap="Кузнецова_Анфиса" Width="20" Height="20">200,40</Position>
+  <Text Padding="0">?</Text>
+  <Display>
+    <Color Text="#000000" Fill="Transparent" Border="Transparent"/>
+  </Display>
+</Label>
+<Label ID="label00005">
+  <Position GenoMap="Bauerova" Width="20" Height="20">320,50</Position>
+  <Text Padding="0">?</Text>
+  <Display>
+    <Color Text="#000000" Fill="Transparent" Border="Transparent"/>
+  </Display>
+</Label>
+</Labels>
+</GenoPro>

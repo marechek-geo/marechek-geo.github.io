@@ -1,0 +1,57 @@
+<%[@ IncludeFile "Code/Util.vbs" ]%>
+<%[@ IncludeFile "Code/Lang.vbs" ]%>
+<%[
+
+
+
+]%>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<meta http-equiv="Content-Language" content="@[WriteHtmlLang]@"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>@[ Report.WriteFormatted Dic("FmtTitleEntity"), Session("Title") ]@</title>
+<meta name="description" content="@[WriteMetaDescriptionReport]@" />
+<meta name="keywords" content="@[WriteMetaKeywordsReport]@" />
+<base target="popup"/>
+<link rel="stylesheet" href="style.css" type="text/css"/>
+<script src="scripts/script.js" type="text/javascript"></script>
+</head>
+<body class="gno-detail" onload="javascript:PageInit();">
+<div class='clearfix'>
+<div class='floatright'>
+<%[
+	g_ichNotesStart = Report.BufferLength
+	WriteHtmlButtonToggle("Notes")
+	ichNotesEnd = Report.BufferLength
+
+	g_ichReferencesStart = Report.BufferLength
+	WriteHtmlButtonToggle("OtherDetails")
+	ichReferencesEnd = Report.BufferLength
+
+	WriteHtmlButtonToggle("HidePopUp")
+]%>
+</div>
+<%[
+WriteHtmlEntity s
+
+' remove any unecessary items (reverse order to avoid invalidating buffer pointers)
+If g_ichReferencesStart >= 0 Then
+	' We have no other details, so remove the "Show other details | Hide other details"
+	Report.BufferRemoveAt g_ichReferencesStart,        ichReferencesEnd
+End If
+If (g_ichNotesStart >= 0) Then
+	' We have no annotations, so remove the "Show All Notes | Hide All Notes"
+	Report.BufferRemoveAt g_ichNotesStart, ichNotesEnd
+End If
+]%>
+<br />
+<div class='clear'></div>
+</div>
+<%[ WriteHtmlFramesetSafeguard("SocialEntity") ]%>
+</body>
+
+</html>
