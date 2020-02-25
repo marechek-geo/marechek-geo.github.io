@@ -1,0 +1,50 @@
+body {
+	font-family: serif;
+}
+h1.title {
+
+	font-weight: normal;
+	text-align: left;
+	font-variant: small-caps;
+	clear:none;
+}
+div.container_en {
+	padding: 0 0 2em 0;
+	border-style: none none solid none;
+	border-width: 3px;
+	border-color: #cccccc;
+	max-width: 33em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	text-align: left;
+}
+div.container_ru {
+	border-style: none;
+	max-width: 33em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	text-align: left;
+}
+p.bottom_navigation {
+	text-align: center;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+ul, ol {
+	margin-top: 0.7em;
+}
+
+li {
+	margin-bottom: 0.7em;
+}
+
+.smallcaps {
+	font-variant: small-caps;
+}
+
+span.underline {
+	text-decoration: underline;
+}

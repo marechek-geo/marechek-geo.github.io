@@ -1,0 +1,59 @@
+body {
+	font-size: 17px;
+	font-family: serif;
+}
+
+div.container {
+	padding: 0 15px 0 15px;
+	border-width: 0;
+	min-width: 550px;
+	max-width: 800px;
+	min-height: 801px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	background-image: url(images/apricot_blossom_interlaced.png);
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	text-align: justify;
+}
+
+div.pad {
+	border-style: none none none none;
+	border-color: Lime;
+	border-width: 0 1px 0 0;
+	padding: 0 25px 0 0;
+	margin: 0;
+	
+}
+
+div.pad_right {
+	height: 150px;
+	border-style: none none none none;
+	border-color: Lime;
+	border-width: 0 0 0 1px;
+	padding: 0;
+	margin: 0;
+	width: 1px;
+	float: right;
+	clear: right;
+}
+
+h1.title {
+	font-family: Batang, Garamond, Palatino Linotype, serif;
+	font-size: 47px;
+	font-weight: normal;
+	text-align: center;
+	font-variant: small-caps;
+	clear:right;
+	margin-bottom: 38px;
+}
+
+hr {
+	height: 2px;
+	color: black;
+	background-color: black;
+	margin: 35px 0 35px 0;
+	padding: 0;
+	border: 0;
+}
